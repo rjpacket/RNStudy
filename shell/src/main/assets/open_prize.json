@@ -1,0 +1,116 @@
+[
+  {
+    "lotteryType": 2002,
+    "phase": "18033",
+    "wincode": "1,2,3",
+    "drawTime": "2018-02-02"
+  },
+  {
+    "lotteryType": 2003,
+    "phase": "18003",
+    "wincode": "1,4,5,0,7",
+    "drawTime": "2018-01-03"
+  },
+  {
+    "lotteryType": 4004,
+    "phase": "18041",
+    "wincode": "1,1,1,3,1,3,3,3,1,0,1,0",
+    "drawTime": "2018-03-24"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "18005",
+    "wincode": "12,20,23,27,34|01,06",
+    "drawTime": "2018-01-10"
+  },
+  {
+    "lotteryType": 2006,
+    "phase": "18011039",
+    "wincode": "08,02,09,10,03",
+    "drawTime": "2018-01-10"
+  },
+  {
+    "lotteryType": 4001,
+    "phase": "18041",
+    "wincode": "1,3,3,3,0,0,3,1,1,1,1,0,0,3",
+    "drawTime": "2018-03-24"
+  },
+  {
+    "lotteryType": 2007,
+    "phase": "18013117",
+    "wincode": "05,07,09,06,04",
+    "drawTime": "2018-01-31"
+  },
+  {
+    "lotteryType": 4003,
+    "phase": "18041",
+    "wincode": "2,1,1,0,3,0,1,2",
+    "drawTime": "2018-03-24"
+  },
+  {
+    "lotteryType": 2004,
+    "phase": "17153",
+    "wincode": "9,7,6,2,1,8,9",
+    "drawTime": "2017-12-29"
+  },
+  {
+    "lotteryType": 4002,
+    "phase": "18041",
+    "wincode": "1,3,3,3,0,0,3,1,1,1,1,0,0,3",
+    "drawTime": "2018-03-24"
+  },
+  {
+    "lotteryType": 2005,
+    "phase": "18011146",
+    "wincode": "11,09,10,08,05",
+    "drawTime": "2018-01-11"
+  },
+  {
+    "lotteryType": 2010,
+    "phase": "18011743",
+    "wincode": "01,02,03,04,05",
+    "drawTime": "2018-01-17"
+  },
+  {
+    "lotteryType": 1010,
+    "phase": "180107034",
+    "wincode": "3,4,5",
+    "drawTime": "2018-01-07"
+  },
+  {
+    "lotteryType": 1013,
+    "phase": "180208014",
+    "wincode": "1,4,6",
+    "drawTime": "2018-02-08"
+  },
+  {
+    "lotteryType": 1014,
+    "phase": "180226012",
+    "wincode": "5,2,1",
+    "drawTime": "2018-02-26"
+  },
+  {
+    "lotteryType": 1001,
+    "phase": "2018029",
+    "wincode": "01,02,09,14,22,25|05",
+    "drawTime": "2018-03-15"
+  },
+  {
+    "lotteryType": 1003,
+    "phase": "2018035",
+    "wincode": "01,02,03,04,05,06,07|30",
+    "drawTime": "2018-03-28"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018034",
+    "wincode": "1,1,2",
+    "drawTime": "2018-02-02"
+  },
+  {
+    "lotteryType": 1007,
+    "phase": "180103056",
+    "wincode": "1,2,3,4,5",
+    "drawTime": "2018-01-03"
+  }
+]

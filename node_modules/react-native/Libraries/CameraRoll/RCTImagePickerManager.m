@@ -9,16 +9,18 @@
  */
 
 #import "RCTImagePickerManager.h"
+#import "RCTImageStoreManager.h"
 
-#import <MobileCoreServices/UTCoreTypes.h>
+#import "RCTConvert.h"
+#import "RCTRootView.h"
+#import "RCTLog.h"
+#import "RCTUtils.h"
+
 #import <UIKit/UIKit.h>
 
-#import <React/RCTConvert.h>
-#import <React/RCTImageStoreManager.h>
-#import <React/RCTRootView.h>
-#import <React/RCTUtils.h>
+#import <MobileCoreServices/UTCoreTypes.h>
 
-@interface RCTImagePickerManager () <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface RCTImagePickerManager ()<UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @end
 

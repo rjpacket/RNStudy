@@ -7,23 +7,15 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <React/RCTShadowView.h>
-#import <yoga/YGEnums.h>
+#import "RCTShadowView.h"
 
 @interface RCTRootShadowView : RCTShadowView
 
 /**
- * Available size to layout all views.
- * Defaults to {INFINITY, INFINITY}
+ * Size flexibility type used to find size constraints.
+ * Default to RCTRootViewSizeFlexibilityNone
  */
-@property (nonatomic, assign) CGSize availableSize;
-
-/**
- * Layout direction (LTR or RTL) inherited from native environment and
- * is using as a base direction value in layout engine.
- * Defaults to value inferred from current locale.
- */
-@property (nonatomic, assign) YGDirection baseDirection;
+@property (nonatomic, assign) RCTRootViewSizeFlexibility sizeFlexibility;
 
 /**
  * Calculate all views whose frame needs updating after layout has been calculated.
