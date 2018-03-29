@@ -1,0 +1,602 @@
+[
+  {
+    "lotteryType": 2001,
+    "phase": "18005",
+    "wincode": "12,20,23,27,34|01,06",
+    "drawTime": "2018-01-10"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "18003",
+    "wincode": "12,20,23,27,34|01,06",
+    "drawTime": "2018-01-06"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "18002",
+    "wincode": "12,20,23,27,34|01,06",
+    "drawTime": "2018-01-03"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17153",
+    "wincode": "01,09,24,26,34|09,12",
+    "drawTime": "2017-12-30"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17152",
+    "wincode": "02,04,07,23,28|02,08",
+    "drawTime": "2017-12-27"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17151",
+    "wincode": "05,06,23,28,32|04,05",
+    "drawTime": "2017-12-25"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17150",
+    "wincode": "03,06,10,13,18|09,11",
+    "drawTime": "2017-12-23"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17149",
+    "wincode": "10,18,19,25,26|04,12",
+    "drawTime": "2017-12-20"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17148",
+    "wincode": "19,27,31,32,35|11,12",
+    "drawTime": "2017-12-18"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17147",
+    "wincode": "05,16,17,25,34|01,11",
+    "drawTime": "2017-12-16"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17146",
+    "wincode": "01,05,11,14,35|09,10",
+    "drawTime": "2017-12-13"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17145",
+    "wincode": "04,07,17,18,19|03,10",
+    "drawTime": "2017-12-11"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17144",
+    "wincode": "03,21,23,29,32|10,11",
+    "drawTime": "2017-12-09"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17143",
+    "wincode": "06,09,24,29,32|02,07",
+    "drawTime": "2017-12-06"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17142",
+    "wincode": "01,05,16,19,28|02,10",
+    "drawTime": "2017-12-04"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17141",
+    "wincode": "02,08,21,22,29|03,05",
+    "drawTime": "2017-12-02"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17140",
+    "wincode": "01,02,03,04,05|01,02",
+    "drawTime": "2017-11-29"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17139",
+    "wincode": "02,06,19,25,32|09,12",
+    "drawTime": "2017-11-27"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17138",
+    "wincode": "04,07,09,20,25|02,11",
+    "drawTime": "2017-11-25"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17137",
+    "wincode": "01,02,03,04,05|01,02",
+    "drawTime": "2017-11-22"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17136",
+    "wincode": "01,11,20,21,22|03,04",
+    "drawTime": "2017-11-20"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17135",
+    "wincode": "01,12,15,19,22|02,04",
+    "drawTime": "2017-11-18"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17134",
+    "wincode": "07,18,19,32,34|02,10",
+    "drawTime": "2017-11-15"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17133",
+    "wincode": "15,17,19,32,33|01,03",
+    "drawTime": "2017-11-13"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17132",
+    "wincode": "11,17,23,26,27|01,10",
+    "drawTime": "2017-11-11"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17131",
+    "wincode": "03,05,08,19,34|01,12",
+    "drawTime": "2017-11-08"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17130",
+    "wincode": "05,18,28,33,34|03,04",
+    "drawTime": "2017-11-06"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17129",
+    "wincode": "05,17,20,32,33|04,09",
+    "drawTime": "2017-11-04"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17128",
+    "wincode": "09,11,13,18,33|02,03",
+    "drawTime": "2017-11-01"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17127",
+    "wincode": "02,15,18,21,22|03,10",
+    "drawTime": "2017-10-30"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17126",
+    "wincode": "03,04,13,24,33|01,11",
+    "drawTime": "2017-10-28"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17125",
+    "wincode": "07,11,18,26,28|04,05",
+    "drawTime": "2017-10-25"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17124",
+    "wincode": "03,29,30,32,35|03,08",
+    "drawTime": "2017-10-23"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17123",
+    "wincode": "03,15,23,26,32|01,12",
+    "drawTime": "2017-10-21"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17122",
+    "wincode": "03,12,18,29,34|03,11",
+    "drawTime": "2017-10-18"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17121",
+    "wincode": "01,06,12,26,31|01,07",
+    "drawTime": "2017-10-16"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17120",
+    "wincode": "08,15,24,26,27|05,06",
+    "drawTime": "2017-10-14"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17119",
+    "wincode": "05,07,13,29,35|03,08",
+    "drawTime": "2017-10-11"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17118",
+    "wincode": "02,07,16,20,33|03,11",
+    "drawTime": "2017-10-09"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17117",
+    "wincode": "05,07,09,24,32|08,10",
+    "drawTime": "2017-10-07"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17116",
+    "wincode": "02,27,30,32,33|01,03",
+    "drawTime": "2017-10-04"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17115",
+    "wincode": "14,19,20,25,31|06,08",
+    "drawTime": "2017-10-02"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17114",
+    "wincode": "06,07,12,18,23|01,12",
+    "drawTime": "2017-09-30"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17113",
+    "wincode": "05,08,17,18,23|04,12",
+    "drawTime": "2017-09-27"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17112",
+    "wincode": "05,06,20,31,32|06,12",
+    "drawTime": "2017-09-25"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17111",
+    "wincode": "02,14,17,26,34|08,12",
+    "drawTime": "2017-09-23"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17110",
+    "wincode": "10,14,20,21,35|02,05",
+    "drawTime": "2017-09-20"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17109",
+    "wincode": "06,09,19,26,34|05,07",
+    "drawTime": "2017-09-18"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17108",
+    "wincode": "01,04,15,21,22|04,09",
+    "drawTime": "2017-09-16"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17107",
+    "wincode": "04,10,19,25,27|06,12",
+    "drawTime": "2017-09-13"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17106",
+    "wincode": "09,12,18,23,29|02,04",
+    "drawTime": "2017-09-11"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17105",
+    "wincode": "04,15,22,24,32|02,09",
+    "drawTime": "2017-09-09"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17104",
+    "wincode": "09,11,22,27,30|09,11",
+    "drawTime": "2017-09-06"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17103",
+    "wincode": "04,19,20,24,29|03,04",
+    "drawTime": "2017-09-04"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17102",
+    "wincode": "01,02,03,04,05|01,02",
+    "drawTime": "2017-09-02"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17101",
+    "wincode": "5,15,21,25,29|5,8",
+    "drawTime": "2017-08-30"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17100",
+    "wincode": "02,05,18,19,31|01,09",
+    "drawTime": "2017-08-28"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17099",
+    "wincode": "01,02,03,04,05|01,02",
+    "drawTime": "2017-08-26"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17098",
+    "wincode": "06,09,17,30,35|10,11",
+    "drawTime": "2017-08-23"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17097",
+    "wincode": "07,14,19,22,34|07,12",
+    "drawTime": "2017-08-21"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17096",
+    "wincode": "03,07,09,17,28|04,12",
+    "drawTime": "2017-08-19"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17095",
+    "wincode": "15,32,33,34,35|03,12",
+    "drawTime": "2017-08-16"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17094",
+    "wincode": "03,05,08,29,33|04,08",
+    "drawTime": "2017-08-14"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17093",
+    "wincode": "05,06,17,21,29|02,04",
+    "drawTime": "2017-08-12"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17092",
+    "wincode": "03,07,09,17,34|04,05",
+    "drawTime": "2017-08-09"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17089",
+    "wincode": "01,02,03,04,05|01,02",
+    "drawTime": "2017-07-31"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17088",
+    "wincode": "01,02,03,04,05|01,02",
+    "drawTime": "2017-07-31"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17087",
+    "wincode": "01,02,03,04,05|01,02",
+    "drawTime": "2017-07-29"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17086",
+    "wincode": "12,15,18,22,31|01,08",
+    "drawTime": "2017-07-25"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17085",
+    "wincode": "09,13,14,25,30|02,05",
+    "drawTime": "2017-07-24"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17084",
+    "wincode": "06,11,14,21,31|09,12",
+    "drawTime": "2017-07-22"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17083",
+    "wincode": "02,05,14,22,34|03,09",
+    "drawTime": "2017-07-19"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17082",
+    "wincode": "05,13,20,21,25|08,09",
+    "drawTime": "2017-07-17"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17081",
+    "wincode": "02,12,15,20,34|01,06",
+    "drawTime": "2017-07-15"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17080",
+    "wincode": "08,10,21,30,31|02,05",
+    "drawTime": "2017-07-12"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17079",
+    "wincode": "01,17,19,32,33|02,11",
+    "drawTime": "2017-07-10"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17078",
+    "wincode": "04,05,27,31,34|03,06",
+    "drawTime": "2017-07-08"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17077",
+    "wincode": "01,03,04,25,31|06,09",
+    "drawTime": "2017-07-05"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17076",
+    "wincode": "02,07,25,30,35|07,12",
+    "drawTime": "2017-07-03"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17075",
+    "wincode": "05,11,16,18,35|01,06",
+    "drawTime": "2017-07-01"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17074",
+    "wincode": "001,03,10,20,31|02,09",
+    "drawTime": "2017-06-28"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17073",
+    "wincode": "07,18,28,31,33|01,02",
+    "drawTime": "2017-06-26"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17072",
+    "wincode": "01,03,29,32,34|02,05",
+    "drawTime": "2017-06-24"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17071",
+    "wincode": "01,04,11,14,33|05,07",
+    "drawTime": "2017-06-21"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17070",
+    "wincode": "06,16,18,26,30|02,03",
+    "drawTime": "2017-06-19"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17069",
+    "wincode": "10,16,20,23,32|08,11",
+    "drawTime": "2017-06-17"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17068",
+    "wincode": "07,08,19,24,27|06,07",
+    "drawTime": "2017-06-14"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17067",
+    "wincode": "10,17,18,32,35|10,11",
+    "drawTime": "2017-06-12"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17066",
+    "wincode": "11,15,23,26,30|02,11",
+    "drawTime": "2017-06-10"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17065",
+    "wincode": "05,11,12,19,28|05,12",
+    "drawTime": "2017-06-07"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17064",
+    "wincode": "01,08,20,27,30|03,04",
+    "drawTime": "2017-06-05"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17063",
+    "wincode": "18,21,22,24,29|05,11",
+    "drawTime": "2017-06-03"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17062",
+    "wincode": "01,04,06,08,28|08,12",
+    "drawTime": "2017-05-31"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17060",
+    "wincode": "09,15,20,26,31|05,12",
+    "drawTime": "2017-05-27"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17059",
+    "wincode": "08,11,13,15,17|03,10",
+    "drawTime": "2017-05-24"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17058",
+    "wincode": "14,18,20,21,28|03,06",
+    "drawTime": "2017-05-22"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17057",
+    "wincode": "12,16,19,23,24|02,05",
+    "drawTime": "2017-05-20"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17056",
+    "wincode": "01,04,24,27,32|03,10",
+    "drawTime": "2017-05-17"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17055",
+    "wincode": "19,20,22,30,33|03,09",
+    "drawTime": "2017-05-15"
+  },
+  {
+    "lotteryType": 2001,
+    "phase": "17054",
+    "wincode": "16,29,30,32,33|04,05",
+    "drawTime": "2017-05-13"
+  }
+]

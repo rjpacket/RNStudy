@@ -28,14 +28,6 @@ public class HomeNewsFragment extends BaseFragment {
         return new HomeNewsFragment();
     }
 
-    public static HomeNewsFragment getInstance(int type){
-        HomeNewsFragment homeNewsFragment = new HomeNewsFragment();
-        Bundle args = new Bundle();
-        args.putInt("type", type);
-        homeNewsFragment.setArguments(args);
-        return homeNewsFragment;
-    }
-
     public static HomeNewsFragment getInstance(String tag){
         HomeNewsFragment homeNewsFragment = new HomeNewsFragment();
         Bundle args = new Bundle();
@@ -52,10 +44,7 @@ public class HomeNewsFragment extends BaseFragment {
     @Override
     public void initView() {
         Bundle arguments = getArguments();
-        if(arguments.containsKey("type")){
-            int type = arguments.getInt("type");
-            listView.requestData(type);
-        }else if(arguments.containsKey("tag")){
+        if(arguments.containsKey("tag")){
             String tag = arguments.getString("tag");
             listView.requestData(tag);
         }

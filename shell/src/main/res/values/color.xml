@@ -4,4 +4,5 @@
     <color name="main_color">#0e86ef</color>
     <color name="main_color_half">#2693f2</color>
     <color name="main_line">#dddddd</color>
+    <color name="white">#ffffff</color>
 </resources>

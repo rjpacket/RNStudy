@@ -1,0 +1,602 @@
+[
+  {
+    "lotteryType": 1002,
+    "phase": "2018034",
+    "wincode": "1,1,2",
+    "drawTime": "2018-02-02"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018033",
+    "wincode": "1,2,3",
+    "drawTime": "2018-02-02"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018032",
+    "wincode": "3,2,8",
+    "drawTime": "2018-02-01"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018031",
+    "wincode": "3,2,8",
+    "drawTime": "2018-01-31"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018025",
+    "wincode": "6,4,7",
+    "drawTime": "2018-01-25"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018024",
+    "wincode": "6,6,4",
+    "drawTime": "2018-01-24"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018023",
+    "wincode": "1,0,2",
+    "drawTime": "2018-01-23"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018022",
+    "wincode": "9,9,2",
+    "drawTime": "2018-01-22"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018021",
+    "wincode": "2,7,2",
+    "drawTime": "2018-01-21"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018020",
+    "wincode": "7,4,9",
+    "drawTime": "2018-01-20"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018019",
+    "wincode": "1,7,9",
+    "drawTime": "2018-01-19"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018018",
+    "wincode": "8,1,0",
+    "drawTime": "2018-01-18"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018017",
+    "wincode": "6,5,9",
+    "drawTime": "2018-01-17"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018016",
+    "wincode": "4,0,1",
+    "drawTime": "2018-01-16"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018015",
+    "wincode": "8,7,5",
+    "drawTime": "2018-01-15"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018014",
+    "wincode": "0,8,4",
+    "drawTime": "2018-01-14"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018013",
+    "wincode": "7,4,6",
+    "drawTime": "2018-01-13"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018012",
+    "wincode": "8,9,1",
+    "drawTime": "2018-01-12"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018011",
+    "wincode": "0,7,8",
+    "drawTime": "2018-01-11"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018010",
+    "wincode": "8,5,8",
+    "drawTime": "2018-01-10"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018009",
+    "wincode": "8,1,3",
+    "drawTime": "2018-01-09"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018008",
+    "wincode": "5,8,3",
+    "drawTime": "2018-01-08"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018007",
+    "wincode": "0,2,1",
+    "drawTime": "2018-01-07"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018006",
+    "wincode": "7,2,0",
+    "drawTime": "2018-01-06"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018005",
+    "wincode": "8,2,8",
+    "drawTime": "2018-01-05"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018004",
+    "wincode": "3,9,3",
+    "drawTime": "2018-01-04"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2018003",
+    "wincode": "7,3,6",
+    "drawTime": "2018-01-03"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017356",
+    "wincode": "6,4,7",
+    "drawTime": "2017-12-29"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017355",
+    "wincode": "0,3,1",
+    "drawTime": "2017-12-28"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017354",
+    "wincode": "2,9,4",
+    "drawTime": "2017-12-27"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017353",
+    "wincode": "0,9,4",
+    "drawTime": "2017-12-26"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017352",
+    "wincode": "8,5,5",
+    "drawTime": "2017-12-25"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017351",
+    "wincode": "1,0,9",
+    "drawTime": "2017-12-24"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017350",
+    "wincode": "7,2,6",
+    "drawTime": "2017-12-23"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017349",
+    "wincode": "5,3,7",
+    "drawTime": "2017-12-22"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017348",
+    "wincode": "3,1,1",
+    "drawTime": "2017-12-21"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017347",
+    "wincode": "6,6,6",
+    "drawTime": "2017-12-20"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017346",
+    "wincode": "8,6,1",
+    "drawTime": "2017-12-19"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017345",
+    "wincode": "1,7,3",
+    "drawTime": "2017-12-18"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017344",
+    "wincode": "6,9,8",
+    "drawTime": "2017-12-17"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017343",
+    "wincode": "8,6,1",
+    "drawTime": "2017-12-16"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017342",
+    "wincode": "9,6,0",
+    "drawTime": "2017-12-15"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017341",
+    "wincode": "1,6,2",
+    "drawTime": "2017-12-14"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017340",
+    "wincode": "7,1,4",
+    "drawTime": "2017-12-13"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017339",
+    "wincode": "8,5,3",
+    "drawTime": "2017-12-12"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017338",
+    "wincode": "9,0,1",
+    "drawTime": "2017-12-11"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017337",
+    "wincode": "4,4,4",
+    "drawTime": "2017-12-10"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017336",
+    "wincode": "7,7,5",
+    "drawTime": "2017-12-09"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017335",
+    "wincode": "7,0,5",
+    "drawTime": "2017-12-08"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017334",
+    "wincode": "9,0,5",
+    "drawTime": "2017-12-07"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017333",
+    "wincode": "4,4,2",
+    "drawTime": "2017-12-06"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017332",
+    "wincode": "8,0,4",
+    "drawTime": "2017-12-05"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017331",
+    "wincode": "1,2,3",
+    "drawTime": "2017-12-04"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017330",
+    "wincode": "4,3,0",
+    "drawTime": "2017-12-03"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017329",
+    "wincode": "9,1,3",
+    "drawTime": "2017-12-02"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017328",
+    "wincode": "0,3,0",
+    "drawTime": "2017-12-01"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017327",
+    "wincode": "2,2,3",
+    "drawTime": "2017-11-29"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017326",
+    "wincode": "1,2,3",
+    "drawTime": "2017-11-29"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017325",
+    "wincode": "4,0,6",
+    "drawTime": "2017-11-28"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017324",
+    "wincode": "6,3,7",
+    "drawTime": "2017-11-27"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017323",
+    "wincode": "2,8,0",
+    "drawTime": "2017-11-26"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017322",
+    "wincode": "4,1,9",
+    "drawTime": "2017-11-25"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017321",
+    "wincode": "1,8,8",
+    "drawTime": "2017-11-24"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017320",
+    "wincode": "5,4,3",
+    "drawTime": "2017-11-23"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017319",
+    "wincode": "1,0,5",
+    "drawTime": "2017-11-22"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017318",
+    "wincode": "8,5,6",
+    "drawTime": "2017-11-21"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017317",
+    "wincode": "7,7,1",
+    "drawTime": "2017-11-20"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017316",
+    "wincode": "7,2,3",
+    "drawTime": "2017-11-19"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017315",
+    "wincode": "7,9,1",
+    "drawTime": "2017-11-18"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017314",
+    "wincode": "3,0,0",
+    "drawTime": "2017-11-17"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017313",
+    "wincode": "2,3,2",
+    "drawTime": "2017-11-16"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017312",
+    "wincode": "1,1,4",
+    "drawTime": "2017-11-15"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017311",
+    "wincode": "9,7,9",
+    "drawTime": "2017-11-14"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017310",
+    "wincode": "1,3,6",
+    "drawTime": "2017-11-13"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017309",
+    "wincode": "8,7,9",
+    "drawTime": "2017-11-12"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017308",
+    "wincode": "7,1,0",
+    "drawTime": "2017-11-11"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017307",
+    "wincode": "5,1,7",
+    "drawTime": "2017-11-10"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017306",
+    "wincode": "8,1,7",
+    "drawTime": "2017-11-09"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017305",
+    "wincode": "4,2,0",
+    "drawTime": "2017-11-08"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017304",
+    "wincode": "1,0,9",
+    "drawTime": "2017-11-07"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017303",
+    "wincode": "4,9,7",
+    "drawTime": "2017-11-06"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017302",
+    "wincode": "2,4,1",
+    "drawTime": "2017-11-05"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017301",
+    "wincode": "3,9,1",
+    "drawTime": "2017-11-04"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017300",
+    "wincode": "0,5,0",
+    "drawTime": "2017-11-03"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017299",
+    "wincode": "9,2,1",
+    "drawTime": "2017-11-02"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017298",
+    "wincode": "2,1,8",
+    "drawTime": "2017-11-01"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017297",
+    "wincode": "4,6,2",
+    "drawTime": "2017-10-31"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017296",
+    "wincode": "9,5,9",
+    "drawTime": "2017-10-30"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017295",
+    "wincode": "7,2,3",
+    "drawTime": "2017-10-29"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017294",
+    "wincode": "7,5,7",
+    "drawTime": "2017-10-28"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017293",
+    "wincode": "6,6,9",
+    "drawTime": "2017-10-27"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017292",
+    "wincode": "7,1,5",
+    "drawTime": "2017-10-26"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017291",
+    "wincode": "7,6,5",
+    "drawTime": "2017-10-25"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017290",
+    "wincode": "2,8,5",
+    "drawTime": "2017-10-24"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017289",
+    "wincode": "2,3,6",
+    "drawTime": "2017-10-23"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017288",
+    "wincode": "3,0,0",
+    "drawTime": "2017-10-22"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017287",
+    "wincode": "2,8,5",
+    "drawTime": "2017-10-21"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017286",
+    "wincode": "5,1,2",
+    "drawTime": "2017-10-20"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017285",
+    "wincode": "4,3,4",
+    "drawTime": "2017-10-19"
+  },
+  {
+    "lotteryType": 1002,
+    "phase": "2017284",
+    "wincode": "1,3,1",
+    "drawTime": "2017-10-18"
+  }
+]

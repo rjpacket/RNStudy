@@ -19,7 +19,7 @@ import butterknife.ButterKnife;
 /**
  * A simple {@link Fragment} subclass.
  */
-public abstract class BaseFragment extends Fragment {
+public abstract class BaseFragment extends Fragment implements View.OnClickListener{
     protected final String TAG = this.getClass().toString();
 
     protected Context mContext;
@@ -58,6 +58,11 @@ public abstract class BaseFragment extends Fragment {
         ButterKnife.bind(this, view);
         initView();
         return view;
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 
     public View getRootView(){

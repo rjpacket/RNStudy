@@ -135,7 +135,7 @@ public class ShowBallFactory {
         tv.setTextColor(0xffffffff);
         tv.setTextSize(16);
         tv.setGravity(Gravity.CENTER);
-        tv.setBackgroundResource(R.drawable.bg_open_red_rectangle);
+        tv.setBackgroundResource(R.drawable.selector_maincolor_maincolor_4);
         return tv;
     }
 

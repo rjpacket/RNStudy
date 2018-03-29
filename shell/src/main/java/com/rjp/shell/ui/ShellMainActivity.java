@@ -16,7 +16,9 @@ import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.dialog.NoticeDialog;
 import com.rjp.shell.dialog.NoticeDialogUtils;
+import com.rjp.shell.ui.main_page.MineFragment;
 import com.rjp.shell.ui.main_page.NewsFragment;
+import com.rjp.shell.ui.main_page.OpenPrizeFragment;
 import com.rjp.shell.utils.SystemBarTintManager;
 
 import java.util.ArrayList;
@@ -53,12 +55,14 @@ public class ShellMainActivity extends FragmentActivity {
         ArrayList<Fragment> fragments = new ArrayList<>();
         fragments.add(new NewsFragment());
         fragments.add(new NewsFragment());
-        fragments.add(new NewsFragment());
-        fragments.add(new NewsFragment());
+        fragments.add(new OpenPrizeFragment());
+        fragments.add(new MineFragment());
+        fragments.add(new MineFragment());
         navigationView.setFragments(fragments);
         navigationView.setFragmentManager(getSupportFragmentManager());
         navigationView.setContainerId(R.id.shell_fragment_container);
         ArrayList<TabModel> tabModels = new ArrayList<>();
+        tabModels.add(new TabModel("首页", R.drawable.selector_home_tab_3));
         tabModels.add(new TabModel("资讯", R.drawable.selector_home_tab_1));
         tabModels.add(new TabModel("开奖", R.drawable.selector_home_tab_2));
         tabModels.add(new TabModel("附近", R.drawable.selector_home_tab_3));

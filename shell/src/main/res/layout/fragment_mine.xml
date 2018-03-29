@@ -1,0 +1,189 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <RelativeLayout
+        android:id="@+id/rl_top_label"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/main_color"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="70dp"
+            >
+            <com.rjp.shell.views.RoundImageView
+                android:id="@+id/iv_head_view"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/default_pic"
+                app:border_thickness="1dp"
+                app:border_outside_color="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登录/注册"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <com.rjp.shell.views.SettingView
+        android:id="@+id/setting_my_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        app:setting_desc_color="@color/main_color"
+        app:setting_desc_size="16"
+        app:setting_icon="@drawable/mine_star"
+        app:setting_icon_visible="true"
+        app:setting_name="我的通知"
+        app:setting_name_color="#000000"
+        app:setting_name_size="16"
+        >
+
+    </com.rjp.shell.views.SettingView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/main_line"
+        />
+
+    <com.rjp.shell.views.SettingView
+        android:id="@+id/setting_my_save_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:setting_icon="@drawable/mine_star"
+        app:setting_icon_visible="true"
+        app:setting_name="新闻收藏"
+        app:setting_name_color="#000000"
+        app:setting_name_size="16"
+        >
+
+    </com.rjp.shell.views.SettingView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/main_line"
+        />
+
+    <com.rjp.shell.views.SettingView
+        android:id="@+id/setting_system_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:setting_icon="@drawable/mine_star"
+        app:setting_icon_visible="true"
+        app:setting_name="系统信息"
+        app:setting_name_color="#000000"
+        app:setting_name_size="16"
+        >
+
+    </com.rjp.shell.views.SettingView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/main_line"
+        />
+
+    <com.rjp.shell.views.SettingView
+        android:id="@+id/setting_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:setting_desc_color="#000000"
+        app:setting_desc_size="16"
+        app:setting_icon="@drawable/mine_star"
+        app:setting_icon_visible="true"
+        app:setting_name="检查更新"
+        app:setting_name_color="#000000"
+        app:setting_name_size="16"
+        android:layout_marginTop="10dp"
+        >
+
+    </com.rjp.shell.views.SettingView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/main_line"
+        />
+
+    <com.rjp.shell.views.SettingView
+        android:id="@+id/setting_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:setting_desc_color="#000000"
+        app:setting_desc_size="16"
+        app:setting_icon="@drawable/mine_star"
+        app:setting_icon_visible="true"
+        app:setting_name="清除缓存"
+        app:setting_name_color="#000000"
+        app:setting_name_size="16"
+        >
+
+    </com.rjp.shell.views.SettingView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/main_line"
+        />
+
+    <com.rjp.shell.views.SettingView
+        android:id="@+id/setting_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:setting_icon="@drawable/mine_star"
+        app:setting_icon_visible="true"
+        app:setting_name="关于我们"
+        app:setting_name_color="#000000"
+        app:setting_name_size="16"
+        >
+
+    </com.rjp.shell.views.SettingView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        />
+
+    </LinearLayout>
+</ScrollView>

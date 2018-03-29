@@ -31,7 +31,7 @@ public class NewsFragment extends BaseFragment {
     ViewPager viewPager;
     @BindView(R2.id.ll_home_root)
     LinearLayout llRoot;
-    private String defaultTitles = "头条,足球,篮球,赛事推荐,赛事花絮";
+    private String defaultTitles = "最新,足球,篮球,比赛推荐,比赛花絮";
     private ArrayList<Fragment> fragments;
 
     public NewsFragment() {
@@ -68,7 +68,7 @@ public class NewsFragment extends BaseFragment {
             for (int i = 0; i < titles.length; i++) {
                 String mtitle = titles[i];
                 switch (mtitle) {
-                    case "头条":
+                    case "最新":
                         fragments.add(HomeNewsFragment.getInstance("home_all.json"));
                         break;
                     case "足球":
@@ -77,10 +77,10 @@ public class NewsFragment extends BaseFragment {
                     case "篮球":
                         fragments.add(HomeNewsFragment.getInstance("home_football.json"));
                         break;
-                    case "赛事推荐":
+                    case "比赛推荐":
                         fragments.add(HomeNewsFragment.getInstance("home_tuijian.json"));
                         break;
-                    case "赛事花絮":
+                    case "比赛花絮":
                         fragments.add(HomeNewsFragment.getInstance("home_huaxu.json"));
                         break;
                 }

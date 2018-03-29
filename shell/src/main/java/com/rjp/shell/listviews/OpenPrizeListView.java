@@ -13,6 +13,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.rjp.shell.R;
 import com.rjp.shell.base.CustomListView;
 import com.rjp.shell.model.OpenPrizeModel;
+import com.rjp.shell.ui.main_page.OpenPrizeHistoryActivity;
 import com.rjp.shell.utils.FileUtils;
 import com.rjp.shell.utils.LotteryTypeUtils;
 import com.rjp.shell.utils.ShowBallFactory;
@@ -22,7 +23,6 @@ import com.zhy.adapter.abslistview.ViewHolder;
 import java.util.List;
 
 public class OpenPrizeListView extends CustomListView<OpenPrizeModel> {
-    private String tag;
     private List<OpenPrizeModel> homeNewsModels;
 
     public OpenPrizeListView(Context context) {
@@ -36,7 +36,7 @@ public class OpenPrizeListView extends CustomListView<OpenPrizeModel> {
     @Override
     protected void resetFirstPage() {
         mPage = 0;
-        mPageSize = 10;
+        mPageSize = 18;
     }
 
     @Override
@@ -71,9 +71,9 @@ public class OpenPrizeListView extends CustomListView<OpenPrizeModel> {
     }
 
     @Override
-    protected void requestData() {
+    public void requestData() {
         if (homeNewsModels == null || homeNewsModels.size() == 0) {
-            String assets = FileUtils.getAssets(mContext, tag);
+            String assets = FileUtils.getAssets(mContext, "open_prize.json");
             homeNewsModels = JSONArray.parseArray(assets, OpenPrizeModel.class);
         }
         int toIndex = mPageSize + mPage;
@@ -83,15 +83,6 @@ public class OpenPrizeListView extends CustomListView<OpenPrizeModel> {
             List<OpenPrizeModel> homeNewsModels = this.homeNewsModels.subList(mPage, toIndex);
             dealSuccessData(JSONArray.toJSONString(homeNewsModels));
         }
-    }
-
-    /**
-     * 暴漏出去
-     * @param tag
-     */
-    public void requestData(String tag){
-        this.tag = tag;
-        requestData();
     }
 
     @Override
@@ -106,6 +97,7 @@ public class OpenPrizeListView extends CustomListView<OpenPrizeModel> {
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+        OpenPrizeModel prizeModel = mDatas.get(position);
+        OpenPrizeHistoryActivity.trendTo(mContext, prizeModel.getLotteryType());
     }
 }
