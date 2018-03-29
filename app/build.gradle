@@ -23,9 +23,25 @@ android {
     packagingOptions{
         exclude "lib/arm64-v8a"
     }
+
+    signingConfigs {
+        release {
+            storeFile file('../keystores/release.QAZ123456wsx789.jks')
+            storePassword 'QAZ123456wsx789'
+            keyAlias 'digital'
+            keyPassword 'QAZ123456wsx789'
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

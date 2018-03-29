@@ -16,6 +16,7 @@ import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.dialog.NoticeDialog;
 import com.rjp.shell.dialog.NoticeDialogUtils;
+import com.rjp.shell.ui.main_page.MapFragment;
 import com.rjp.shell.ui.main_page.MineFragment;
 import com.rjp.shell.ui.main_page.NewsFragment;
 import com.rjp.shell.ui.main_page.OpenPrizeFragment;
@@ -56,7 +57,7 @@ public class ShellMainActivity extends FragmentActivity {
         fragments.add(new NewsFragment());
         fragments.add(new NewsFragment());
         fragments.add(new OpenPrizeFragment());
-        fragments.add(new MineFragment());
+        fragments.add(new MapFragment());
         fragments.add(new MineFragment());
         navigationView.setFragments(fragments);
         navigationView.setFragmentManager(getSupportFragmentManager());
