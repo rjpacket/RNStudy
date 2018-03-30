@@ -1,8 +1,9 @@
 package com.rjp.shell.model;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class HomeNewsModel {
+public class HomeNewsModel implements Serializable{
 
     /**
      * id : 87500

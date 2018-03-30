@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.alibaba.fastjson.JSONArray;
 import com.rjp.shell.R;
 import com.rjp.shell.base.LoadMoreListView;
+import com.rjp.shell.base.MySharedPreferences;
 import com.rjp.shell.model.HomeNewsModel;
 import com.rjp.shell.ui.activity.NewsDetailActivity;
 import com.rjp.shell.utils.AppUtils;
@@ -23,16 +24,16 @@ import com.zhy.adapter.abslistview.ViewHolder;
 
 import java.util.List;
 
-public class HomeNewsListView extends LoadMoreListView<HomeNewsModel> {
+public class SaveNewsListView extends LoadMoreListView<HomeNewsModel> {
     private int type;
     private String tag;
     private List<HomeNewsModel> homeNewsModels;
 
-    public HomeNewsListView(Context context) {
+    public SaveNewsListView(Context context) {
         super(context);
     }
 
-    public HomeNewsListView(Context context, @Nullable AttributeSet attrs) {
+    public SaveNewsListView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
@@ -60,17 +61,10 @@ public class HomeNewsListView extends LoadMoreListView<HomeNewsModel> {
                 View newsLine = viewHolder.getView(R.id.news_line);
 
                 ViewGroup.LayoutParams layoutParams = newsLine.getLayoutParams();
-                if (item.getTitle().length() >= 20) {
-                    ivBigPic.setVisibility(VISIBLE);
-                    ivSmallPic.setVisibility(GONE);
-                    ImageUtils.load(mContext, item.getImg(), ivBigPic);
-                    layoutParams.height = AppUtils.dp2px(mContext, 10);
-                } else {
-                    ivBigPic.setVisibility(GONE);
-                    ivSmallPic.setVisibility(VISIBLE);
-                    ImageUtils.load(mContext, item.getImg(), ivSmallPic);
-                    layoutParams.height = 1;
-                }
+                ivBigPic.setVisibility(GONE);
+                ivSmallPic.setVisibility(VISIBLE);
+                ImageUtils.load(mContext, item.getImg(), ivSmallPic);
+                layoutParams.height = 1;
                 newsLine.setLayoutParams(layoutParams);
 
                 tvTitle.setText(item.getTitle());
@@ -88,38 +82,12 @@ public class HomeNewsListView extends LoadMoreListView<HomeNewsModel> {
     }
 
     @Override
-    protected void requestData() {
-        if(homeNewsModels == null || homeNewsModels.size() == 0) {
-            String assets = FileUtils.getAssets(mContext, tag);
+    public void requestData() {
+        if (homeNewsModels == null || homeNewsModels.size() == 0) {
+            String assets = MySharedPreferences.getInstance().getString(MySharedPreferences.SAVE_NEWS);
             homeNewsModels = JSONArray.parseArray(assets, HomeNewsModel.class);
         }
-        int toIndex = mPageSize + mPage;
-        if(toIndex >= homeNewsModels.size()){
-            dealFailureData();
-        }else {
-            List<HomeNewsModel> homeNewsModels = this.homeNewsModels.subList(mPage, toIndex);
-            dealSuccessData(JSONArray.toJSONString(homeNewsModels));
-        }
-    }
-
-    /**
-     * 1足球 2篮球
-     *
-     * @param type
-     */
-    public void requestData(int type) {
-        this.type = type;
-        requestData();
-    }
-
-    /**
-     * tag 标签
-     *
-     * @param tag
-     */
-    public void requestData(String tag) {
-        this.tag = tag;
-        requestData();
+        dealSuccessData(JSONArray.toJSONString(homeNewsModels));
     }
 
     @Override
