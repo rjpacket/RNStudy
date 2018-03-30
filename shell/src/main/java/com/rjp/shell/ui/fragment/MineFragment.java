@@ -1,4 +1,4 @@
-package com.rjp.shell.ui.main_page;
+package com.rjp.shell.ui.fragment;
 
 
 import android.app.ProgressDialog;
@@ -11,9 +11,9 @@ import android.widget.TextView;
 import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.base.BaseFragment;
-import com.rjp.shell.ui.login.AboutActivity;
-import com.rjp.shell.ui.login.EmptyActivity;
-import com.rjp.shell.ui.login.LoginActivity;
+import com.rjp.shell.ui.activity.AboutActivity;
+import com.rjp.shell.ui.activity.EmptyActivity;
+import com.rjp.shell.ui.activity.LoginActivity;
 
 import java.util.Random;
 

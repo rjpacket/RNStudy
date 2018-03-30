@@ -1,4 +1,4 @@
-package com.rjp.shell.ui.main_page;
+package com.rjp.shell.ui.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

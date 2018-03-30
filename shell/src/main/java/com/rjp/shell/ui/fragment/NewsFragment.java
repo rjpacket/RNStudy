@@ -1,4 +1,4 @@
-package com.rjp.shell.ui.main_page;
+package com.rjp.shell.ui.fragment;
 
 
 import android.graphics.Color;
@@ -14,6 +14,7 @@ import com.flyco.tablayout.SlidingTabLayout;
 import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.base.BaseFragment;
+import com.rjp.shell.ui.adapter.HomeNewsFragmentAdapter;
 import com.rjp.shell.utils.StatusBarTools;
 
 import java.util.ArrayList;
@@ -31,7 +32,7 @@ public class NewsFragment extends BaseFragment {
     ViewPager viewPager;
     @BindView(R2.id.ll_home_root)
     LinearLayout llRoot;
-    private String defaultTitles = "最新,足球,篮球,比赛推荐,比赛花絮";
+    private String defaultTitles = "热点,世界杯,NBA,梅西,科比";
     private ArrayList<Fragment> fragments;
 
     public NewsFragment() {
@@ -68,20 +69,20 @@ public class NewsFragment extends BaseFragment {
             for (int i = 0; i < titles.length; i++) {
                 String mtitle = titles[i];
                 switch (mtitle) {
-                    case "最新":
+                    case "热点":
                         fragments.add(HomeNewsFragment.getInstance("home_all.json"));
                         break;
-                    case "足球":
-                        fragments.add(HomeNewsFragment.getInstance("home_basketball.json"));
+                    case "世界杯":
+                        fragments.add(HomeNewsFragment.getInstance("home_shijiebei.json"));
                         break;
-                    case "篮球":
-                        fragments.add(HomeNewsFragment.getInstance("home_football.json"));
+                    case "NBA":
+                        fragments.add(HomeNewsFragment.getInstance("home_NBA.json"));
                         break;
-                    case "比赛推荐":
-                        fragments.add(HomeNewsFragment.getInstance("home_tuijian.json"));
+                    case "梅西":
+                        fragments.add(HomeNewsFragment.getInstance("home_meixi.json"));
                         break;
-                    case "比赛花絮":
-                        fragments.add(HomeNewsFragment.getInstance("home_huaxu.json"));
+                    case "科比":
+                        fragments.add(HomeNewsFragment.getInstance("home_kobe.json"));
                         break;
                 }
             }

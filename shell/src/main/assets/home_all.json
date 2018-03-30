@@ -1,679 +1,420 @@
 [
   {
-    "summary": "米尼奥莱特正计划在今年夏天代表比利时国家队参加完俄罗斯世界杯之后，再决定自己的在利物浦的未来。",
-    "img": "http:\/\/img.iuliao.com\/display\/ca763749f1915e161613d16e1979c575",
-    "newsTime": "2018-03-28 13:15:07",
-    "title": "米尼奥莱特表示世界杯后再决定未来",
-    "_score": 1,
-    "newsHits": 0,
-    "tid": 279,
-    "concern": false,
+    "summary": "昨天基本面全红，大球稳稳打出，小角惊险收米。继续今天的基本面，阿德莱德联主场迎战惠灵顿凤凰。",
+    "img": "http:\/\/img.iuliao.com\/display\/e2c2aa11d1cb95b554d30b2b34181913",
+    "newsTime": "2018-03-30 10:11:53",
     "domain": "iuliao",
-    "id": "184206",
-    "tag": [
-      "赛事花絮",
-      "利物浦",
-      "米尼奥莱特"
-    ],
-    "sport": 1,
-    "status": 1
-  },
-  {
-    "summary": "在缺席两场国家队比赛之后，梅西将返回巴塞罗那，并将在明天接受检查。",
-    "img": "http:\/\/img.iuliao.com\/display\/3bf429f1e900131987982ff2584c0417",
-    "newsTime": "2018-03-28 13:00:10",
-    "domain": "iuliao",
-    "id": "184205",
-    "tag": [
-      "赛事花絮",
-      "梅西"
-    ],
-    "title": "梅西明日将接受检查",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "沃尔接受了记者的采访，谈到了奇才在他因伤缺席期间的表现。",
-    "img": "http:\/\/img.iuliao.com\/display\/e94eaa1d475e484de08bd9a040181244",
-    "newsTime": "2018-03-28 12:45:21",
-    "title": "沃尔盛赞队友表现",
-    "_score": 1,
-    "newsHits": 0,
-    "tid": 219,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184204",
-    "tag": [
-      "赛事花絮",
-      "奇才",
-      "沃尔"
-    ],
-    "sport": 2,
-    "status": 1
-  },
-  {
-    "summary": "今日比赛中马刺106比116负于奇才，赛后波波维奇接受了采访。",
-    "img": "http:\/\/img.iuliao.com\/display\/4ecad67729cc53b16bb1ac51cb50850c",
-    "newsTime": "2018-03-28 12:45:19",
-    "title": "波波维奇不满球队发挥",
-    "_score": 1,
-    "newsHits": 0,
-    "tid": 234,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184203",
-    "tag": [
-      "赛事花絮",
-      "马刺",
-      "波波维奇"
-    ],
-    "sport": 2,
-    "status": 1
-  },
-  {
-    "summary": "阿森纳前锋拉卡泽特已经从伤病中恢复过来，并参加了球队的训练。而自从去年夏天加盟阿森纳以来，他经常在下半场比赛就被球队换下。近日主帅温格接受阿森纳杂志的采访谈到了这个问题，他表示有些球员的状态会在下半场的后20分钟下滑，并称拉卡泽特还处在适应期。",
-    "img": "http:\/\/img.iuliao.com\/display\/ddcdab977ee6ada38c06ad0dbdab4df0",
-    "newsTime": "2018-03-28 12:30:16",
-    "title": "温格回应频繁换下拉卡泽特",
-    "_score": 1,
-    "newsHits": 0,
-    "tid": 567,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184202",
-    "tag": [
-      "赛事花絮",
-      "温格",
-      "拉卡泽特"
-    ],
-    "sport": 1,
-    "status": 1
-  },
-  {
-    "summary": "北京时间3月27日，法国队作客圣彼得堡与今夏世界杯东道主俄罗斯队进行了一场热身赛，最终3比1击败俄罗斯，取得近3场首胜。",
-    "img": "http:\/\/img.iuliao.com\/display\/f1b07b619cda6104e8a29b062f8b028b",
-    "newsTime": "2018-03-28 11:21:57",
-    "mid": 1176036,
-    "title": "姆巴佩两球博格巴传射 友谊赛法国客场3-1俄罗斯",
-    "_score": 1,
-    "newsHits": 0,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184194",
-    "tag": [
-      "即时战报",
-      "友谊赛",
-      "法国",
-      "俄罗斯"
-    ],
-    "sport": 1,
-    "status": 1
-  },
-  {
-    "summary": "据《米兰体育报》的消息，那不勒斯主帅萨里要求将续约谈判推迟至赛季末。",
-    "img": "http:\/\/img.iuliao.com\/display\/0a7bc08e2cda6aa238199b27093d0009",
-    "newsTime": "2018-03-28 11:15:16",
-    "title": "萨里要求年薪增至400万",
-    "_score": 1,
-    "newsHits": 0,
-    "tid": 211,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184193",
-    "tag": [
-      "赛事花絮",
-      "那不勒斯",
-      "萨里"
-    ],
-    "sport": 1,
-    "status": 1
-  },
-  {
-    "summary": "秘鲁化身破冰船",
-    "img": "http:\/\/img.iuliao.com\/display\/374a37fd4188ff880f5b186883e2c813",
-    "newsTime": "2018-03-28 11:04:43",
-    "domain": "iuliao",
-    "id": "184192",
-    "tag": [
-      "赛事推荐"
-    ],
-    "title": "【花花说球】秘鲁化身破冰船",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "在今天凌晨结束的一场国际友谊赛中，巴西在客场以1比0的比分小胜德国。蒂亚戈席尔瓦在接受采访时表示球队今天有些超常发挥，对赢得这样一场荣誉之战感到高兴。",
-    "img": "http:\/\/img.iuliao.com\/display\/854a06a577aeb8847a8c5b49e2e88893",
-    "newsTime": "2018-03-28 10:45:09",
-    "domain": "iuliao",
-    "id": "184184",
-    "tag": [
-      "赛事花絮",
-      "蒂亚戈席尔瓦"
-    ],
-    "title": "蒂亚戈席尔瓦表示巴西赢下荣誉之战",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "北京时间3月28日凌晨，德国队主场0-1不敌巴西队。",
-    "img": "http:\/\/img.iuliao.com\/display\/ac13109b5236a218d413d036fc7d72d4",
-    "newsTime": "2018-03-28 10:43:32",
-    "mid": 1176055,
-    "title": "友谊赛热苏斯制胜球 巴西终结德国22场不败",
-    "_score": 1,
-    "newsHits": 0,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184181",
-    "tag": [
-      "即时战报",
-      "德国",
-      "友谊赛",
-      "巴西"
-    ],
-    "sport": 1,
-    "status": 1
-  },
-  {
-    "summary": "据美媒体报导，黄蜂当家球星肯巴·沃克在接受采访时暗示，如果黄蜂在下赛季依然无法进入季后赛，那么他可能会在自由球员市场上离开这里。",
-    "img": "http:\/\/img.iuliao.com\/display\/6b39c84b7a950e118f2dc8d7a344985a",
-    "newsTime": "2018-03-28 10:30:51",
-    "title": "肯巴·沃克或为前途离队",
-    "_score": 1,
-    "newsHits": 0,
-    "tid": 222,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184180",
-    "tag": [
-      "赛事花絮",
-      "黄蜂",
-      "肯巴·沃克"
-    ],
-    "sport": 2,
-    "status": 1
-  },
-  {
-    "summary": "罗梅罗在对阵西班牙的友谊赛中伤退后，阿根廷国家队官方确认他右侧膝盖出现创伤。",
-    "img": "http:\/\/img.iuliao.com\/display\/85ce42fe9cbe381e93214e6a5c55f8f2",
-    "newsTime": "2018-03-28 10:30:16",
-    "domain": "iuliao",
-    "id": "184175",
-    "tag": [
-      "赛事花絮",
-      "阿根廷",
-      "罗梅罗"
-    ],
-    "title": "阿根廷确认罗梅罗膝盖受伤",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "在今天凌晨进行的友谊赛中，意大利1比1战平英格兰。赛后意大利主帅迪比亚乔接受了媒体《Rai Sport》的采访。",
-    "img": "http:\/\/img.iuliao.com\/display\/df03b9ca280061a2f08bed15375f8289",
-    "newsTime": "2018-03-28 10:30:14",
-    "title": "迪比亚乔满意意大利表现",
-    "_score": 1,
-    "newsHits": 0,
-    "tid": 14,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184174",
-    "tag": [
-      "赛事花絮",
-      "意大利",
-      "迪比亚乔"
-    ],
-    "sport": 1,
-    "status": 1
-  },
-  {
-    "summary": "AC米兰后卫安德烈·孔蒂的经纪人在接受采访时表示，自己客户的本赛季已经提前结束了。",
-    "img": "http:\/\/img.iuliao.com\/display\/2e13d3c78ab76974d96f72de59b0c342",
-    "newsTime": "2018-03-28 10:30:11",
-    "title": "经纪人证实安德烈·孔蒂赛季报销",
-    "_score": 1,
-    "newsHits": 0,
-    "tid": 600,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184173",
-    "tag": [
-      "赛事花絮",
-      "AC米兰",
-      "安德烈·孔蒂"
-    ],
-    "sport": 1,
-    "status": 1
-  },
-  {
-    "summary": "今天凌晨结束的一场国际友谊赛中，英格兰国家队1比1战和意大利国家队。赛后，英格兰后卫塔尔斯基在接受采访时表示：“我的确踩到了费德里科·基耶萨，但我并不认为那是一个点球。”",
-    "img": "http:\/\/img.iuliao.com\/display\/d99b7aff771c00f4814aba02ba1c079c",
-    "newsTime": "2018-03-28 10:30:05",
-    "title": "塔尔斯基直指点球属误判",
-    "_score": 1,
-    "newsHits": 0,
-    "tid": 13,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184172",
-    "tag": [
-      "赛事花絮",
-      "英格兰",
-      "塔尔斯基"
-    ],
-    "sport": 1,
-    "status": 1
-  },
-  {
-    "summary": "北京时间今天凌晨3:30，西班牙在友谊赛中6-1狂胜阿根廷。",
-    "img": "http:\/\/img.iuliao.com\/display\/ffc470d17793c55ceb98b767fd0ef97b",
-    "newsTime": "2018-03-28 10:08:37",
-    "mid": 1176059,
-    "title": "梅西缺阵伊斯科带帽 友谊赛西班牙6-1大胜阿根廷",
-    "_score": 1,
-    "newsHits": 0,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184169",
-    "tag": [
-      "即时战报",
-      "西班牙",
-      "友谊赛",
-      "阿根廷"
-    ],
-    "sport": 1,
-    "status": 1
-  },
-  {
-    "summary": "这个国际比赛日，对中国球迷来说是苦涩的，皆因中国国家队在此期间进行的中国杯(澳彩统称为国际友谊赛)两战皆败，以垫底的排名结束本届赛事争夺。更为悲惨的是，两场合共交出进失球比为1比10的答卷，中国足球的水平毫无保留地展示给国人眼前，失望是必然的，但既然已成为事实，不妨从惨败中正视自身问题。",
-    "img": "",
-    "newsTime": "2018-03-27 17:15:10",
-    "domain": "iuliao",
-    "id": "184142",
-    "tag": [
-      "赛事花絮",
-      "里皮",
-      "中国",
-      "亚洲杯"
-    ],
-    "title": "中国足球未来将何去何从",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "比利时国门库尔图瓦日前正在随国家队集训，而在接受记者采访时，他对范加尔对自己的批评予以了回击——荷兰人称库尔图瓦的错误让切尔西被巴萨从欧冠中淘汰。",
-    "img": "http:\/\/img.iuliao.com\/display\/c2d8899ed431efa535274ce4beef8cc8",
-    "newsTime": "2018-03-27 17:00:28",
-    "domain": "iuliao",
-    "id": "184141",
-    "tag": [
-      "赛事花絮",
-      "梅西",
-      "比利时",
-      "范加尔",
-      "库尔图瓦"
-    ],
-    "title": "库尔图瓦反驳范加尔",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "据《圣荷西水星报》记者美迪拿报导，勇士主帅史蒂夫·科尔在近日接受采访时表示，斯蒂芬·库里不会马上回归赛场。",
-    "img": "http:\/\/img.iuliao.com\/display\/5f8a422892e16ab049813ed204aba60a",
-    "newsTime": "2018-03-27 16:45:29",
-    "domain": "iuliao",
-    "id": "184139",
-    "tag": [
-      "赛事花絮",
-      "勇士",
-      "杜兰特",
-      "史蒂夫·科尔"
-    ],
-    "title": "勇士两将膜拜杜兰特",
-    "_score": 1,
-    "sport": 2,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "意乙在周四凌晨上演独角戏，阿斯科利将坐镇主场迎接巴里的挑战。双方目前排名一个在上游，一个身处降级区，两队本赛季发挥相差甚大，本场当然看好巴里凯旋而归。",
-    "img": "http:\/\/img.iuliao.com\/display\/0ee7bb6ff77c39eedc744bbd06ecf910",
-    "newsTime": "2018-03-27 16:30:19",
-    "mid": 1112674,
-    "title": "巴里客场易获“利”",
-    "_score": 1,
-    "newsHits": 0,
-    "concern": false,
-    "domain": "iuliao",
-    "id": "184138",
+    "id": "184453",
     "tag": [
       "赛事推荐",
-      "意乙",
-      "巴里",
-      "阿斯科利"
+      "阿德莱德联",
+      "澳超",
+      "惠灵顿凤凰"
+    ],
+    "title": "【反买陆慧明】澳超 基本面PK庄狗",
+    "_score": 1,
+    "sport": 1,
+    "newsHits": 2,
+    "status": 1,
+    "concern": false,
+    "content": "<p>昨天基本面全红，大球稳稳打出，小角惊险收米，<span><strong>点击回顾<\/strong><\/span>。继续今天的基本面，阿德莱德联主场迎战惠灵顿凤凰。<\/p> \n<p><strong><\/strong><\/p> \n<p>&nbsp;<\/p> \n<p><strong>大小球：<\/strong><\/p> \n<p>阿德莱德联近10场 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;场均进球：1.1&nbsp; 场均失球：1.5<\/p> \n<p>阿德莱德联近10个主场 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;场均进球：1.5&nbsp; 场均失球：1.1<\/p> \n<p>&nbsp;<\/p> \n<p>惠灵顿凤凰近10场 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;场均进球：0.9&nbsp; 场均失球：2.1<\/p> \n<p>惠灵顿凤凰近10个客场 &nbsp; &nbsp; &nbsp;场均进球：0.5 &nbsp;场均失球：2.1<\/p> \n<p>&nbsp;<\/p> \n<p>阿德莱德联主场场均进球+惠灵顿凤凰客场场均进球 =&nbsp;<strong>2<\/strong><\/p> \n<p><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/0a54d1d4a9fd00577328e415a6606967\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p><strong>本场比赛亚盘大小球附加盘开出2.5球，大球水位1.5，转换成概率就是62.5%，盘口较基本面明显开大，这场选择跟庄走，买大球。<\/strong><\/p> \n<p><strong><\/strong><\/p> \n<p>&nbsp;<\/p> \n<p>&nbsp;<\/p> \n<p>&nbsp;<\/p> \n<p><strong>角球：<\/strong><\/p> \n<p>阿德莱德联近10场 &nbsp; &nbsp; &nbsp; 场均角球：5.5<\/p> \n<p>阿德莱德联近10个主场 &nbsp; 场均角球：6.1<\/p> \n<p>&nbsp;<\/p> \n<p>惠灵顿凤凰近10场 &nbsp; &nbsp; &nbsp; 场均角球：5.9<\/p> \n<p>惠灵顿凤凰近10个客场 &nbsp; &nbsp;场均角球：3.9<\/p> \n<p>&nbsp;<\/p> \n<p>阿德莱德联主场场均角球+惠灵顿凤凰客场场均角球=10.0<\/p> \n<p><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/cd5292d6778be5207e833b9f19b3bad0\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p><strong>本场比赛角球大小球开出10.5个，角球大维持在中低水，与基本面分歧不大，看大角。<\/strong><\/p> \n<p>&nbsp;<\/p> \n<p><span><strong>最终推荐：<\/strong><\/span><\/p> \n<p><span><strong>总进球数大3<\/strong><\/span><\/p> \n<p><span><strong>角球数大10.5<\/strong><\/span><\/p> \n<p><\/p>"
+  },
+  {
+    "summary": "2017\/2018 美国男子职业篮球联赛，比赛时间：2018-03-30 星期五 10:00，球场：阿科球馆。",
+    "img": "http:\/\/img.iuliao.com\/display\/d05fcea96fe8c054870bb14870077072",
+    "newsTime": "2018-03-29 20:59:23",
+    "mid": 222166,
+    "title": "29日NBA推荐 国王拒绝束手就擒",
+    "_score": 1,
+    "newsHits": 0,
+    "concern": false,
+    "domain": "iuliao",
+    "id": "184325",
+    "tag": [
+      "赛事推荐",
+      "NBA",
+      "步行者",
+      "国王"
+    ],
+    "sport": 2,
+    "status": 1,
+    "content": "<p style=\"text-align: center;\"><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/d05fcea96fe8c054870bb14870077072\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p><br> 2017\/2018 美国男子职业篮球联赛<\/p> \n<p>比赛时间：2018-03-30 星期五 10:00<\/p> \n<p>球场：阿科球馆<\/p> \n<p>国王24胜51负西部排名第12，过去10场比赛4胜6负，得分能力薄弱是现在这支国王最大的问题，有6场得分没有超过一百分，加之无缘季后赛的他们，有多少战意也令人疑惑，因为每赢一场比赛，国王将和选秀的前三签位越来越远；步行者却是干劲十足，他们以44胜31负排名东部第五，落后76人0.5个名额，明天获胜，将反超76人，排到东部上半区，求胜欲望远强于国王，步行者近期的客场战绩也不错，上一场他们更是在客场击败了勇士，让人看到了球队坚毅的一面。<\/p> \n<p>竞彩本场开出了国王+7.5的盘口，步行者实力高于国王，战意也是更胜一筹，严格来讲真实实力的步行者还没有能够让到国王+7.5分的水平，有点过于低估国王对这场比赛的重视程度，利用步行者季后赛相关题材造热客队意图，本场不宜追捧步行者。<\/p> \n<p>竞彩 国王+7.5<\/p> \n<p>大小分 大203.5<\/p>"
+  },
+  {
+    "summary": "18中超第4轮 ，比赛时间2018-03-30 19:35，对阵：天津权健vs广州恒大。",
+    "img": "http:\/\/img.iuliao.com\/display\/36a2dd3d297c1a7502abf42962ff2352",
+    "newsTime": "2018-03-29 20:15:55",
+    "mid": 1164674,
+    "title": "卡纳瓦罗重回海体 中超天津权健vs广州恒大前瞻",
+    "_score": 1,
+    "newsHits": 0,
+    "concern": false,
+    "domain": "iuliao",
+    "id": "184323",
+    "tag": [
+      "赛事推荐",
+      "中超",
+      "广州恒大",
+      "天津权健"
     ],
     "sport": 1,
-    "status": 1
+    "status": 1,
+    "content": "<p style=\"text-align: center;\"><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/36a2dd3d297c1a7502abf42962ff2352\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p>18中超第4轮&nbsp;<\/p> \n<p>比赛时间2018-03-30 19:35<\/p> \n<p>对阵：天津权健vs广州恒大<\/p> \n<p>由于是国际比赛日后的首场中超联赛，两队又有多名国教参加了中国杯赛事，刚刚回到球队，身体状态还处于调整期，如何排兵布阵，对索萨和卡纳瓦罗来说都需要仔细斟酌。<\/p> \n<p><span><strong>【看点一】联赛成绩不佳 索萨要对首发做出调整<\/strong><\/span><\/p> \n<p style=\"text-align: center;\"><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/f6d8aa0a184f6a0379473fbe9937c28c\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align: center;\"><span>后防的问题，权健的成绩有起伏，不稳定<\/span><\/p> \n<p>在中超前3轮比赛中，权健1胜2负，进7球失5球，坐拥莫德斯特加帕托的攻击线火力确实凶猛，联赛场均进球超过了2个，不过权健后防的表现有点惨不忍睹，除首轮对河南建业没有丢球外，在对阵升班马北京人和和阵容不整、主帅也无缘临场指挥的天津泰达的比赛中一共丢了5个球，这5个球也是直接导致天津权健两场失利的直接原因，在实力不是很强的对手面前，丢掉6分，对今年在联赛中有一定雄心和目标的天津权健来说有些难以接受。<\/p> \n<p style=\"text-align: center;\"><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/a9e5e7839241135e47c41bba86062510\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align: center;\"><span>索萨从攻防平衡出发，帕托将无缘首发<\/span><\/p> \n<p>具体到与广州恒大的比赛（恒大中场前3轮场均3球），外界认为索萨在总结了前3场中超比赛的经验和教训，出于对恒大攻击力的忌惮，索萨很可能在这场比赛中对一些关键位置进行调整，韩国中后卫权敬原将会回归首发，权健在进攻线上会做出一定调整，帕托或将不得不接受替补的角色。<\/p> \n<p>权健当务之急是解决防守上的问题，变阵迫在眉睫，这是球队的成绩变得稳定保持向上提升的基础。<\/p> \n<p><span><strong>【看点二】莫德斯特与阿兰的锋线之争<\/strong><\/span><\/p> \n<p style=\"text-align: center;\"><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/ff09a4c4d669d609c74b91b8482dfe2d\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p>莫德斯特和阿兰是联赛进行到目前为止各自球队的最佳射手。也是最有可能左右本场比赛胜负的两个人。<\/p> \n<p>​莫德斯特是作为一名有支点作用的强力前锋，是这赛季权健前场进攻战术设计的主要围绕点，他的存在对其他中超球队的防守来说确实极具冲击力，在中超前三轮受到了多达场均2.3次的被侵犯，就足以说明其他中超球队对他有多重视，已经连续两轮中超零封对手的恒大后防面临严峻考验。"
   },
   {
     "summary": "针对竞彩2串1，每天一单100，实单推荐！",
     "img": "http:\/\/img.iuliao.com\/display\/5d5457e00641f8219d2225dbee894e4a",
-    "newsTime": "2018-03-27 16:27:38",
+    "newsTime": "2018-03-29 17:24:21",
     "domain": "iuliao",
-    "id": "184137",
+    "id": "184321",
     "tag": [
       "赛事推荐"
     ],
-    "title": "【串关圣手】三月第24单",
+    "title": "【串关圣手】三月第26单",
     "_score": 1,
     "sport": 1,
     "newsHits": 0,
     "status": 1,
-    "concern": false
+    "concern": false,
+    "content": "<p><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/5d5457e00641f8219d2225dbee894e4a\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p><strong>针对竞彩2串1，每天一单100，实单推荐！<\/strong><\/p> \n<p><strong><\/strong><\/p> \n<p>&nbsp;<\/p> \n<p><strong>昨日回顾：<\/strong><\/p> \n<p><strong>两场全部打出上盘，极其难受。<\/strong><\/p> \n<p>&nbsp;<\/p> \n<p><span><strong>今日选场：&nbsp;<\/strong>&nbsp;<\/span><\/p> \n<p><span><strong>继续留白。<\/strong><\/span><\/p> \n<p><strong><\/strong><\/p> \n<p>&nbsp;<\/p> \n<p><strong>三月回顾：<\/strong><\/p> \n<p><strong>三月25红10<\/strong><\/p> \n<p><span><strong>本月盈利情况：<\/strong><strong>191.5+179+123.2+151.5-100-120+189.5+110-100-100-100-100-100+125.5-100-100-100+150+104-100+123.5-100-100-100-100<\/strong><\/span><\/p> \n<p><strong>今日实单：<\/strong><\/p> \n<p><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/74f44132bd520e23116dcaf2f28b6e45\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p><strong>3月实买单情况（点击日期可查看当日实买单）<\/strong><\/p> \n<p>3月1日&nbsp;&nbsp;2日&nbsp; 3日&nbsp; 4日&nbsp;&nbsp;5日&nbsp;&nbsp;6日&nbsp;&nbsp;7日&nbsp;&nbsp;8日&nbsp;&nbsp;9日&nbsp;&nbsp;10日&nbsp;&nbsp;14日&nbsp;&nbsp;15日&nbsp;&nbsp;16日&nbsp;&nbsp;17日&nbsp;&nbsp;18日&nbsp;19日&nbsp;20日&nbsp;21日&nbsp;22日&nbsp;23日&nbsp;24日&nbsp;25日&nbsp;26日&nbsp;27&nbsp;28日<\/p> \n<p><\/p>"
   },
   {
-    "summary": "4月12日凌晨，皇家马德里将在欧冠四分之一次回合主场迎战尤文图斯，而据《马卡报》透露，这场比赛的球票在8分钟之内就售完。",
-    "img": "http:\/\/img.iuliao.com\/display\/763b3131f1d17339909f4cdb2ef1fd34",
-    "newsTime": "2018-03-27 16:00:16",
+    "summary": "凯尔特人今日客场以97比94险胜爵士取得五连胜。此战，绿衫军探花秀杰森塔特姆出场32分钟，15投6中、三分球3投2中、定位球2投2中，得到16分、2个篮板、3次助攻、2个抢断和2次封盖。",
+    "img": "http:\/\/img.iuliao.com\/display\/9747c142176e112b36283ddb0944d88a",
+    "newsTime": "2018-03-29 17:15:26",
+    "title": "杰森塔特姆达成队史新秀纪录",
+    "_score": 1,
+    "newsHits": 0,
+    "tid": 227,
+    "concern": false,
     "domain": "iuliao",
-    "id": "184128",
+    "id": "184320",
     "tag": [
       "赛事花絮",
-      "尤文图斯",
-      "皇家马德里"
+      "凯尔特人",
+      "杰森塔特姆"
     ],
-    "title": "皇马战尤文球票8分钟内售罄",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
+    "sport": 2,
     "status": 1,
-    "concern": false
+    "content": "<p style=\"text-align:center\"><img alt=\"積遜達頓是塞爾特人重點培養對象。\" src=\"https:\/\/img.iuliao.com\/display\/9747c142176e112b36283ddb0944d88a\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>杰森塔特姆是凯尔特人重点培养对象。<\/span><\/p> \n<p>凯尔特人今日客场以97比94险胜爵士取得五连胜。此战，绿衫军探花秀杰森塔特姆出场32分钟，15投6中、三分球3投2中、定位球2投2中，得到16分、2个篮板、3次助攻、2个抢断和2次封盖。<\/p> \n<p>这样一来，杰森塔特姆自1963年以来、绿衫军队史第6位单赛季60次得分上双位数的新秀，排第一的是布特的78次。<\/p> \n<p>本赛季，杰森塔特姆为凯尔特人出战75次，场均出战30.5分钟，可以得到13.7分、5.1个篮板、1.5次助攻、0.9个抢断和0.8次封盖，投篮命中率为47.7%，三分命中率为42.9%。<\/p>"
   },
   {
-    "summary": "竞彩001，日本在比利时中立场迎战乌克兰，上一场日本差点输给马里，赛后日本主帅哈里霍季奇严厉批评了球队表现，此役亚洲球队能迎来复苏吗？",
-    "img": "http:\/\/img.iuliao.com\/display\/2f818959da7df863be3efc81929bcceb",
-    "newsTime": "2018-03-27 15:18:11",
+    "summary": "据意大利媒体《全市场》报导，在意大利媒体曝出苏宁集团有意出售国际米兰后的几个小时，苏宁集团通过新浪体育进行了辟谣。",
+    "img": "http:\/\/img.iuliao.com\/display\/5088919c345b193c6e771bbc33cf6d14",
+    "newsTime": "2018-03-29 17:15:06",
+    "title": "苏宁集团辟谣出售国际米兰传闻",
+    "_score": 1,
+    "newsHits": 0,
+    "tid": 370,
+    "concern": false,
     "domain": "iuliao",
-    "id": "184123",
+    "id": "184319",
     "tag": [
-      "赛事推荐",
-      "日本",
-      "友谊赛",
-      "乌克兰"
+      "赛事花絮",
+      "国际米兰"
     ],
-    "title": "【反买陆慧明】 日本 vs 乌克兰 角球大小推荐",
-    "_score": 1,
     "sport": 1,
-    "newsHits": 0,
     "status": 1,
-    "concern": false
+    "content": "<p style=\"text-align:center\"><img alt=\"蘇寧集團稱暫時沒有出售國際的想法。\" src=\"https:\/\/img.iuliao.com\/display\/5088919c345b193c6e771bbc33cf6d14\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>苏宁集团称暂时没有出售国际米兰的想法。<\/span><\/p> \n<p>据意大利媒体《全市场》报导，在意大利媒体曝出苏宁集团有意出售国际米兰后的几个小时，苏宁集团通过新浪体育进行了辟谣。<\/p> \n<p>“我们注意到了一些国外媒体报导了苏宁集团可能出售国际米兰的新闻。”苏宁集团称，“我们根本没有考虑过这些事，现在我们所有的精力都放在联赛上。”<\/p> \n<p>此前包括《罗马体育报》和《晚邮报》在内的不少意大利媒体，都曝出了苏宁出售国际米兰的传闻，而苏宁的及时辟谣有助于稳定球队军心。<\/p>"
   },
   {
-    "summary": "本周三早上，鹈鹕与开拓者将在前者主场展开一场NBA常规赛的较量。虽然鹈鹕上场失利，不过球队近期整体表现依然出色，此次对阵实力不俗的开拓者，鹈鹕势必会力拼到底。",
-    "img": "http:\/\/img.iuliao.com\/display\/a5b72f19393354cdc3a701852b705577",
-    "newsTime": "2018-03-27 15:15:14",
-    "mid": 222149,
-    "title": "鹈鹕主场火拼开拓者",
+    "summary": "周五晚上有两场中超同时开球，其中更为引人关注的一场，由天津权健坐镇主场迎战广州恒大。上赛季作为升班马，权健在联赛双循环均力斩班霸，这对于后者来讲无疑是极大耻辱。不过今时不同往日，权健的功勋主帅卡纳瓦罗已重归恒大门下，加上大家新球季至今状态和走势有着鲜明反差，相信恒大已做好报仇雪耻的准备。",
+    "img": "http:\/\/img.iuliao.com\/display\/ecf61990df364c5ed47a0f913bdb0189",
+    "newsTime": "2018-03-29 16:00:39",
+    "mid": 1164674,
+    "title": "30日中超推荐：天津权健VS广州恒大淘宝",
     "_score": 1,
     "newsHits": 0,
     "concern": false,
     "domain": "iuliao",
-    "id": "184122",
+    "id": "184313",
     "tag": [
       "赛事推荐",
-      "NBA",
-      "鹈鹕",
-      "开拓者"
+      "中超",
+      "广州恒大淘宝",
+      "天津权健"
     ],
-    "sport": 2,
-    "status": 1
+    "sport": 1,
+    "status": 1,
+    "content": "<p style=\"text-align:center\"><img alt=\"恆大射手阿蘭頭三轮联赛均場射入2球。\" src=\"https:\/\/img.iuliao.com\/display\/ecf61990df364c5ed47a0f913bdb0189\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>恒大射手阿兰头三轮联赛场均射入2球。<\/span><\/p> \n<p>周五晚上有两场中超同时开球，其中更为引人关注的一场，由天津权健坐镇主场迎战广州恒大。上赛季作为升班马，权健在联赛双循环均力斩班霸，这对于后者来讲无疑是极大耻辱。不过今时不同往日，权健的功勋主帅卡纳瓦罗已重归恒大门下，加上大家新球季至今状态和走势有着鲜明反差，相信恒大已做好报仇雪耻的准备。<\/p> \n<p>上赛季的权健简直令球迷大开眼界，身为中超新扎师兄，他们最终以联赛第三的好成绩夺得新球季亚冠杯门票，如此强势与当年以升班马身份雄霸天下的恒大颇有几分相似。如果战绩还不够说服力诠释其黑马本色，那么上赛季双杀恒大的壮举应该足以叫质疑者收声。但正所谓花无百日红，双线作战的权健本赛季开局表现的确难尽人意，虽然首轮大胜实力平庸的河南建业取得开门红，但其后在同升班马北京人和以及同城兄弟天津亿利的较量中连续遭墨，对于志在更上一层楼的权健来讲显然难以接受。更令人担心的是，最新可靠消息报导巴西球星帕托在训练中受伤，预计此次不会随队迎战恒大。如此一来，单凭另一位外援安东尼·莫德斯特冲锋陷阵恐怕不足以攻陷恒大球门。<\/p> \n<p>另一边，恒大开局则遭遇开门黑，在与同城劲敌广州富力的比赛，大家上演了荡气回肠的对攻大战，最终以4比5落败。从比分来看，恒大的后防线似乎有明显退步，连同其后的一场与济州联队的亚冠杯分组赛，球队两场失足8球，情况一度告急。好彩，这支连续7年屹立在中超顶端的劲旅近日总算找回应有本色，近2轮联赛加上上一场亚冠杯分组赛取得三连胜同时还实现零封，如此防守表现无疑是球迷所期待的。值得称赞的是，阿兰新赛季以来简直如有神助，无论在联赛还是亚冠杯上都能为球队斩获大量入球。刚好权健近期的防守表现堪称灾难级(近4场各项赛事失13球)，阿兰和高拉特这对锋线组合绝对是对方最不希望面对的。再者，权健上季之所以取得成功，主帅卡纳瓦罗当属头号功臣，可怕的是他们即将要与这位意大利教头兵刃相见，对方首脑如此了解自己，主场作战的权健似乎已成为了瓮中之鳖。<\/p>"
   },
   {
-    "summary": "北京时间3月28日10点，北美劲旅墨西哥将和克罗地亚进行一场友谊赛。",
-    "img": "http:\/\/img.iuliao.com\/display\/1bd304af707680609534ee27e6d55d97",
-    "newsTime": "2018-03-27 15:08:07",
-    "mid": 1176065,
-    "title": "27日友谊赛推荐：残阵克罗地亚出征凶多吉少",
+    "summary": "本赛季欧冠杯四分之一，曼彻斯特城在两回合的赛事中遭遇利物浦，首回合的赛事在安菲尔德球场进行，次回合则移师至伊蒂哈德球场。目前，曼彻斯特城仍在努力的出售次回合的球票。",
+    "img": "http:\/\/img.iuliao.com\/display\/3495f4174bcc9d46aa234be9b5c97a67",
+    "newsTime": "2018-03-29 16:00:26",
+    "title": "曼彻斯特城球市堪忧",
+    "_score": 1,
+    "newsHits": 0,
+    "tid": 240,
+    "concern": false,
+    "domain": "iuliao",
+    "id": "184312",
+    "tag": [
+      "赛事花絮",
+      "曼彻斯特城"
+    ],
+    "sport": 1,
+    "status": 1,
+    "content": "<p style=\"text-align:center\"><img alt=\"曼彻斯特城歐冠盃次回合門票仍在出售中。\" src=\"https:\/\/img.iuliao.com\/display\/3495f4174bcc9d46aa234be9b5c97a67\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>曼彻斯特城欧冠杯次回合门票仍在出售中。<\/span><\/p> \n<p>本赛季欧冠杯四分之一，曼彻斯特城在两回合的赛事中遭遇利物浦，首回合的赛事在安菲尔德球场进行，次回合则移师至伊蒂哈德球场。目前，曼彻斯特城仍在努力的出售次回合的球票。<\/p> \n<p>曼彻斯特城被视为本赛季欧冠杯夺冠的热门球队，而且凭借着本赛季的出色表现，他们已经一只手摸到了英超冠军奖杯，然而，伊蒂哈德球场的球票销售却不如预期。<\/p> \n<p>次回合的球票是在本周一开始出售的，两天的时间已经过去了，可是你仍然能买到这场比赛的球票，相比较于这样级别的较量，这样的销量无疑是令人失望的。<\/p> \n<p>与之相反，利物浦方面的销售情况却十分良好，他们首回合的球票在短短几秒钟的时间内便宣告售完，部分没有买到球票的利物浦球迷甚至为此感到沮丧，因为卖的实在太快了。<\/p>"
+  },
+  {
+    "summary": "在今天爵士主场不敌凯尔特人的比赛后，爵士主教练斯奈德接受了记者的采访。",
+    "img": "http:\/\/img.iuliao.com\/display\/9d25f1efc0a92f65c1abdc62d3e51531",
+    "newsTime": "2018-03-29 15:45:46",
+    "title": "斯奈德：这场比赛有季后赛感觉",
+    "_score": 1,
+    "newsHits": 0,
+    "tid": 215,
+    "concern": false,
+    "domain": "iuliao",
+    "id": "184311",
+    "tag": [
+      "赛事花絮",
+      "爵士",
+      "斯奈德"
+    ],
+    "sport": 2,
+    "status": 1,
+    "content": "<p style=\"text-align:center\"><img alt=\"施尼達表示剩餘比賽必須振作起來。\" src=\"https:\/\/img.iuliao.com\/display\/9d25f1efc0a92f65c1abdc62d3e51531\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>斯奈德表示剩余比赛必须振作起来。<\/span><\/p> \n<p>在今天爵士主场不敌凯尔特人的比赛后，爵士主教练斯奈德接受了记者的采访。<\/p> \n<p>谈到本场比赛的失利，斯奈德说道：“这场比赛有季后赛的感觉。从某种意义上来说，这场比赛打得如此的胶着，如此的紧张。这就像是三月份比赛竞争的疯狂。”<\/p> \n<p>“作为一个教练你会经历这些，自责不已，想尽你所能的去帮助到球员。”斯奈德说道：“但你必须振作起来。”<\/p> \n<p>谈到戈登·海沃德离开对于爵士会有什么不一样，爵士新秀多诺万·米切尔说道：“就是要在比赛的各个方面打得更好一点。”<\/p> \n<p>在今天的比赛中，多诺万·米切尔出场40分钟，20投7中拿下22分和6次助攻。<\/p>"
+  },
+  {
+    "summary": "周五上午，NBA常规赛继续有好戏上演，其中目前处于四连客之旅的雄鹿将来到第二站金州挑战卫冕冠军勇士。尽管勇士近况不济，但他们此战有望迎回两大主力杜兰特和德雷蒙德格林，阵中球员士气空前高涨，加之过去4次对阵雄鹿悉数获胜，勇士本场有力敲响主场胜鼓。",
+    "img": "http:\/\/img.iuliao.com\/display\/5606ec78bedcd8c915966958061cd27a",
+    "newsTime": "2018-03-29 15:45:29",
+    "mid": 222167,
+    "title": "30日NBA推荐：密尔沃基雄鹿VS金州勇士",
     "_score": 1,
     "newsHits": 0,
     "concern": false,
     "domain": "iuliao",
-    "id": "184121",
+    "id": "184310",
     "tag": [
       "赛事推荐",
-      "友谊赛",
-      "克罗地亚",
-      "墨西哥"
+      "NBA",
+      "金州勇士",
+      "密尔沃基雄鹿"
     ],
-    "sport": 1,
-    "status": 1
+    "sport": 2,
+    "status": 1,
+    "content": "<p style=\"text-align:center\"><img alt=\"勇士鋒線主力杜蘭特和德雷蒙德格林本场有望迎來復出。\" src=\"https:\/\/img.iuliao.com\/display\/5606ec78bedcd8c915966958061cd27a\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>勇士锋线主力杜兰特和德雷蒙德格林本场有望迎来复出。<\/span><\/p> \n<p>周五上午，NBA常规赛继续有好戏上演，其中目前处于四连客之旅的雄鹿将来到第二站金州挑战卫冕冠军勇士。尽管勇士近况不济，但他们此战有望迎回两大主力杜兰特和德雷蒙德格林，阵中球员士气空前高涨，加之过去4次对阵雄鹿悉数获胜，勇士本场有力敲响主场胜鼓。<\/p> \n<p>由于阵中四巨头先后因伤断断续续休战，勇士自从3月10日以来便陷入一段挣扎期，期间所战9场未曾取得过连胜之余更输足6场，目前已落后榜首的火箭6.5个胜场之多，不难看出球队已放弃争夺本赛季常规赛冠军。不过由于与东岸一哥猛龙战绩不相伯仲，勇士也意识到这个潜在的总决赛对手不易对付，因此他们有意在常规赛冲刺阶段尽可能赢得更多胜利，以争夺联盟第二好的战绩从而以防万一丢失总决赛的主场优势。对勇士本场争胜利好的是，杜兰特和德雷蒙德格林有望联袂复出，过去2场缺少这二人(外加后场双枪斯蒂芬·库里和基利汤逊)的勇士均场得分仅为86分，进攻端严重受阻，而如今得分如探囊取物的杜兰特伤愈复出无疑能够解决球队进攻哑火的问题，至于德雷蒙德格林则可在防守端最大限度限制阿迪图昆保，攻防两端都将得到提升的勇士本场主场取胜在望。阵容方面，后卫斯蒂芬·库里和基利汤逊继续因伤缺阵。<\/p> \n<p>客场之旅开启前，雄鹿曾在主场终结了马刺六连胜的势头，带着两连胜之势造访洛杉矶挑战快船，可惜却在最后一节崩盘败走史达普斯中心球场。众所周知，联盟如今可谓三分球当道，然而雄鹿却相向而行，赛季至今均场24.7次三分出手为联盟第六少，其中均场命中8.8个三分及35.5%的命中率都处于联盟倒数水平，而上场不敌快船一战球队正好是输在三分球的比拼上(三分命中率26.1%比53.6%)。对此当家核心阿迪图昆保责无旁贷，希腊怪兽身手全面已是众人皆知，但唯独外围投射正是其致命弱点，他赛季至今均场三分命中率低至31.3%，此次又要面对杜兰特外线的遮天蔽日以及德雷蒙德格林内线的严防死守，阿迪图昆保恐怕无力带队攻陷甲骨文球场。阵容方面，后卫马尔科姆·布罗格登和马修·德拉维多瓦均因伤避战。<\/p>"
   },
   {
-    "summary": "据媒体报导，在因为腿筋伤病伤缺一个月之后，斯图里奇目前已经随西布罗姆维奇进行训练。在被利物浦租借至西布罗姆维奇之后，斯图里奇只为球队出战了78分钟的比赛。0比3输给切尔西的比赛，英格兰射手只出场3分钟就因伤下场。",
-    "img": "http:\/\/img.iuliao.com\/display\/a576478c0cf4b2c2d36e2663c38e1dd0",
-    "newsTime": "2018-03-27 15:00:24",
+    "summary": "北京时间3月27日晚，在菲律宾逆转击败塔吉克斯坦，参加2019年亚洲杯的24强名单全部产生。",
+    "img": "http:\/\/img.iuliao.com\/display\/c2af76af2047952bef58af829509dda4",
+    "newsTime": "2018-03-29 15:37:11",
+    "title": "亚洲杯分组掉入二档 国足大概率掉入死亡之组",
+    "_score": 1,
+    "newsHits": 0,
+    "tid": 5,
+    "concern": false,
     "domain": "iuliao",
-    "id": "184119",
+    "id": "184309",
     "tag": [
       "赛事花絮",
-      "英超",
-      "西布朗",
-      "斯图里奇"
+      "国足",
+      "亚洲杯",
+      "分档",
+      "2011"
     ],
-    "title": "斯图里奇有望近期复出",
-    "_score": 1,
     "sport": 1,
-    "newsHits": 0,
     "status": 1,
-    "concern": false
+    "content": "<p style=\"text-align:center\"><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/6b7d4dc12259dc981fcd4d8b039b1d36\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p><span><strong>2019年亚洲杯分档揭晓<\/strong><\/span><\/p> \n<p>北京时间3月27日晚，在菲律宾逆转击败塔吉克斯坦，参加2019年亚洲杯的24强名单全部产生，截至今日凌晨，24强球队均结束了本次国际比赛日的所有比赛，根据这次国际比赛日亚洲各国家队的最新比赛成绩来推算FIFA积分， 24强分档也基本确定。<\/p> \n<p style=\"text-align:start\">亚洲杯球队分档具体如下：<\/p> \n<p style=\"text-align:start\">种子球队：阿联酋（东道主）、伊朗、澳大利亚、日本、韩国、沙特<\/p> \n<p style=\"text-align:start\">第二档球队：中国、吉尔吉斯斯坦、叙利亚、黎巴嫩、巴勒斯坦、阿曼<\/p> \n<p style=\"text-align:start\">第三档球队：乌兹别克、伊拉克、印度、卡塔尔、越南、朝鲜<\/p> \n<p style=\"text-align:start\">第四档球队：菲律宾、巴林、约旦、也门、泰国、土库曼斯坦<\/p> \n<p style=\"text-align:start\">具体抽签时间是5月4日，地点是在明年亚洲杯举办地阿联酋迪拜进行。<\/p> \n<p style=\"text-align:start\"><span><strong>兵败中国杯 中国队无缘亚洲杯种子队<\/strong><\/span><\/p> \n<p>在3月最新一期的FIFA国家队排名中，中国男足FIFA排名第65位，亚洲排名则反超沙特，上升至第5。如果按照3月的排名，根据2019年亚洲杯的抽签规则，中国队将处于第一档，也就是拥有亚洲杯的种子队名额。<\/p> \n<p>不过，在3月份的中国杯中，国足的表现令球迷失望，在两场与威尔士和捷克的比赛中分别以0-6和1-4的大比分失利，尽管在这一国际比赛日，亚洲球队的表现都不理想，原本落后中国的沙特还是靠1-1 逼平世界排名第35位的乌克兰队所获得的FIFA积分，将在4月的最新FIFA排名中铁定反超国足。国足不得不苦涩得接受最新一期排名，掉到亚洲第六的苦涩现实。<\/p> \n<p>附亚洲5强3月热身赛战绩：<\/p> \n<p>伊朗2-1阿尔及利亚<\/p> \n<p>伊朗0-1突尼斯<\/p> \n<p>日本1-1马里<\/p> \n<p>日本1-2乌克兰<\/p> \n<p>韩国1-2北爱尔兰<\/p> \n<p>韩国2-3波兰<\/p> \n<p>沙特1-1乌克兰<\/p> \n<p>沙特0-4比利时<\/p> \n<p>澳大利亚1-4挪威<\/p> \n<p>澳大利亚0-0哥伦比亚<\/p> \n<p><span><strong>国足或重蹈2011覆辙<\/strong><\/span><\/p> \n<p style=\"text-align:center\"><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/c2af76af2047952bef58af829509dda4\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>2011年亚洲杯四个小组<\/span><\/p> \n<p>那么掉到第二档的国足将在接下来的抽签中面临怎样的命运呢，外界普遍报以悲观态度， 从分档的具体情况看，一档球队中，除了东道主阿联酋之外，沙特、伊朗、澳大利亚、日本和韩国均是打入今夏世界杯的球队，可以说是夺冠热门；在三档球队中，伊拉克、卡塔尔和乌兹别克斯坦也是够让国足头疼的老冤家。"
   },
   {
-    "summary": "明日凌晨的一场友谊赛，德国在主场柏林迎战巴西，14年世界杯半决赛1-7的耻辱，巴西能否在客场复仇？",
-    "img": "http:\/\/img.iuliao.com\/display\/c8cecb2531c1e8ee2f20710012e90bf9",
-    "newsTime": "2018-03-27 13:04:41",
+    "summary": "大家都知道，绝杀球如果抓到了，一抓就是大奶。既然是大奶，想抓到也并非易事。我们经常看到群主在qq群里、微信群里疯狂收米，今天给大家分享一个群主抓绝杀球的技巧。",
+    "img": "http:\/\/img.iuliao.com\/display\/34ea6c3b5d71603ed98f308254f61976",
+    "newsTime": "2018-03-29 14:21:45",
     "domain": "iuliao",
-    "id": "184052",
+    "id": "184303",
     "tag": [
       "赛事推荐",
-      "德国",
-      "友谊赛",
-      "巴西"
+      "绝杀",
+      "高赔"
     ],
-    "title": "【杰哥单场】友谊赛  德国 vs 巴西",
+    "title": "【干货】群主是怎么抓绝杀大奶的！",
     "_score": 1,
     "sport": 1,
     "newsHits": 0,
     "status": 1,
-    "concern": false
+    "concern": false,
+    "content": "<p>大家都知道，绝杀球如果抓到了，一抓就是大奶。既然是大奶，想抓到也并非易事。我们经常看到群主在qq群里、微信群里疯狂收米，今天给大家分享一个群主抓绝杀球的技巧。<\/p> \n<p><strong><\/strong><\/p> \n<p>&nbsp;<\/p> \n<p><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/e6e4d09ae962ff3c9991a015dfe7223a\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p>其实要抓绝杀球，最好抓的就是主流联赛中在75分钟（之后）时还保持平局的比赛，因为大多数情况下两队打平，都会想赢，战意都很充足，不会踢得懒懒散散。那么我们要抓绝杀，那么我们就得筛选出赛果能大概率排除掉平局这一结果的比赛。如何筛选？笔者就在此为大家简单地概括一下。<\/p> \n<p><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/885810a16b53dbd41e1a216e36ec6a4d\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p>在主流联赛中，当威廉希尔初盘欧赔开盘格局为233，如果平局到临场时顶高（一定要是升水）到3.35以上，那么基本可以认为是高于平局打出的合理区间，我们便可以确认这场比赛大概率会打出胜负赛果。那么此时如果比赛来到了70-75分钟甚至之后，还是平局的话，这时追大球便是一个大概率收米的选择。下面我们来看具体例子。<\/p> \n<p><strong><\/strong><\/p> \n<p>&nbsp;<\/p> \n<p><span><strong>日职 18-03-18 扎幌冈隆多2-1长崎成功丸<\/strong><\/span><\/p> \n<p>&nbsp;<\/p> \n<p><span><strong><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/5ad94f7c5105cfd2f7d77a08eceb03ae\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/strong><\/span><\/p> \n<p>&nbsp;<\/p> \n<p><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/ec2c3ce113c46a3fcc72fb4c31cf4feb\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p>我们可以看到，初盘233格局，平赔由初盘的3.2顶高到了3.4，基本上可以排除了平局这一选项。而到了82分钟时比赛为平局赛果，这时候便可以去大2.5高水，结果便是90分钟绝杀，高水收米。<\/p> \n<p>&nbsp;<\/p> \n<p><span><strong>法甲18-03-19 马赛2-3里昂<\/strong><\/span><\/p> \n<p>&nbsp;<\/p> \n<p><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/ec1b035c711859f191d4bdf750437136\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p>&nbsp;<\/p> \n<p><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/e199fb53f6fc2880919dc5599200c893\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p>这场比赛威廉希尔初盘开出233格局的欧赔，到最后临场平赔顶高到了3.75，此时我们判断比赛大概率无平局，在84主队追平后，果断去大2.5球，最后90分钟客队绝杀，也是高水收米。<\/p> \n<p>&nbsp;<\/p> \n<p><span><strong>最后还是要提醒大家一下：<\/strong><\/span><\/p> \n<p><strong>1.&nbsp;追绝杀球不要贪那一点水位，很多时候就是因为贪心在等水时球就进了。"
   },
   {
-    "summary": "今天，湖人客场以106比112不敌活塞。此战，兰德尔出场32分钟，13投7中，定位球10中9，得到23分和11个篮板。",
-    "img": "http:\/\/img.iuliao.com\/display\/156ff90e8afdc3a662461ee879676d46",
-    "newsTime": "2018-03-27 13:00:29",
-    "mid": 222143,
-    "title": "兰德尔再创里程碑",
+    "summary": "周六凌晨，英冠展开多场争夺，其中米德尔斯堡将主场迎战狼队。虽然米德尔斯堡近况不俗，但是对手是实力更强的领头羊狼队，而且后者目前也保持连胜强势，米德尔斯堡此战主场还是不宜高估。",
+    "img": "http:\/\/img.iuliao.com\/display\/1de0acb5727e3c849c22cd74d5229f98",
+    "newsTime": "2018-03-29 13:15:17",
+    "mid": 1076921,
+    "title": "30日英冠推荐：米德尔斯堡VS狼队",
     "_score": 1,
     "newsHits": 0,
     "concern": false,
     "domain": "iuliao",
-    "id": "184049",
+    "id": "184302",
+    "tag": [
+      "赛事推荐",
+      "英冠",
+      "米德尔斯堡",
+      "狼队"
+    ],
+    "sport": 1,
+    "status": 1,
+    "content": "<p style=\"text-align:center\"><img alt=\"狼隊攻擊手阿科比近2轮联赛貢獻3個入球。\" src=\"https:\/\/img.iuliao.com\/display\/1de0acb5727e3c849c22cd74d5229f98\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>狼队攻击手阿科比近2轮联赛贡献3个入球。<\/span><\/p> \n<p>周六凌晨，英冠展开多场争夺，其中米德尔斯堡将主场迎战狼队。虽然米德尔斯堡近况不俗，但是对手是实力更强的领头羊狼队，而且后者目前也保持连胜强势，米德尔斯堡此战主场还是不宜高估。<\/p> \n<p>英冠争夺已经来到最后阶段，米德尔斯堡凭借最近6轮联赛取得4胜2和的佳绩，球队在38轮联赛战罢时排名积分榜第六位，他们暂时保住一个晋级附加赛席位。然而对于米德尔斯堡来说此排名颇为危险，因为现时有多队与他们争夺晋级附加赛席位，这意味着球队必须在余下赛事继续全力抢分。但是米德尔斯堡想要达成这一愿望谈何容易，尤其是他们本场对阵领头羊狼队，球队的取胜优势显然不足。要知道米德尔斯堡曾在联赛首循环不敌狼队，如今再战领头羊，米德尔斯堡确实难寄厚望。<\/p> \n<p>狼队在早前频频失分后，他们最近及时醒觉回到正轨，球队最近2轮联赛分别以3比0以及3比1轻取雷丁和伯顿，当中有3个入球由攻击手阿科比包办，可见这位民主刚果国脚目前脚风正顺。而在取得联赛两连胜后，狼队在38轮联赛战罢时以6分的优势领跑积分榜，不过身后的卡迪夫城却少赛1场，这意味着他们现时的领跑优势并不明显，球队仍需要全力抢分。好在狼队目前火力全开，他们已经连续4轮联赛皆入球进账，当中有3场赛事均能攻入3球之多。而且狼队目前成为英冠客场王，就算最近客场战绩有所下滑，但是他们整体客场表现还是值得信赖。此次走访曾在联赛首循环败在自己脚下的米德尔斯堡，狼队有力杀敌。<\/p>"
+  },
+  {
+    "summary": "骑士今日客场大胜黄蜂，勒布朗·詹姆斯今日交出41分、10个篮板和8次助攻的成绩单。",
+    "img": "http:\/\/img.iuliao.com\/display\/1f45e5501fa82ef4f71026f0a21fee69",
+    "newsTime": "2018-03-29 13:00:27",
+    "title": "詹姆斯再创里程碑",
+    "_score": 1,
+    "newsHits": 0,
+    "tid": 228,
+    "concern": false,
+    "domain": "iuliao",
+    "id": "184301",
     "tag": [
       "赛事花絮",
-      "NBA",
-      "湖人",
-      "兰德尔"
+      "骑士",
+      "勒布朗·詹姆斯"
     ],
     "sport": 2,
-    "status": 1
-  },
-  {
-    "summary": "据德国转会市场管理员朱艺的消息，在1比4负于捷克的比赛后，郜林为国家队出战的国际米兰A级赛事场次已经达到了98场，追平了队友郑智。",
-    "img": "http:\/\/img.iuliao.com\/display\/101ef5f95161ab7c711382f9e3b6e233",
-    "newsTime": "2018-03-27 13:00:08",
-    "domain": "iuliao",
-    "id": "184048",
-    "tag": [
-      "赛事花絮",
-      "中国",
-      "郜林"
-    ],
-    "title": "郜林国家队百场记录指日可待",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
     "status": 1,
-    "concern": false
+    "content": "<p style=\"text-align:center\"><img alt=\"勒布朗·詹姆斯依旧無人能擋。\" src=\"https:\/\/img.iuliao.com\/display\/1f45e5501fa82ef4f71026f0a21fee69\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>勒布朗·詹姆斯依旧无人能挡。<\/span><\/p> \n<p>骑士今日客场大胜黄蜂，勒布朗·詹姆斯今日交出41分、10个篮板和8次助攻的成绩单。<\/p> \n<p>这场比赛过后，勒布朗·詹姆斯赛季总得分达到2068分，已经确保赛季场均得分25+。<\/p> \n<p>这是勒布朗·詹姆斯第14个赛季场均得分25+，刷新历史纪录，排名第二的是迈克尔·乔丹、科比·布莱恩特和马龙(12次)。<\/p> \n<p>未算今日的比赛，勒布朗·詹姆斯本赛季场均贡献27.4分、8.6个篮板外加9.1次助攻。<\/p>"
   },
   {
-    "summary": "莫拉塔伤愈之后迟迟未找回状态，并且落选了新一期的西班牙国家队大名单。西班牙主帅洛佩特吉表示莫拉塔仍然有机会参加今年夏天的世界杯，但他需要在赛季接下来的时间拿出更好的表现。近日，曾效力于利物浦的西班牙名宿摩连迪斯接受媒体采访时谈到莫拉塔在切尔西的情况。",
-    "img": "http:\/\/img.iuliao.com\/display\/8021a09fa16fa918d71c31ef9e6a06ea",
-    "newsTime": "2018-03-27 12:30:20",
-    "domain": "iuliao",
-    "id": "184047",
-    "tag": [
-      "赛事花絮",
-      "切尔西",
-      "莫拉塔"
-    ],
-    "title": "摩连迪斯谈莫拉塔近况",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "据《马卡报》消息，欧盟要求巴伦西亚在今年5月20日前归还2360万欧元的国家援助基金。",
-    "img": "http:\/\/img.iuliao.com\/display\/1eb063c592c76d086cb4340532122045",
-    "newsTime": "2018-03-27 12:30:18",
-    "domain": "iuliao",
-    "id": "184046",
-    "tag": [
-      "赛事花絮",
-      "西甲",
-      "巴伦西亚"
-    ],
-    "title": "巴伦西亚需向欧盟还钱",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "据《镜报》报导，巴萨考虑今年夏天引进曼彻斯特联后卫卢克·肖。",
-    "img": "http:\/\/img.iuliao.com\/display\/e655fd025a25d281a4c7991c12e66ce5",
-    "newsTime": "2018-03-27 11:45:09",
-    "domain": "iuliao",
-    "id": "184020",
-    "tag": [
-      "赛事花絮",
-      "曼联",
-      "巴塞罗那",
-      "卢克·肖"
-    ],
-    "title": "巴萨或向卢克·肖“伸出援手”",
-    "_score": 1,
-    "sport": 1,
-    "newsHits": 0,
-    "status": 1,
-    "concern": false
-  },
-  {
-    "summary": "在今天的比赛中，费城76人迎来了状元秀马克尔·富尔茨的复出，球队在主场以123比104大胜掘金。赛后，马克尔·富尔茨在场边接受了媒体采访。",
-    "img": "http:\/\/img.iuliao.com\/display\/bc5ad42a034d9a2e2260deefc7310d9d",
-    "newsTime": "2018-03-27 11:30:56",
-    "mid": 222142,
-    "title": "富尔茨谈复出首秀",
+    "summary": "周五早上，NBA常规赛继续有好戏上演，其中马刺和雷霆将于前者主场一决高下。马刺最近遭遇连败，球队状态有所下滑，而且他们面对雷霆也已遭遇两连败，马刺本场实在不宜过分高估。",
+    "img": "http:\/\/img.iuliao.com\/display\/717efdef896a2615761bf06517818126",
+    "newsTime": "2018-03-29 13:00:21",
+    "mid": 222165,
+    "title": "30日NBA推荐：俄克拉荷马城雷霆VS圣安东尼奥马刺",
     "_score": 1,
     "newsHits": 0,
     "concern": false,
     "domain": "iuliao",
-    "id": "183998",
+    "id": "184300",
     "tag": [
-      "赛事花絮",
+      "赛事推荐",
       "NBA",
-      "掘金",
-      "76人"
+      "俄克拉荷马城雷霆",
+      "圣安东尼奥马刺 \t"
     ],
     "sport": 2,
-    "status": 1
-  },
-  {
-    "summary": "雄鹿球员阿德托昆博、克里斯·米德尔顿近日接受了采访，对于即将到来的西部客场之旅发表了看法。",
-    "img": "",
-    "newsTime": "2018-03-27 11:30:54",
-    "domain": "iuliao",
-    "id": "183997",
-    "tag": [
-      "赛事花絮",
-      "NBA",
-      "雄鹿"
-    ],
-    "title": "雄鹿两员大将对西部之旅信心十足",
-    "_score": 1,
-    "sport": 2,
-    "newsHits": 0,
     "status": 1,
-    "concern": false
+    "content": "<p style=\"text-align:center\"><img alt=\"雷霆後衛韋斯博克個人能力十分全面。\" src=\"https:\/\/img.iuliao.com\/display\/717efdef896a2615761bf06517818126\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>雷霆后卫威斯布鲁克个人能力十分全面。<\/span><\/p> \n<p>周五早上，NBA常规赛继续有好戏上演，其中马刺和雷霆将于前者主场一决高下。马刺最近遭遇连败，球队状态有所下滑，而且他们面对雷霆也已遭遇两连败，马刺本场实在不宜过分高估。<\/p> \n<p>马刺最近接连负于雄鹿和奇才遭遇常规赛两连败，球队状态有下滑趋势。在两连败期间，马刺一向引以为傲的防守似乎荡然无存，他们场均失分超过110分，恐怕波波维奇要好好想想对策。核心来昂纳德因伤长期缺席绝对是影响马刺本赛季战绩的最大因素，而如今的马刺也不再是过往那支人人惧怕的球队，幸好内线大将阿尔德里奇及时挺身而出，其很好地支撑起球队的攻防两端，但人算不如天算，状态火爆的他目前受到膝伤困扰，本场能否上阵依然是未知数，这对于马刺来说肯定是一大隐患。此外，马刺最近2次面对雷霆均墨，球员在心理方面显然落于下风。即使本场坐镇主场，但状态和战斗力都未能有所保证的马刺确实难以予人足够信心。<\/p> \n<p>另一边厢，雷霆上场以3分之差惜败给开拓者从而无缘常规赛两连胜，一众将士定必满腹怨气，此次对阵战斗力大不如前的马刺，雷霆势必希望拿对手泄愤。要知道，雷霆本赛季阵中坐拥多名强将，其中核心威斯布鲁克无疑最为值得关注，他常规赛至今场均交出25.4分、9.7个篮板和10.2次助攻的准三双数据，而且他最近1次面对马刺时也贡献了大三元数据，最终帮助雷霆以双位数优势击败对手，可见他本场绝对是马刺的心腹大患。此外，保罗·乔治的威胁也不容小觑，他本赛季常规赛场均得分超过20分，无疑是一个强力得分点，他本场也会对马刺的颜色地带发起冲击。最后值得一提的是，雷霆比本场对手马刺多出几日休息时间，球员在体能恢复方面明显占优，他们此次出征重返胜轨机会颇大。阵容方面，内线罗伯森因伤缺席。<\/p>"
   },
   {
-    "summary": "巴西将与德国进行一场热身赛，巴西后卫丹尼尔·阿尔维斯在赛前发布会上表达了对国家队队友菲利佩·库蒂尼奥的赞赏，他表示菲利佩·库蒂尼奥和内马尔处于同一水平，并称巴西必须激发出队内球员的最佳状态。",
-    "img": "http:\/\/img.iuliao.com\/display\/e83842192ccafa85a9d34a78fffbad57",
-    "newsTime": "2018-03-27 11:00:18",
+    "summary": "在被拜仁解雇之后，尽管安切洛蒂目前暂时赋闲，但他已经和多支球队的帅位联系在一起，这其中包括了切尔西、阿森纳以及意大利国家队。",
+    "img": "http:\/\/img.iuliao.com\/display\/456b2ae8dc4d464553ff5a8dd130426d",
+    "newsTime": "2018-03-29 13:00:07",
     "domain": "iuliao",
-    "id": "183986",
+    "id": "184299",
     "tag": [
       "赛事花絮",
-      "阿尔维斯",
-      "内马尔",
-      "库蒂尼奥",
-      "巴西"
+      "安切洛蒂"
     ],
-    "title": "阿尔维斯盛赞库蒂尼奥",
+    "title": "安切洛蒂更偏向执教球队",
     "_score": 1,
     "sport": 1,
     "newsHits": 0,
     "status": 1,
-    "concern": false
+    "concern": false,
+    "content": "<p style=\"text-align:center\"><img alt=\"安切洛蒂仍在等待某家球會的邀請。\" src=\"https:\/\/img.iuliao.com\/display\/456b2ae8dc4d464553ff5a8dd130426d\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>安切洛蒂仍在等待某家球队的邀请。<\/span><\/p> \n<p>在被拜仁解雇之后，尽管安切洛蒂目前暂时赋闲，但他已经和多支球队的帅位联系在一起，这其中包括了切尔西、阿森纳以及意大利国家队。<\/p> \n<p>在被问及自己是否会成为意大利国家队主帅时，安切洛蒂表示：“我的回答是这样的，意大利足协在意大利奥委会的帮助下必须创造一个新的组织架构，在那之后我才能作出决定，现在我无法决定。他们需要澄清一些事情，然后我才能考虑是否执教国家队，即使我的目标依然是在某家球队执教。”<\/p> \n<p>在被问及哪家球队是自己心仪的选择时，安切洛蒂表示：“我现在还不知道，一切都还非常开放，现在还需要等待几个月的时间。”<\/p>"
   },
   {
-    "summary": "北京时间3月28日凌晨，西班牙将和阿根廷进行一场友谊赛。近日，西班牙国家队在万达大都会球场进行了公开训练，超过4万名球迷涌入球场观看了这场训练课。",
-    "img": "http:\/\/img.iuliao.com\/display\/711ccf49c621bed7feb531e8c906430a",
-    "newsTime": "2018-03-27 11:00:11",
+    "summary": "在今日结束的NBA常规赛中，森林狼主场126比114战胜老鹰，本场比赛安东尼·唐斯手感火热，32投19中，三分球8投6中得到56分、15个篮板和4次助攻。",
+    "img": "http:\/\/img.iuliao.com\/display\/f4a0958e0e06062293be6c8e6fef0a02",
+    "newsTime": "2018-03-29 11:45:21",
+    "title": "安东尼·唐斯创森林狼队史单场得分纪录",
+    "_score": 1,
+    "newsHits": 0,
+    "tid": 230,
+    "concern": false,
     "domain": "iuliao",
-    "id": "183985",
+    "id": "184293",
     "tag": [
       "赛事花絮",
-      "西班牙",
-      "皮克"
+      "森林狼",
+      "安东尼·唐斯"
     ],
-    "title": "皮克再遭球迷嘘声",
+    "sport": 2,
+    "status": 1,
+    "content": "<p style=\"text-align:center\"><img alt=\"卡爾唐斯今日大開殺戒。\" src=\"https:\/\/img.iuliao.com\/display\/f4a0958e0e06062293be6c8e6fef0a02\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>安东尼·唐斯今日大开杀戒。<\/span><\/p> \n<p>在今日结束的NBA常规赛中，森林狼主场126比114战胜老鹰，本场比赛安东尼·唐斯手感火热，32投19中，三分球8投6中得到56分、15个篮板和4次助攻。<\/p> \n<p>56分也刷新了此前的47分成为安东尼·唐斯个人单场得分新高，同时也超越了莫·威廉姆斯的52分，成为森林狼队史球员单场得分纪录。<\/p> \n<p>此外，安东尼·唐斯还是NBA历史上首位单场至少砍下55分和15个篮板，还能至少命中5记三分的球员。<\/p>"
+  },
+  {
+    "summary": "拉齐奥总监泰尔在接受采访时谈到了球队中场米林科维奇·萨维奇，他表示这名塞尔维亚球星的价值超过了9000万欧元。",
+    "img": "http:\/\/img.iuliao.com\/display\/eccf630e23ef91eec5a0aa657438e56f",
+    "newsTime": "2018-03-29 11:45:05",
+    "title": "拉齐奥称米林科维奇·萨维奇值9000万",
+    "_score": 1,
+    "newsHits": 0,
+    "tid": 304,
+    "concern": false,
+    "domain": "iuliao",
+    "id": "184292",
+    "tag": [
+      "赛事花絮",
+      "拉齐奥",
+      "米林科维奇·萨维奇"
+    ],
+    "sport": 1,
+    "status": 1,
+    "content": "<p style=\"text-align:center\"><img alt=\"米連高域沙域還沒到達巔峰期。\" src=\"https:\/\/img.iuliao.com\/display\/eccf630e23ef91eec5a0aa657438e56f\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>米林科维奇·萨维奇还没到达巅峰期。<\/span><\/p> \n<p>拉齐奥总监泰尔在接受采访时谈到了球队中场米林科维奇·萨维奇，他表示这名塞尔维亚球星的价值超过了9000万欧元。<\/p> \n<p>米林科维奇·萨维奇已经得到了欧洲各大豪门的关注，拉齐奥总监泰尔在接受采访时表示：“我不知道米林科维奇·萨维奇价值几何，我甚至不会思考这种问题。但不管怎样，米林科维奇·萨维奇的转会费肯定超过了八、九千万欧元，他对我们非常重要，并且他也没有达到巅峰。”<\/p> \n<p>“我希望说明一点，拉齐奥没有给米林科维奇·萨维奇标价或者要价，去年夏天我们收到了一些关于米林科维奇·萨维奇的报价，但我从没有考虑这些。现在有不少球队对他感兴趣，但没有具体的报价，我们也从没有和皇家马德里谈过米林科维奇·萨维奇的转会，他们也从没有就这个问题接触过我们。”<\/p>"
+  },
+  {
+    "summary": "在英格兰1比1战和意大利的国际友谊赛中，莱斯特城前锋韦德首发出场并且为三狮军团建功，而热刺前锋哈里·凯恩则因脚踝伤势缺席。此前，外界大多认为韦德在英格兰阵中的定位应该是哈里·凯恩的替身，不过由于英格兰主帅索斯盖特近期坚持采用三后卫阵型，韦德与哈里·凯恩将来连手出任双前锋似乎是最有可能的结果。",
+    "img": "http:\/\/img.iuliao.com\/display\/d165fbe5b3b71ebcb7e4e0969fdf0790",
+    "newsTime": "2018-03-29 11:15:06",
+    "domain": "iuliao",
+    "id": "184291",
+    "tag": [
+      "赛事花絮"
+    ],
+    "title": "韦德认为英格兰可尝试踢双箭头",
     "_score": 1,
     "sport": 1,
     "newsHits": 0,
     "status": 1,
-    "concern": false
+    "concern": false,
+    "content": "<p style=\"text-align:center\"><img alt=\"華迪上场為英格蘭建功。\" src=\"https:\/\/img.iuliao.com\/display\/d165fbe5b3b71ebcb7e4e0969fdf0790\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>韦德上场为英格兰建功。<\/span><\/p> \n<p>在英格兰1比1战和意大利的国际友谊赛中，莱斯特城前锋韦德首发出场并且为三狮军团建功，而热刺前锋哈里·凯恩则因脚踝伤势缺席。此前，外界大多认为韦德在英格兰阵中的定位应该是哈里·凯恩的替身，不过由于英格兰主帅索斯盖特近期坚持采用三后卫阵型，韦德与哈里·凯恩将来连手出任双前锋似乎是最有可能的结果。<\/p> \n<p>“我认为我们应该期待索斯盖特是如何计划的，试一试(双箭头)是个很好的主意，不过最终还是要由他来决定。这么做可以为我们提供一些不一样的选择，到时候只要一声令下，我们马上就能知道在新战术下应该怎么踢。”韦德在采访中表示自己很乐意英格兰尝试踢双前锋。<\/p> \n<p>本场比赛，韦德与斯特林的配合十分默契，前者也谈到了两人球风的互补之处：“我和斯特林在赛前有过交流，他喜欢带球突破，所以我就会尽力拉扯对方的阵型，在防线上为他创造可以突破的路线。”<\/p> \n<p>“这种策略奏效了，我们取得了领先。但是由于VAR的存在，这未能确保我们的胜利。”<\/p>"
+  },
+  {
+    "summary": "据《体育图片报》报导，莱比锡红牛希望聘用北京国安主帅罗杰·施密特来担任球队的下赛季主帅。",
+    "img": "http:\/\/img.iuliao.com\/display\/d50b1600d67f7661bc8458a7a8d238dc",
+    "newsTime": "2018-03-29 11:15:04",
+    "title": "莱比锡红牛或聘请罗杰·施密特",
+    "_score": 1,
+    "newsHits": 0,
+    "tid": 13149,
+    "concern": false,
+    "domain": "iuliao",
+    "id": "184290",
+    "tag": [
+      "赛事花絮",
+      "莱比锡红牛",
+      "罗杰·施密特"
+    ],
+    "sport": 1,
+    "status": 1,
+    "content": "<p style=\"text-align:center\"><img alt=\"羅渣舒米特有望再次重返德甲。\" src=\"https:\/\/img.iuliao.com\/display\/d50b1600d67f7661bc8458a7a8d238dc\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p style=\"text-align:center\"><span>罗杰·施密特有望再次重返德甲。<\/span><\/p> \n<p>据《体育图片报》报导，莱比锡红牛希望聘用北京国安主帅罗杰·施密特来担任球队的下赛季主帅。<\/p> \n<p>此前有媒体报导称，莱比锡红牛主帅哈森·许特尔将会在赛季末前往拜仁或者多特蒙德执教。因此，莱比锡红牛目前的首要任务是找到哈森·许特尔合适的接替者。<\/p> \n<p>据德国媒体《体育图片报》报导称，莱比锡红牛将目标锁定在了北京国安主帅罗杰·施密特。据报导称，由于罗杰·施密特的合同中存在解约条款，所以他再次前往德甲也是非常有可能的。<\/p> \n<p>在德甲前27轮过后，莱比锡红牛一共拿到43个积分，暂时位列德甲第6名。<\/p>"
+  },
+  {
+    "summary": "17\/18意乙第33轮，比赛时间2018-03-30 02:30，对阵：恩波利vs萨勒尼塔纳。",
+    "img": "http:\/\/img.iuliao.com\/display\/01074f39d451b66e596967053a3fb0c8",
+    "newsTime": "2018-03-29 11:14:25",
+    "mid": 1112681,
+    "title": "29日意乙推荐 恩波利要报客场失利之仇",
+    "_score": 1,
+    "newsHits": 0,
+    "concern": false,
+    "domain": "iuliao",
+    "id": "184289",
+    "tag": [
+      "赛事推荐",
+      "意乙",
+      "萨勒尼塔纳",
+      "恩波利"
+    ],
+    "sport": 1,
+    "status": 1,
+    "content": "<p style=\"text-align: center;\"><img alt=\"\" src=\"https:\/\/img.iuliao.com\/display\/01074f39d451b66e596967053a3fb0c8\" style=\"display:inline-block;height:auto;max-width:98%;margin:auto;\"><\/p> \n<p>17\/18意乙第33轮<\/p> \n<p>比赛时间2018-03-30 02:30<\/p> \n<p>对阵：恩波利vs萨勒尼塔纳<\/p> \n<p>恩波利意乙积60分排名第一，过去10场比赛8胜2平进24球失7球，2018年以来保持不败，攻防数据相当漂亮，应该是最近意乙队伍风头正劲的队伍。2018年以来恩波利相当擅长打主场比赛，16个主场11胜4平1负，主场足足拿到37个积分，占其联赛总积分的三分之二，在意乙实力高出别人一档；萨勒尼塔纳排名意乙第12，近4场状态不错，3胜1平盘路全赢，萨勒尼塔纳的客场成绩是16个客场4胜6平6负，拿到18个积分，这个成绩也排到了意乙第九，这说明意乙球队普遍不擅长打客场。<\/p> \n<p>主流亚盘开出了恩波利让一球中低水盘口，首回合两队交锋，恩波利在客场1-2告负，对于主队来讲，主场作战，复仇的意愿强烈，再结合两队目前排名来看，盘口给到恩波利一球中低水应是实力盘。<\/p> \n<p>亚盘 恩波利-1.0<\/p>"
   }
 ]

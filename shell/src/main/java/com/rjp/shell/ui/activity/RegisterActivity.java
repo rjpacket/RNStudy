@@ -1,4 +1,4 @@
-package com.rjp.shell.ui.login;
+package com.rjp.shell.ui.activity;
 
 import android.content.Context;
 import android.content.Intent;

@@ -13,7 +13,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.rjp.shell.R;
 import com.rjp.shell.base.CustomListView;
 import com.rjp.shell.model.OpenPrizeModel;
-import com.rjp.shell.ui.main_page.OpenPrizeHistoryActivity;
+import com.rjp.shell.ui.activity.OpenPrizeHistoryActivity;
 import com.rjp.shell.utils.FileUtils;
 import com.rjp.shell.utils.LotteryTypeUtils;
 import com.rjp.shell.utils.ShowBallFactory;

@@ -32,6 +32,7 @@ public class HomeNewsModel {
     private int sport;
     private int status;
     private boolean concern;
+    private String content;
 
     public long getId() {
         return id;
@@ -159,5 +160,13 @@ public class HomeNewsModel {
 
     public void setConcern(boolean concern) {
         this.concern = concern;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 }

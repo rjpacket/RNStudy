@@ -16,10 +16,10 @@ import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.dialog.NoticeDialog;
 import com.rjp.shell.dialog.NoticeDialogUtils;
+import com.rjp.shell.ui.fragment.MineFragment;
+import com.rjp.shell.ui.fragment.NewsFragment;
+import com.rjp.shell.ui.fragment.OpenPrizeFragment;
 import com.rjp.shell.ui.main_page.MapFragment;
-import com.rjp.shell.ui.main_page.MineFragment;
-import com.rjp.shell.ui.main_page.NewsFragment;
-import com.rjp.shell.ui.main_page.OpenPrizeFragment;
 import com.rjp.shell.utils.SystemBarTintManager;
 
 import java.util.ArrayList;

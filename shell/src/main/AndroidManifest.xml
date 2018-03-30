@@ -28,15 +28,17 @@
             android:value="eb393774df8ec3a116c40ef8d9e414d4"/>
 
         <activity android:name=".ui.ShellMainActivity"/>
-        <activity android:name=".ui.login.LoginActivity">
+        <activity android:name=".ui.activity.LoginActivity">
         </activity>
-        <activity android:name=".ui.login.RegisterActivity">
+        <activity android:name=".ui.activity.RegisterActivity">
         </activity>
-        <activity android:name=".ui.login.AboutActivity">
+        <activity android:name=".ui.activity.AboutActivity">
         </activity>
-        <activity android:name=".ui.login.EmptyActivity">
+        <activity android:name=".ui.activity.EmptyActivity">
         </activity>
-        <activity android:name=".ui.main_page.OpenPrizeHistoryActivity">
+        <activity android:name=".ui.activity.OpenPrizeHistoryActivity">
+        </activity>
+        <activity android:name=".ui.activity.NewsDetailActivity">
         </activity>
     </application>
 

@@ -14,6 +14,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.rjp.shell.R;
 import com.rjp.shell.base.LoadMoreListView;
 import com.rjp.shell.model.HomeNewsModel;
+import com.rjp.shell.ui.activity.NewsDetailActivity;
 import com.rjp.shell.utils.AppUtils;
 import com.rjp.shell.utils.FileUtils;
 import com.rjp.shell.utils.ImageUtils;
@@ -133,6 +134,9 @@ public class HomeNewsListView extends LoadMoreListView<HomeNewsModel> {
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+        HomeNewsModel newsModel = mDatas.get(position);
+        String tag = newsModel.getTag();
+        List<String> list = JSONArray.parseArray(tag, String.class);
+        NewsDetailActivity.trendTo(mContext, newsModel.getTitle(), list.get(0), newsModel.getNewsTime(), newsModel.getContent());
     }
 }
