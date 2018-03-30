@@ -5,8 +5,13 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:id="@+id/ll_home_root"
     >
+    <com.rjp.shell.views.CommonTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.rjp.shell.views.CommonTitleBar>
 
     <com.amap.api.maps.MapView
         android:id="@+id/map_view"

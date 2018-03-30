@@ -1,7 +1,6 @@
 package com.rjp.shell.ui.fragment;
 
 
-import android.graphics.Color;
 import android.os.Build;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -41,7 +40,7 @@ public class NewsFragment extends BaseFragment {
 
     @Override
     public int getChildViewLayoutId() {
-        return R.layout.fragment_home;
+        return R.layout.fragment_news;
     }
 
     @Override
@@ -50,7 +49,7 @@ public class NewsFragment extends BaseFragment {
             View view = new View(mContext);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, StatusBarTools.getStatusBarHeight(mContext));
             view.setLayoutParams(params);
-            view.setBackgroundColor(Color.WHITE);
+            view.setBackgroundResource(R.drawable.shape_maincolor_maincolor_0);
             llRoot.addView(view, 0);
         }
 

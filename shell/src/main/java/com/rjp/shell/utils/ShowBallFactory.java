@@ -78,19 +78,19 @@ public class ShowBallFactory {
             if (split.length == 2) {
                 String[] leftRed = split[0].split(",");
                 for (String str1 : leftRed) {
-                    TextView tv = createBall(mContext , str1, 1, AppUtils.dp2px(mContext, 25), AppUtils.dp2px(mContext, 25));
+                    TextView tv = createBall(mContext , str1, 1, AppUtils.dp2px(mContext, 25), AppUtils.dp2px(mContext, 29));
                     llBall.addView(tv);
                 }
 
                 String[] rightBlue = split[1].split(",");
                 for (String str2 : rightBlue) {
-                    TextView tv = createBall(mContext , str2, 2, AppUtils.dp2px(mContext, 25), AppUtils.dp2px(mContext, 25));
+                    TextView tv = createBall(mContext , str2, 2, AppUtils.dp2px(mContext, 25), AppUtils.dp2px(mContext, 29));
                     llBall.addView(tv);
                 }
             } else {
                 String[] allRed = wincode.split(",");
                 for (String str : allRed) {
-                    TextView tv = createBall(mContext , str, 1, AppUtils.dp2px(mContext, 25), AppUtils.dp2px(mContext, 25));
+                    TextView tv = createBall(mContext , str, 1, AppUtils.dp2px(mContext, 25), AppUtils.dp2px(mContext, 29));
                     llBall.addView(tv);
                 }
             }
@@ -100,7 +100,7 @@ public class ShowBallFactory {
     }
 
     private static TextView createBall(Context mContext , String str2, int type) {
-        return createBall(mContext, str2, type, AppUtils.dp2px(mContext, 30), AppUtils.dp2px(mContext, 30));
+        return createBall(mContext, str2, type, AppUtils.dp2px(mContext, 30), AppUtils.dp2px(mContext, 35));
     }
 
     private static TextView createBall(Context mContext , String str2, int type , int width , int height) {
@@ -114,10 +114,10 @@ public class ShowBallFactory {
         tv.setGravity(Gravity.CENTER);
         switch (type) {
             case 1:
-                tv.setBackgroundResource(R.drawable.bg_open_red_ball);
+                tv.setBackgroundResource(R.drawable.rednum);
                 break;
             case 2:
-                tv.setBackgroundResource(R.drawable.bg_open_blue_ball);
+                tv.setBackgroundResource(R.drawable.bluenum);
                 break;
             case 3://足球分过长
                 tv.setTextColor(mContext.getResources().getColor(R.color.main_color));
@@ -146,22 +146,22 @@ public class ShowBallFactory {
         tv.setLayoutParams(params);
         switch (str){
             case "1":
-                tv.setBackgroundResource(R.drawable.bg_open_one);
+                tv.setBackgroundResource(R.drawable.k3_v1);
                 break;
             case "2":
-                tv.setBackgroundResource(R.drawable.bg_open_two);
+                tv.setBackgroundResource(R.drawable.k3_v2);
                 break;
             case "3":
-                tv.setBackgroundResource(R.drawable.bg_open_three);
+                tv.setBackgroundResource(R.drawable.k3_v3);
                 break;
             case "4":
-                tv.setBackgroundResource(R.drawable.bg_open_four);
+                tv.setBackgroundResource(R.drawable.k3_v4);
                 break;
             case "5":
-                tv.setBackgroundResource(R.drawable.bg_open_five);
+                tv.setBackgroundResource(R.drawable.k3_v5);
                 break;
             case "6":
-                tv.setBackgroundResource(R.drawable.bg_open_six);
+                tv.setBackgroundResource(R.drawable.k3_v6);
                 break;
         }
         return tv;

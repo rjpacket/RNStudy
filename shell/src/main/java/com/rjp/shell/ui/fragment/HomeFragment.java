@@ -17,23 +17,23 @@ import butterknife.BindView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class OpenPrizeFragment extends BaseFragment {
+public class HomeFragment extends BaseFragment {
 
     @BindView(R2.id.open_prize_list_view)
     OpenPrizeListView listView;
     @BindView(R2.id.common_title_bar)
     CommonTitleBar commonTitleBar;
 
-    public OpenPrizeFragment() {
+    public HomeFragment() {
         // Required empty public constructor
     }
 
-    public static OpenPrizeFragment getInstance(){
-        return new OpenPrizeFragment();
+    public static HomeFragment getInstance(){
+        return new HomeFragment();
     }
 
-    public static OpenPrizeFragment getInstance(String tag){
-        OpenPrizeFragment homeNewsFragment = new OpenPrizeFragment();
+    public static HomeFragment getInstance(String tag){
+        HomeFragment homeNewsFragment = new HomeFragment();
         Bundle args = new Bundle();
         args.putString("tag", tag);
         homeNewsFragment.setArguments(args);
@@ -42,7 +42,7 @@ public class OpenPrizeFragment extends BaseFragment {
 
     @Override
     public int getChildViewLayoutId() {
-        return R.layout.fragment_open_prize;
+        return R.layout.fragment_home;
     }
 
     @Override

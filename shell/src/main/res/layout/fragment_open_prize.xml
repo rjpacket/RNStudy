@@ -1,9 +1,23 @@
-<com.rjp.shell.listviews.OpenPrizeListView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/open_prize_list_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     >
 
-</com.rjp.shell.listviews.OpenPrizeListView>
+    <com.rjp.shell.views.CommonTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.rjp.shell.views.CommonTitleBar>
+
+    <com.rjp.shell.listviews.OpenPrizeListView
+        android:id="@+id/open_prize_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </com.rjp.shell.listviews.OpenPrizeListView>
+</LinearLayout>

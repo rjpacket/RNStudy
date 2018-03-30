@@ -77,10 +77,11 @@ public class CommonTitleBar extends LinearLayout {
             layoutParams.height = StatusBarTools.getStatusBarHeight(mContext);
             systemBar.setLayoutParams(layoutParams);
             systemBar.setBackgroundResource(R.drawable.shape_maincolor_maincolor_0);
-//            ViewGroup.LayoutParams layoutParams1 = getLayoutParams();
-//            layoutParams1.height += layoutParams.height;
-//            setLayoutParams(layoutParams1);
         }
+    }
+
+    public void setBackVisibility(int visibility) {
+        ivBack.setVisibility(visibility);
     }
 
     public void setCommonTitle(String title) {

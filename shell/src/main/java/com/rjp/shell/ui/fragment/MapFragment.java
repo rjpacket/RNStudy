@@ -1,10 +1,9 @@
-package com.rjp.shell.ui.main_page;
+package com.rjp.shell.ui.fragment;
 
 
 import android.content.res.Resources;
 import android.location.Location;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,7 +24,7 @@ import com.amap.api.services.poisearch.PoiSearch;
 import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.base.BaseFragment;
-import com.rjp.shell.listviews.OpenPrizeListView;
+import com.rjp.shell.views.CommonTitleBar;
 
 import java.util.ArrayList;
 
@@ -39,6 +38,8 @@ public class MapFragment extends BaseFragment {
 
     @BindView(R2.id.map_view)
     MapView mapView;
+    @BindView(R2.id.common_title_bar)
+    CommonTitleBar commonTitleBar;
     private AMap aMap;
 
     public MapFragment() {
@@ -96,6 +97,10 @@ public class MapFragment extends BaseFragment {
 
     @Override
     public void initView() {
+        commonTitleBar.setCommonTitle("附近彩票店");
+        commonTitleBar.setBackVisibility(View.GONE);
+        commonTitleBar.addSystemBar();
+
         aMap = mapView.getMap();
 
         MyLocationStyle myLocationStyle = new MyLocationStyle();//初始化定位蓝点样式类
