@@ -2,6 +2,7 @@ package com.rjp.shell.listviews;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -85,7 +86,12 @@ public class SaveNewsListView extends LoadMoreListView<HomeNewsModel> {
     public void requestData() {
         if (homeNewsModels == null || homeNewsModels.size() == 0) {
             String assets = MySharedPreferences.getInstance().getString(MySharedPreferences.SAVE_NEWS);
-            homeNewsModels = JSONArray.parseArray(assets, HomeNewsModel.class);
+            if(TextUtils.isEmpty(assets)) {
+                showEmptyView();
+                return;
+            }else{
+                homeNewsModels = JSONArray.parseArray(assets, HomeNewsModel.class);
+            }
         }
         dealSuccessData(JSONArray.toJSONString(homeNewsModels));
     }

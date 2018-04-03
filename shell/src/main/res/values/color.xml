@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="main_bg">#f4f5f6</color>
-    <color name="main_color">#FA5638</color>
-    <color name="main_color_half">#f5664b</color>
-    <color name="main_color_alpha">#22FA5638</color>
+    <color name="main_color">#f2bc1c</color>
+    <color name="main_color_half">#eac24b</color>
+    <color name="main_color_alpha">#22f2bc1c</color>
     <color name="main_line">#dddddd</color>
     <color name="white">#ffffff</color>
 </resources>

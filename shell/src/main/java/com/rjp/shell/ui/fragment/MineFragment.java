@@ -14,6 +14,7 @@ import com.rjp.shell.base.BaseFragment;
 import com.rjp.shell.ui.activity.AboutActivity;
 import com.rjp.shell.ui.activity.EmptyActivity;
 import com.rjp.shell.ui.activity.LoginActivity;
+import com.rjp.shell.ui.activity.SaveNewsActivity;
 
 import java.util.Random;
 
@@ -59,7 +60,8 @@ public class MineFragment extends BaseFragment {
 
     }
 
-    @OnClick({R2.id.tv_user_name, R2.id.setting_update, R2.id.setting_about, R2.id.setting_clear, R2.id.setting_my_notice, R2.id.setting_system_message})
+    @OnClick({R2.id.tv_user_name, R2.id.setting_update, R2.id.setting_about,R2.id.setting_my_save_order,
+            R2.id.setting_clear, R2.id.setting_my_notice, R2.id.setting_system_message})
     @Override
     public void onClick(View v) {
         int id = v.getId();
@@ -75,6 +77,8 @@ public class MineFragment extends BaseFragment {
             EmptyActivity.trendTo(mContext, "我的通知");
         }else if(id == R.id.setting_system_message){
             EmptyActivity.trendTo(mContext, "系统信息");
+        }else if(id == R.id.setting_my_save_order){
+            SaveNewsActivity.trendTo(mContext);
         }
     }
 

@@ -62,9 +62,9 @@ public class ShellMainActivity extends FragmentActivity {
         navigationView.setFragmentManager(getSupportFragmentManager());
         navigationView.setContainerId(R.id.shell_fragment_container);
         ArrayList<TabModel> tabModels = new ArrayList<>();
-        tabModels.add(new TabModel("首页", R.drawable.selector_home_tab_3));
-        tabModels.add(new TabModel("附近", R.drawable.selector_home_tab_3));
-        tabModels.add(new TabModel("开奖", R.drawable.selector_home_tab_2));
+        tabModels.add(new TabModel("首页", R.drawable.selector_home_tab_1));
+        tabModels.add(new TabModel("附近", R.drawable.selector_home_tab_2));
+        tabModels.add(new TabModel("开奖", R.drawable.selector_home_tab_3));
         tabModels.add(new TabModel("我的", R.drawable.selector_home_tab_4));
         navigationView.setTabs(tabModels);
     }

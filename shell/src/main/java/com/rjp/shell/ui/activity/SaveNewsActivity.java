@@ -29,6 +29,7 @@ public class SaveNewsActivity extends BaseActivity {
 
     @Override
     protected void initView() {
+        setCommonTitle("收藏新闻");
         listView.requestData();
     }
 }

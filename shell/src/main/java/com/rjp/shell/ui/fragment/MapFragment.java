@@ -24,6 +24,7 @@ import com.amap.api.services.poisearch.PoiSearch;
 import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.base.BaseFragment;
+import com.rjp.shell.ui.activity.LocalStoreActivity;
 import com.rjp.shell.views.CommonTitleBar;
 
 import java.util.ArrayList;
@@ -99,7 +100,17 @@ public class MapFragment extends BaseFragment {
     public void initView() {
         commonTitleBar.setCommonTitle("附近彩票店");
         commonTitleBar.setBackVisibility(View.GONE);
+        commonTitleBar.setRightFunction0("查看");
         commonTitleBar.addSystemBar();
+        commonTitleBar.setOnCommonTitleBarClickListener(new CommonTitleBar.OnCommonTitleBarClickListener() {
+            @Override
+            public void onTitleBarClick(View view) {
+                int id = view.getId();
+                if(id == R.id.tv_right_function0){
+                    LocalStoreActivity.trendTo(mContext);
+                }
+            }
+        });
 
         aMap = mapView.getMap();
 
@@ -121,7 +132,7 @@ public class MapFragment extends BaseFragment {
         aMap.setOnMyLocationChangeListener(new AMap.OnMyLocationChangeListener() {
             @Override
             public void onMyLocationChange(Location location) {
-                poiSearchBound(location.getLatitude(), location.getLongitude());
+                poiSearchBound("彩票店", location.getLatitude(), location.getLongitude());
             }
         });
 
@@ -143,8 +154,13 @@ public class MapFragment extends BaseFragment {
 
     }
 
-    private void poiSearchBound(double latitude, double longitude) {
-        PoiSearch.Query query = new PoiSearch.Query("彩票店", "", "");
+    /**
+     * 搜索附近
+     * @param latitude
+     * @param longitude
+     */
+    private void poiSearchBound(String keyword, double latitude, double longitude) {
+        PoiSearch.Query query = new PoiSearch.Query(keyword, "", "");
         query.setPageSize(20);
         PoiSearch poiSearch = new PoiSearch(mContext, query);
         poiSearch.setOnPoiSearchListener(new PoiSearch.OnPoiSearchListener() {
