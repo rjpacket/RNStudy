@@ -1,5 +1,7 @@
 package com.rjp.shell.utils;
 
+import com.rjp.shell.R;
+
 public class LotteryTypeUtils {
 
     private LotteryTypeUtils() {
@@ -105,7 +107,7 @@ public class LotteryTypeUtils {
     }
 
     public static String getFileName(String lotteryType) {
-        switch (lotteryType){
+        switch (lotteryType) {
             case "1001":
                 return "open_ssq.json";
             case "1002":
@@ -146,5 +148,29 @@ public class LotteryTypeUtils {
                 return "open_zclcb.json";
         }
         return null;
+    }
+
+    public static int getLotteryIcon(int id) {
+        switch (id) {
+            case 1:
+                return R.drawable.lottery_ssq;
+            case 2:
+                return R.drawable.lottery_dlt;
+            case 3:
+                return R.drawable.lottery_k3;
+            case 4:
+                return R.drawable.lottery_fc3d;
+            case 5:
+                return R.drawable.lottery_115;
+            case 6:
+                return R.drawable.lottery_pl3;
+            case 7:
+                return R.drawable.lottery_pl5;
+            case 8:
+                return R.drawable.lottery_qxc;
+            case 9:
+                return R.drawable.lottery_qlc;
+        }
+        return 0;
     }
 }

@@ -26,11 +26,38 @@ public abstract class BaseFragment extends Fragment implements View.OnClickListe
     RelativeLayout baseContent;
     LinearLayout baseNoNet;
     private boolean isPrepared;
+    private boolean isFirstVisible = true;
+    private boolean isFirstInvisible = true;
     protected LayoutInflater mInflater;
     private View view;
+    private boolean isFirstResume = true;
 
     public BaseFragment() {
         // Required empty public constructor
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        if (isFirstResume) {
+            isFirstResume = false;
+            return;
+        }
+        boolean userCanSee = !isHidden();
+        if (userCanSee) {
+            onUserVisible();
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        boolean userCanSee = !isHidden();
+        if (!userCanSee) {
+            onUserInvisible();
+        }
     }
 
     @Override
@@ -58,6 +85,62 @@ public abstract class BaseFragment extends Fragment implements View.OnClickListe
         ButterKnife.bind(this, view);
         initView();
         return view;
+    }
+
+    public synchronized void initPrepare() {
+        if (isPrepared) {
+            onFirstUserVisible();
+        } else {
+            isPrepared = true;
+        }
+    }
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (isVisibleToUser) {
+            if (isFirstVisible) {
+                isFirstVisible = false;
+                initPrepare();
+            } else {
+                onUserVisible();
+            }
+        } else {
+            if (isFirstInvisible) {
+                isFirstInvisible = false;
+                onFirstUserInvisible();
+            } else {
+                onUserInvisible();
+            }
+        }
+    }
+
+    /**
+     * 第一次fragment可见（进行初始化工作）
+     */
+    public void onFirstUserVisible() {
+
+    }
+
+    /**
+     * fragment可见（切换回来或者onResume）
+     */
+    public void onUserVisible() {
+
+    }
+
+    /**
+     * 第一次fragment不可见（不建议在此处理事件）
+     */
+    public void onFirstUserInvisible() {
+
+    }
+
+    /**
+     * fragment不可见（切换掉或者onPause）
+     */
+    public void onUserInvisible() {
+
     }
 
     @Override

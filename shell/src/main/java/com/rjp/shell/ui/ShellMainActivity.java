@@ -20,6 +20,7 @@ import com.rjp.shell.ui.fragment.MineFragment;
 import com.rjp.shell.ui.fragment.NewsFragment;
 import com.rjp.shell.ui.fragment.OpenPrizeFragment;
 import com.rjp.shell.ui.fragment.MapFragment;
+import com.rjp.shell.ui.fragment.RecommendFragment;
 import com.rjp.shell.utils.SystemBarTintManager;
 
 import java.util.ArrayList;
@@ -55,16 +56,18 @@ public class ShellMainActivity extends FragmentActivity {
     private void initView() {
         ArrayList<Fragment> fragments = new ArrayList<>();
         fragments.add(new NewsFragment());
-        fragments.add(new MapFragment());
+        fragments.add(new RecommendFragment());
         fragments.add(new OpenPrizeFragment());
+        fragments.add(new MapFragment());
         fragments.add(new MineFragment());
         navigationView.setFragments(fragments);
         navigationView.setFragmentManager(getSupportFragmentManager());
         navigationView.setContainerId(R.id.shell_fragment_container);
         ArrayList<TabModel> tabModels = new ArrayList<>();
         tabModels.add(new TabModel("首页", R.drawable.selector_home_tab_1));
-        tabModels.add(new TabModel("附近", R.drawable.selector_home_tab_2));
+        tabModels.add(new TabModel("推荐", R.drawable.selector_home_tab_1));
         tabModels.add(new TabModel("开奖", R.drawable.selector_home_tab_3));
+        tabModels.add(new TabModel("走势", R.drawable.selector_home_tab_2));
         tabModels.add(new TabModel("我的", R.drawable.selector_home_tab_4));
         navigationView.setTabs(tabModels);
     }
