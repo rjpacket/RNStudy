@@ -67,7 +67,7 @@ public class TrendFragment extends BaseFragment {
     public void initView() {
         commonTitleBar.setCommonTitle("双色球走势图");
         commonTitleBar.setBackVisibility(View.GONE);
-        commonTitleBar.setRightFunction0("查看");
+        commonTitleBar.setRightFunction0("查看更多");
         commonTitleBar.addSystemBar();
         commonTitleBar.setOnCommonTitleBarClickListener(new CommonTitleBar.OnCommonTitleBarClickListener() {
             @Override
@@ -84,14 +84,14 @@ public class TrendFragment extends BaseFragment {
         List<Cell> topCells = new ArrayList<>();
         for (int i = 0; i < 33; i++) {
             Cell cell = new Cell();
-            cell.setNumber(String.format("%2d", (i + 1)));
+            cell.setNumber(String.format("%02d", (i + 1)));
             cell.setColor(getResources().getColor(R.color.number_red));
             topCells.add(cell);
         }
         topCells.add(new Cell());
         for (int i = 0; i < 16; i++) {
             Cell cell = new Cell();
-            cell.setNumber(String.format("%2d", (i + 1)));
+            cell.setNumber(String.format("%02d", (i + 1)));
             cell.setColor(getResources().getColor(R.color.number_blue));
             topCells.add(cell);
         }
@@ -103,12 +103,12 @@ public class TrendFragment extends BaseFragment {
             CellGroup group = new CellGroup();
             group.setTitle("第" + model.getPhase() + "期");
             String wincode = model.getWincode();
-            String[] split = wincode.split("|");
+            String[] split = wincode.split("\\|");
             String[] redNum = split[0].split(",");
 
             for (int i = 0; i < 33; i++) {
                 Cell cell = new Cell();
-                String format = String.format("%2d", (i + 1));
+                String format = String.format("%02d", (i + 1));
                 cell.setNumber(format);
                 cell.setColor(getResources().getColor(R.color.number_red));
                 for (String zhong : redNum) {
@@ -119,10 +119,10 @@ public class TrendFragment extends BaseFragment {
                 }
                 cells.add(cell);
             }
-            topCells.add(new Cell());
+            cells.add(new Cell());
             for (int i = 0; i < 16; i++) {
                 Cell cell = new Cell();
-                String format = String.format("%2d", (i + 1));
+                String format = String.format("%02d", (i + 1));
                 cell.setNumber(format);
                 cell.setColor(getResources().getColor(R.color.number_blue));
                 cell.setSelected(format.equals(split[1]));

@@ -16,7 +16,7 @@
     </com.rjp.shell.views.CommonTitleBar>
 
     <com.rjp.shell.listviews.RecommendLotteryListView
-        android:id="@+id/list_view"
+        android:id="@+id/recommend_list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >

@@ -22,7 +22,7 @@ public class RecommendFragment extends BaseFragment {
 
     @BindView(R2.id.common_title_bar)
     CommonTitleBar commonTitleBar;
-    @BindView(R2.id.list_view)
+    @BindView(R2.id.recommend_list_view)
     RecommendLotteryListView listView;
 
     public RecommendFragment() {
@@ -44,11 +44,12 @@ public class RecommendFragment extends BaseFragment {
         commonTitleBar.setBackVisibility(View.GONE);
         commonTitleBar.addSystemBar();
 
+        listView.requestData();
     }
 
     @Override
     public void onFirstUserVisible() {
-        listView.requestData();
+
     }
 
     @Override

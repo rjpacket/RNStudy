@@ -74,8 +74,8 @@ public class ChartView extends View {
 
     //顶部栏可以看成一个CellGroup
     private List<Cell> topCells;
-    private int leftBarWidth = 240;  //左边栏的高度应该和cell的保持一致就好
-    private int topBarHeight = 160;  //顶部栏的宽度应该和cell的保持一致就好
+    private int leftBarWidth = 280;  //左边栏的高度应该和cell的保持一致就好
+    private int topBarHeight = 100;  //顶部栏的宽度应该和cell的保持一致就好
     private Paint leftTextPaint;
     private Paint leftBackgroundPaint;
     private float leftTxtMidValue;
@@ -144,13 +144,13 @@ public class ChartView extends View {
         leftTextPaint.setAntiAlias(true);
         leftTextPaint.setTextAlign(Paint.Align.CENTER);
         leftTextPaint.setColor(WHITE);
-        leftTextPaint.setTextSize(40);
+        leftTextPaint.setTextSize(32);
         Paint.FontMetrics fontMetrics1 = leftTextPaint.getFontMetrics();
         leftTxtMidValue = (fontMetrics1.top + fontMetrics1.bottom) / 2;
 
         leftBackgroundPaint = new Paint();
         leftBackgroundPaint.setAntiAlias(true);
-        leftBackgroundPaint.setColor(Color.CYAN);
+        leftBackgroundPaint.setColor(getResources().getColor(R.color.main_color));
 
         emptyPaint = new Paint();
         emptyPaint.setAntiAlias(true);
@@ -318,7 +318,6 @@ public class ChartView extends View {
         int groupSize = cellGroups.size();
         for (int i = 0; i < groupSize; i++) {
             CellGroup cellGroup = cellGroups.get(i);
-            cellGroup.setTitle("第" + (i + 1) + "期");
             cellGroup.setLocation(0, leftBarWidth, cellHeight * i + topBarHeight, cellHeight * (i + 1) + topBarHeight);
             List<Cell> cells = cellGroup.getCells();
             int cellSize = cells.size();
