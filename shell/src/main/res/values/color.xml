@@ -6,4 +6,6 @@
     <color name="main_color_alpha">#22f2bc1c</color>
     <color name="main_line">#dddddd</color>
     <color name="white">#ffffff</color>
+    <color name="number_red">#e03939</color>
+    <color name="number_blue">#537bc9</color>
 </resources>

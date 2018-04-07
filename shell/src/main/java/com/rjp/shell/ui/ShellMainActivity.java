@@ -21,6 +21,7 @@ import com.rjp.shell.ui.fragment.NewsFragment;
 import com.rjp.shell.ui.fragment.OpenPrizeFragment;
 import com.rjp.shell.ui.fragment.MapFragment;
 import com.rjp.shell.ui.fragment.RecommendFragment;
+import com.rjp.shell.ui.fragment.TrendFragment;
 import com.rjp.shell.utils.SystemBarTintManager;
 
 import java.util.ArrayList;
@@ -58,7 +59,7 @@ public class ShellMainActivity extends FragmentActivity {
         fragments.add(new NewsFragment());
         fragments.add(new RecommendFragment());
         fragments.add(new OpenPrizeFragment());
-        fragments.add(new MapFragment());
+        fragments.add(new TrendFragment());
         fragments.add(new MineFragment());
         navigationView.setFragments(fragments);
         navigationView.setFragmentManager(getSupportFragmentManager());

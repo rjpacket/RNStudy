@@ -33,11 +33,6 @@ public class RecommendFragment extends BaseFragment {
         return new RecommendFragment();
     }
 
-    public static RecommendFragment getInstance(String tag){
-        RecommendFragment homeNewsFragment = new RecommendFragment();
-        return homeNewsFragment;
-    }
-
     @Override
     public int getChildViewLayoutId() {
         return R.layout.fragment_recommend;

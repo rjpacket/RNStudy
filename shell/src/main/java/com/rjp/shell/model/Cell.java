@@ -9,9 +9,9 @@ public class Cell {
     private int centerX;
     private int centerY;
 
-    private boolean isSelected;
-
     private Cell nextCell;
+
+    private boolean isSelected;
 
     private String number;
 
