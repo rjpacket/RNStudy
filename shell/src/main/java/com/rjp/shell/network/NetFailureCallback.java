@@ -6,5 +6,5 @@ package com.rjp.shell.network;
  */
 
 public interface NetFailureCallback {
-    void onFailure(String code, String errorMsg);
+    void onFailure(String errorMsg);
 }

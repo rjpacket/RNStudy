@@ -4,18 +4,23 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
 
 import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.base.BaseActivity;
 import com.rjp.shell.base.MySharedPreferences;
 import com.rjp.shell.model.HomeNewsModel;
+import com.rjp.shell.network.NetSuccessCallback;
+import com.rjp.shell.network.NetUtils;
 
-import java.io.Serializable;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,14 +58,48 @@ public class NewsDetailActivity extends BaseActivity {
             setRightFunction0("收藏");
 
             model = (HomeNewsModel) intent.getSerializableExtra("model");
+            String content = model.getContent();
+            if(!TextUtils.isEmpty(content)) {
+                setData(model);
+            }else{
+                getNewsContent(model.getUrl());
+            }
+        }
+    }
 
-            tvNewsTitle.setText(model.getTitle());
-            String tag = model.getTag();
+    /**
+     * 获取新闻数据
+     * @param url
+     */
+    private void getNewsContent(String url) {
+        NetUtils.getInstance().get(mContext, url, new NetSuccessCallback() {
+            @Override
+            public void onSuccess(String result) {
+                List<HomeNewsModel> models = new ArrayList<>();
+                try {
+                    Document document = Jsoup.parse(result);
+                    Element element = document.select("div.articleCon").first();
+                    model.setContent(element.html());
+                    setData(model);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+
+    private void setData(HomeNewsModel model) {
+        tvNewsTitle.setText(model.getTitle());
+        String tag = model.getTag();
+        if(!TextUtils.isEmpty(tag)) {
             List<String> strings = JSONArray.parseArray(tag, String.class);
             tvNewsTag.setText(strings.get(0));
-            tvNewsTime.setText(model.getNewsTime());
-            webView.loadDataWithBaseURL(null, model.getContent(), "text/html", "utf-8", null);
+            tvNewsTag.setVisibility(View.VISIBLE);
+        }else{
+            tvNewsTag.setVisibility(View.GONE);
         }
+        tvNewsTime.setText(model.getNewsTime());
+        webView.loadDataWithBaseURL(null, model.getContent(), "text/html", "utf-8", null);
     }
 
     @Override

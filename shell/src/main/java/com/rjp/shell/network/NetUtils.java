@@ -1,5 +1,18 @@
 package com.rjp.shell.network;
 
+import android.content.Context;
+import android.os.Handler;
+import android.os.Looper;
+import android.widget.Toast;
+
+import java.io.IOException;
+
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
 /**
  * author：RJP on 2017/4/20 20:35
  * <p>
@@ -12,6 +25,8 @@ public class NetUtils {
     private static String DOMAIN = DEBUG ? "https://test.dajiang365.com/" : "https://filter.dajiang365.com/";  //测试线 外网：118.26.65.150 | 内网：192.168.2.237  正式线  https://filter.dajiang365.com/
     public static final String URL_LOT_SERVER_API = DOMAIN + "lotserver/api/request";
     public static final String URL_EURASIAN_API = DOMAIN + "sports/api/v1/"; // (新的欧亚析接口)
+    private final OkHttpClient okHttpClient;
+    private final Handler handler;
 
     private NetUtils() {
 //        //---------这里给出的是示例代码,告诉你可以这么传,实际使用的时候,根据需要传,不需要就不传-------------//
@@ -64,11 +79,43 @@ public class NetUtils {
 //                .setRetryCount(3)                               //全局统一超时重连次数，默认为三次，那么最差的情况会请求4次(一次原始请求，三次重连请求)，不需要可以设置为0
 //                .addCommonHeaders(headers)                      //全局公共头
 //                .addCommonParams(params);                       //全局公共参数
+
+        okHttpClient = new OkHttpClient();
+        handler = new Handler(Looper.getMainLooper());
     }
 
     private static NetUtils mInstance = new NetUtils();
 
     public static NetUtils getInstance() {
         return mInstance;
+    }
+
+    public void get(final Context mContext, String url, final NetSuccessCallback successCallback){
+        Request request = new Request.Builder().url(url).build();
+        Call call = okHttpClient.newCall(request);
+        call.enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(mContext, "网络出问题啦~", Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                final String result = response.body().string();
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        if(successCallback != null){
+                            successCallback.onSuccess(result);
+                        }
+                    }
+                });
+            }
+        });
     }
 }

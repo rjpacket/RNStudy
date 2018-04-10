@@ -35,6 +35,10 @@ public class HomeNewsModel implements Serializable{
     private boolean concern;
     private String content;
 
+    private String url;
+    private String desc;
+    private String time;
+
     public long getId() {
         return id;
     }
@@ -169,5 +173,30 @@ public class HomeNewsModel implements Serializable{
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+        setNewsTime("时间：" + time);
     }
 }

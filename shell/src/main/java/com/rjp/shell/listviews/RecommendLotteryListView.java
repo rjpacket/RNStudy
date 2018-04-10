@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
 import com.alibaba.fastjson.JSONArray;
 import com.rjp.shell.R;
 import com.rjp.shell.base.CustomListView;
-import com.rjp.shell.model.LotteryModel;
+import com.rjp.shell.model.LotteryBean;
 import com.rjp.shell.utils.FileUtils;
 import com.rjp.shell.utils.LotteryTypeUtils;
 import com.zhy.adapter.abslistview.CommonAdapter;
@@ -21,9 +21,9 @@ import java.util.List;
  * Created by Administrator on 2018/4/6.
  */
 
-public class RecommendLotteryListView extends CustomListView<LotteryModel> {
+public class RecommendLotteryListView extends CustomListView<LotteryBean> {
 
-    private List<LotteryModel> lotteryModels;
+    private List<LotteryBean> lotteryModels;
 
     public RecommendLotteryListView(Context context) {
         super(context);
@@ -35,9 +35,9 @@ public class RecommendLotteryListView extends CustomListView<LotteryModel> {
 
     @Override
     protected BaseAdapter getListAdapter() {
-        return new CommonAdapter<LotteryModel>(mContext, R.layout.item_recommend_lottery_list_view, mDatas) {
+        return new CommonAdapter<LotteryBean>(mContext, R.layout.item_recommend_lottery_list_view, mDatas) {
             @Override
-            protected void convert(ViewHolder viewHolder, LotteryModel item, int position) {
+            protected void convert(ViewHolder viewHolder, LotteryBean item, int position) {
                 viewHolder.setImageResource(R.id.iv_lottery_icon, LotteryTypeUtils.getLotteryIcon(item.getId()));
                 viewHolder.setText(R.id.tv_lottery_name, item.getName());
                 viewHolder.setText(R.id.tv_lottery_desc, item.getDesc());
@@ -51,8 +51,8 @@ public class RecommendLotteryListView extends CustomListView<LotteryModel> {
     }
 
     @Override
-    protected List<LotteryModel> parseData(Object data) {
-        return JSONArray.parseArray(data.toString(), LotteryModel.class);
+    protected List<LotteryBean> parseData(Object data) {
+        return JSONArray.parseArray(data.toString(), LotteryBean.class);
     }
 
     @Override
@@ -65,7 +65,7 @@ public class RecommendLotteryListView extends CustomListView<LotteryModel> {
     public void requestData() {
         if (lotteryModels == null || lotteryModels.size() == 0) {
             String assets = FileUtils.getAssets(mContext, "lottery.json");
-            lotteryModels = JSONArray.parseArray(assets, LotteryModel.class);
+            lotteryModels = JSONArray.parseArray(assets, LotteryBean.class);
         }
         dealSuccessData(JSONArray.toJSONString(lotteryModels));
     }

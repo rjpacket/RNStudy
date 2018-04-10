@@ -1,35 +1,57 @@
 package com.rjp.shell.model;
 
 /**
- * Created by Administrator on 2018/4/6.
+ * 选择的彩种
+ * @author Gimpo create on 2017/11/6 16:08
+ * @email : jimbo922@163.com
  */
 
 public class LotteryModel {
-    private int id;
-    private String name;
-    private String desc;
+    private String lotteryType;
+    private String wanfaId;
+    private long zhuShu;
+    private String betCode;
 
-    public int getId() {
-        return id;
+    public LotteryModel(String lotteryType){
+        this.lotteryType = lotteryType;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public LotteryModel(String lotteryType, String wanfaId, long zhuShu, String betCode){
+        this.lotteryType = lotteryType;
+        this.setWanfaId(wanfaId);
+        this.zhuShu = zhuShu;
+        this.setBetCode(betCode);
     }
 
-    public String getName() {
-        return name;
+    public long getZhuShu() {
+        return zhuShu;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setZhuShu(long zhuShu) {
+        this.zhuShu = zhuShu;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getWanfaId() {
+        return wanfaId;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setWanfaId(String wanfaId) {
+        this.wanfaId = wanfaId;
+    }
+
+    public String getLotteryType() {
+        return lotteryType;
+    }
+
+    public void setLotteryType(String lotteryType) {
+        this.lotteryType = lotteryType;
+    }
+
+    public String getBetCode() {
+        return betCode;
+    }
+
+    public void setBetCode(String betCode) {
+        this.betCode = betCode;
     }
 }
