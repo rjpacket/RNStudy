@@ -27,26 +27,44 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
                 >
                 <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_year"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:text="年"
+                    android:textColor="@color/main_color"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:background="@drawable/shape_white_mainline_1000"
+                    android:layout_marginRight="10dp"
                     />
 
                 <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_month"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:text="月"
+                    android:textColor="@color/main_color"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:background="@drawable/shape_white_mainline_1000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     />
 
                 <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_day"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:text="日"
+                    android:textColor="@color/main_color"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:background="@drawable/shape_white_mainline_1000"
+                    android:layout_marginLeft="10dp"
                     />
             </LinearLayout>
 
@@ -54,18 +72,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_margin="10dp"
                 >
                 <TextView
                     android:id="@+id/tv_auto_select1"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="40dp"
-                    android:text="选择一注"
+                    android:text="幸运一注"
                     android:textSize="18dp"
                     android:textColor="@color/white"
                     android:background="@drawable/selector_maincolor_maincolor_4"
                     android:layout_gravity="center_horizontal"
                     android:gravity="center"
+                    android:layout_marginRight="5dp"
                     />
 
                 <TextView
@@ -73,12 +93,13 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="40dp"
-                    android:text="选择五注"
+                    android:text="幸运五注"
                     android:textSize="18dp"
                     android:textColor="@color/white"
                     android:background="@drawable/selector_maincolor_maincolor_4"
                     android:layout_gravity="center_horizontal"
                     android:gravity="center"
+                    android:layout_marginLeft="10dp"
                     />
             </LinearLayout>
 
@@ -87,14 +108,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:background="@drawable/shape_white_mainline_10"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
                 >
 
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/tv_tip"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="快记下幸运号码搜索附近的彩票站去投注吧~"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
                 />
         </LinearLayout>
     </ScrollView>
