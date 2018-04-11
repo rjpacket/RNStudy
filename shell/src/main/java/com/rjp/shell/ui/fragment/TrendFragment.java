@@ -1,44 +1,19 @@
 package com.rjp.shell.ui.fragment;
 
 
-import android.content.res.Resources;
-import android.graphics.Color;
-import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
-import com.alibaba.fastjson.JSONArray;
-import com.amap.api.maps.AMap;
-import com.amap.api.maps.CameraUpdate;
-import com.amap.api.maps.CameraUpdateFactory;
-import com.amap.api.maps.MapView;
-import com.amap.api.maps.model.LatLng;
-import com.amap.api.maps.model.Marker;
-import com.amap.api.maps.model.MarkerOptions;
-import com.amap.api.maps.model.MyLocationStyle;
-import com.amap.api.services.core.LatLonPoint;
-import com.amap.api.services.core.PoiItem;
-import com.amap.api.services.poisearch.PoiResult;
-import com.amap.api.services.poisearch.PoiSearch;
 import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.base.BaseFragment;
-import com.rjp.shell.model.Cell;
-import com.rjp.shell.model.CellGroup;
-import com.rjp.shell.model.OpenPrizeModel;
 import com.rjp.shell.ui.activity.LocalStoreActivity;
-import com.rjp.shell.utils.FileUtils;
+import com.rjp.shell.utils.TrendUtils;
 import com.rjp.shell.views.ChartView;
 import com.rjp.shell.views.CommonTitleBar;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import butterknife.BindView;
-
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,6 +33,14 @@ public class TrendFragment extends BaseFragment {
         return new TrendFragment();
     }
 
+    public static TrendFragment getInstance(int lotteryType){
+        TrendFragment homeNewsFragment = new TrendFragment();
+        Bundle args = new Bundle();
+        args.putInt("lotteryType", lotteryType);
+        homeNewsFragment.setArguments(args);
+        return homeNewsFragment;
+    }
+
     @Override
     public int getChildViewLayoutId() {
         return R.layout.fragment_trend;
@@ -65,7 +48,7 @@ public class TrendFragment extends BaseFragment {
 
     @Override
     public void initView() {
-        commonTitleBar.setCommonTitle("双色球走势图");
+        commonTitleBar.setCommonTitle("时时彩走势图");
         commonTitleBar.setBackVisibility(View.GONE);
         commonTitleBar.setRightFunction0("查看更多");
         commonTitleBar.addSystemBar();
@@ -79,65 +62,12 @@ public class TrendFragment extends BaseFragment {
             }
         });
 
-        String assets = FileUtils.getAssets(mContext, "open_ssq.json");
-        List<OpenPrizeModel> models = JSONArray.parseArray(assets, OpenPrizeModel.class);
-        List<Cell> topCells = new ArrayList<>();
-        for (int i = 0; i < 33; i++) {
-            Cell cell = new Cell();
-            cell.setNumber(String.format("%02d", (i + 1)));
-            cell.setColor(getResources().getColor(R.color.number_red));
-            topCells.add(cell);
+        Bundle bundle = getArguments();
+        if(bundle != null && bundle.containsKey("lotteryType")) {
+            int lotteryType = bundle.getInt("lotteryType");
+            chartView.addChart(TrendUtils.ssqTopCells(getResources().getColor(R.color.number_red), getResources().getColor(R.color.number_blue)),
+                    TrendUtils.ssqCellGroups(mContext));
         }
-        topCells.add(new Cell());
-        for (int i = 0; i < 16; i++) {
-            Cell cell = new Cell();
-            cell.setNumber(String.format("%02d", (i + 1)));
-            cell.setColor(getResources().getColor(R.color.number_blue));
-            topCells.add(cell);
-        }
-
-        List<CellGroup> cellGroups = new ArrayList<>();
-        Cell preCell = null;
-        for (OpenPrizeModel model : models) {
-            List<Cell> cells = new ArrayList<>();
-            CellGroup group = new CellGroup();
-            group.setTitle("第" + model.getPhase() + "期");
-            String wincode = model.getWincode();
-            String[] split = wincode.split("\\|");
-            String[] redNum = split[0].split(",");
-
-            for (int i = 0; i < 33; i++) {
-                Cell cell = new Cell();
-                String format = String.format("%02d", (i + 1));
-                cell.setNumber(format);
-                cell.setColor(getResources().getColor(R.color.number_red));
-                for (String zhong : redNum) {
-                    if(format.equals(zhong)){
-                        cell.setSelected(true);
-                        break;
-                    }
-                }
-                cells.add(cell);
-            }
-            cells.add(new Cell());
-            for (int i = 0; i < 16; i++) {
-                Cell cell = new Cell();
-                String format = String.format("%02d", (i + 1));
-                cell.setNumber(format);
-                cell.setColor(getResources().getColor(R.color.number_blue));
-                cell.setSelected(format.equals(split[1]));
-                if(preCell != null){
-                    if(cell.isSelected()){
-                        cell.setNextCell(preCell);
-                        preCell = cell;
-                    }
-                }
-                cells.add(cell);
-            }
-            group.setCells(cells);
-            cellGroups.add(group);
-        }
-        chartView.addChart(topCells, cellGroups);
     }
 
     @Override

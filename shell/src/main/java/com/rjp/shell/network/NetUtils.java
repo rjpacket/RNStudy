@@ -95,6 +95,10 @@ public class NetUtils {
     }
 
     public void get(final Context mContext, String url, final NetSuccessCallback successCallback){
+        get(mContext, url, successCallback, null);
+    }
+
+    public void get(final Context mContext, String url, final NetSuccessCallback successCallback, final NetFailureCallback failureCallback){
         Request request = new Request.Builder().url(url).build();
         Call call = okHttpClient.newCall(request);
         call.enqueue(new Callback() {
@@ -104,6 +108,9 @@ public class NetUtils {
                     @Override
                     public void run() {
                         Toast.makeText(mContext, "网络出问题啦~", Toast.LENGTH_SHORT).show();
+                        if(failureCallback != null){
+                            failureCallback.onFailure("网络出问题啦~");
+                        }
                     }
                 });
             }

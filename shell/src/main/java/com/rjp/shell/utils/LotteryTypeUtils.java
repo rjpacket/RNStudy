@@ -173,4 +173,15 @@ public class LotteryTypeUtils {
         }
         return 0;
     }
+
+    public static final int SSQ = 1;
+    public static final int DLT = 2;
+    public static final int K3 = 3;
+    public static final int FC3D = 4;
+    public static final int X115 = 5;
+    public static final int PL3 = 6;
+    public static final int PL5 = 7;
+    public static final int QXC = 8;
+    public static final int QLC = 9;
+    public static final int SSC = 10;
 }

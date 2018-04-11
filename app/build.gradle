@@ -8,10 +8,8 @@ android {
         applicationId "com.rjp.reactnative"
         minSdkVersion 16
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        ndk{
+        ndk {
             abiFilters "armeabi-v7a", "x86"
         }
         javaCompileOptions {
@@ -20,22 +18,23 @@ android {
             }
         }
     }
-    packagingOptions{
+    packagingOptions {
         exclude "lib/arm64-v8a"
     }
 
     signingConfigs {
         release {
-            storeFile file('../keystores/release.QAZ123456wsx789.jks')
-            storePassword 'QAZ123456wsx789'
-            keyAlias 'digital'
-            keyPassword 'QAZ123456wsx789'
+            storeFile file('../keystores/rjp.jks')
+            storePassword 'rjp123456'
+            keyAlias 'rjp-key'
+            keyPassword 'rjp123456'
         }
     }
 
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
 
@@ -45,8 +44,24 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    configurations.all{
-        resolutionStrategy.force'com.google.code.findbugs:jsr305:1.3.9'
+
+    productFlavors {
+        channel_huawei {
+            applicationId "com.rjp.huawei.ssc"
+            versionCode 100
+            versionName "1.0.0"
+        }
+    }
+
+    sourceSets {
+        channel_huawei {
+            res.srcDirs = ['channel/channel_huawei/res']
+            java.srcDirs = ['channel/channel_huawei/java']
+        }
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
     }
 }
 
@@ -55,11 +70,11 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile project(path: ':shell')
+    compile 'com.alibaba:arouter-api:1.2.1.1'
+    compile 'com.jakewharton:butterknife:8.7.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    compile 'com.alibaba:arouter-api:1.2.1.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.2.1'
-    compile project(path: ':shell')
-    compile 'com.jakewharton:butterknife:8.7.0'
     apt 'com.jakewharton:butterknife-compiler:8.7.0'
 }

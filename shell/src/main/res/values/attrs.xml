@@ -3,7 +3,7 @@
     <declare-styleable name="roundedimageview">
         <attr name="border_thickness" format="dimension"/>
         <attr name="border_inside_color" format="color"/>
-        <attr name="border_outside_color" format="color"></attr>
+        <attr name="border_outside_color" format="color" />
     </declare-styleable>
 
     <declare-styleable name="SettingView">
@@ -30,5 +30,8 @@
         <attr name="link_line_width" format="dimension" />
         <attr name="stroke_color" format="color" />
         <attr name="background_color" format="color" />
+        <attr name="left_title_color" format="color" />
+        <attr name="top_title_color" format="color" />
+        <attr name="left_background_color" format="color" />
     </declare-styleable>
 </resources>

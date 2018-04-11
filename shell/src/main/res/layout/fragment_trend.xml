@@ -17,6 +17,9 @@
         android:id="@+id/chart_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:left_title_color="#333333"
+        app:left_background_color="@color/main_bg"
+        app:background_color="@color/white"
         />
 
 </LinearLayout>

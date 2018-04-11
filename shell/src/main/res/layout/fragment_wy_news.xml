@@ -1,9 +1,22 @@
-<com.rjp.shell.listviews.WYNewsListView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/wy_list_view"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
+    <com.rjp.shell.views.CommonTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
 
-</com.rjp.shell.listviews.WYNewsListView>
+    </com.rjp.shell.views.CommonTitleBar>
+
+    <com.rjp.shell.listviews.WYNewsListView
+        android:id="@+id/wy_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.rjp.shell.listviews.WYNewsListView>
+</LinearLayout>

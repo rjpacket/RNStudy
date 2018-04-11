@@ -22,7 +22,6 @@ import com.rjp.shell.model.CellGroup;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 import static android.graphics.Color.WHITE;
 
@@ -80,6 +79,8 @@ public class ChartView extends View {
     private Paint leftBackgroundPaint;
     private float leftTxtMidValue;
     private Paint emptyPaint;
+    private int leftBackgroundColor;
+    private int leftTitleColor;
 
     public ChartView(Context context) {
         this(context, null);
@@ -105,6 +106,8 @@ public class ChartView extends View {
             linkLineColor = array.getColor(R.styleable.ChartView_link_line_color, Color.RED);
             strokeColor = array.getColor(R.styleable.ChartView_stroke_color, Color.BLACK);
             backgroundColor = array.getColor(R.styleable.ChartView_background_color, Color.GRAY);
+            leftBackgroundColor = array.getColor(R.styleable.ChartView_left_background_color, Color.GRAY);
+            leftTitleColor = array.getColor(R.styleable.ChartView_left_title_color, Color.BLACK);
         }
 
         screenWidth = context.getResources().getDisplayMetrics().widthPixels;
@@ -143,14 +146,14 @@ public class ChartView extends View {
         leftTextPaint = new Paint();
         leftTextPaint.setAntiAlias(true);
         leftTextPaint.setTextAlign(Paint.Align.CENTER);
-        leftTextPaint.setColor(WHITE);
+        leftTextPaint.setColor(leftTitleColor);
         leftTextPaint.setTextSize(32);
         Paint.FontMetrics fontMetrics1 = leftTextPaint.getFontMetrics();
         leftTxtMidValue = (fontMetrics1.top + fontMetrics1.bottom) / 2;
 
         leftBackgroundPaint = new Paint();
         leftBackgroundPaint.setAntiAlias(true);
-        leftBackgroundPaint.setColor(getResources().getColor(R.color.main_color));
+        leftBackgroundPaint.setColor(leftBackgroundColor);
 
         emptyPaint = new Paint();
         emptyPaint.setAntiAlias(true);
@@ -390,6 +393,7 @@ public class ChartView extends View {
 
         //绘制左上角的空白区域
         canvas.drawRect(getScrollX(), getScrollY(), leftBarWidth + getScrollX(), topBarHeight + getScrollY(), emptyPaint);
+        canvas.drawText("期号", leftBarWidth / 2 + getScrollX(), topBarHeight / 2 - leftTxtMidValue + getScrollY(), leftTextPaint);
     }
 
     /**
