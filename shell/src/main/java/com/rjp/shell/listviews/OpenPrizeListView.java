@@ -36,7 +36,7 @@ public class OpenPrizeListView extends CustomListView<OpenPrizeModel> {
     @Override
     protected void resetFirstPage() {
         mPage = 0;
-        mPageSize = 18;
+        mPageSize = 20;
     }
 
     @Override
@@ -76,13 +76,7 @@ public class OpenPrizeListView extends CustomListView<OpenPrizeModel> {
             String assets = FileUtils.getAssets(mContext, "open_prize.json");
             homeNewsModels = JSONArray.parseArray(assets, OpenPrizeModel.class);
         }
-        int toIndex = mPageSize + mPage;
-        if (toIndex >= homeNewsModels.size()) {
-            dealFailureData();
-        } else {
-            List<OpenPrizeModel> homeNewsModels = this.homeNewsModels.subList(mPage, toIndex);
-            dealSuccessData(JSONArray.toJSONString(homeNewsModels));
-        }
+        dealSuccessData(JSONArray.toJSONString(homeNewsModels));
     }
 
     @Override

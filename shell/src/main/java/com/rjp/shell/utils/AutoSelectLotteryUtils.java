@@ -9,6 +9,16 @@ import java.util.List;
 import java.util.Random;
 
 import static com.rjp.shell.utils.LotteryIDUtils.*;
+import static com.rjp.shell.utils.LotteryTypeUtils.DLT;
+import static com.rjp.shell.utils.LotteryTypeUtils.FC3D;
+import static com.rjp.shell.utils.LotteryTypeUtils.K3;
+import static com.rjp.shell.utils.LotteryTypeUtils.PL3;
+import static com.rjp.shell.utils.LotteryTypeUtils.PL5;
+import static com.rjp.shell.utils.LotteryTypeUtils.QLC;
+import static com.rjp.shell.utils.LotteryTypeUtils.QXC;
+import static com.rjp.shell.utils.LotteryTypeUtils.SSC;
+import static com.rjp.shell.utils.LotteryTypeUtils.SSQ;
+import static com.rjp.shell.utils.LotteryTypeUtils.X115;
 
 
 /**
@@ -77,6 +87,46 @@ public class AutoSelectLotteryUtils {
                 return rollSSQ(lotteryType, lotteryType + lotteryModel.getWanfaId());
         }
         return null;
+    }
+
+    /**
+     * 机选一注
+     */
+    public LotteryModel roll1(int type) {
+        switch (type) {
+            case SSQ:
+                return rollSSQ("1001", "100101");
+            case DLT:
+                return rollDLT("2001", "200101");
+            case K3:
+                return rollK3("1013", "100101");
+            case FC3D:
+                return rollFC3D("1002", "100201");
+            case X115:
+                return rollX5("2007", "200701");
+            case PL3:
+                return rollPL3("2002", "200201");
+            case PL5:
+                return rollPL5("2003", "200301");
+            case QXC:
+                return rollQXC("2004", "200401");
+            case QLC:
+                return rollQLC("1003", "100301");
+            case SSC:
+                return rollSSC("1007", "100701");
+        }
+        return null;
+    }
+
+    /**
+     * 机选五注
+     */
+    public List<LotteryModel> roll5(int type) {
+        List<LotteryModel> models = new ArrayList<>();
+        for (int i = 0; i < 5; i++) {
+            models.add(roll1(type));
+        }
+        return models;
     }
 
     /**
@@ -356,7 +406,7 @@ public class AutoSelectLotteryUtils {
         switch (wanfaId) {
             case DLT_LOTTERY_COMMON_DAN_ID_INT:
             case DLT_LOTTERY_COMMON_FU_ID_INT:
-            case DLT_LOTTERY_TOWED_ID_INT:{
+            case DLT_LOTTERY_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> redList = getRandomIntNoRepeat(1, 35, 5);
                 for (Integer code : redList) {
@@ -371,7 +421,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "01", 1, sb.toString());
             }
-                break;
+            break;
 //            case DLT_LOTTERY_TOWED_ID_INT: {
 //                StringBuilder sb = new StringBuilder();
 //                List<Integer> redList = getRandomIntNoRepeat(1, 35, 6);
@@ -420,8 +470,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_HB_LOTTERY_RENER_TOWED_ID_INT:
             case GP11XUAN5_JX_LOTTERY_RENER_DAN_ID_INT:
             case GP11XUAN5_JX_LOTTERY_RENER_FU_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_RENER_TOWED_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_RENER_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 2);
                 for (Integer code : codeList) {
@@ -430,7 +479,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "02", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_RENSAN_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_RENSAN_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENSAN_DAN_ID_INT:
@@ -442,8 +491,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_LOTTERY_RENSAN_TOWED_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENSAN_TOWED_ID_INT:
             case GP11XUAN5_HB_LOTTERY_RENSAN_TOWED_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_RENSAN_TOWED_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_RENSAN_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 3);
                 for (Integer code : codeList) {
@@ -452,7 +500,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "03", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_RENSI_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_RENSI_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENSI_DAN_ID_INT:
@@ -464,8 +512,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_LOTTERY_RENSI_TOWED_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENSI_TOWED_ID_INT:
             case GP11XUAN5_HB_LOTTERY_RENSI_TOWED_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_RENSI_TOWED_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_RENSI_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 4);
                 for (Integer code : codeList) {
@@ -474,7 +521,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "04", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_RENWU_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_RENWU_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENWU_DAN_ID_INT:
@@ -486,8 +533,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_LOTTERY_RENWU_TOWED_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENWU_TOWED_ID_INT:
             case GP11XUAN5_HB_LOTTERY_RENWU_TOWED_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_RENWU_TOWED_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_RENWU_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 5);
                 for (Integer code : codeList) {
@@ -496,7 +542,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "05", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_RENLIU_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_RENLIU_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENLIU_DAN_ID_INT:
@@ -508,8 +554,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_LOTTERY_RENLIU_TOWED_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENLIU_TOWED_ID_INT:
             case GP11XUAN5_HB_LOTTERY_RENLIU_TOWED_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_RENLIU_TOWED_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_RENLIU_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 6);
                 for (Integer code : codeList) {
@@ -518,7 +563,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "06", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_RENQI_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_RENQI_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENQI_DAN_ID_INT:
@@ -530,8 +575,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_LOTTERY_RENQI_TOWED_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENQI_TOWED_ID_INT:
             case GP11XUAN5_HB_LOTTERY_RENQI_TOWED_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_RENQI_TOWED_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_RENQI_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 7);
                 for (Integer code : codeList) {
@@ -540,7 +584,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "07", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_RENBA_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_RENBA_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENBA_DAN_ID_INT:
@@ -552,8 +596,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_LOTTERY_RENBA_TOWED_ID_INT:
             case GP11XUAN5_GD_LOTTERY_RENBA_TOWED_ID_INT:
             case GP11XUAN5_HB_LOTTERY_RENBA_TOWED_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_RENBA_TOWED_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_RENBA_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 8);
                 for (Integer code : codeList) {
@@ -562,7 +605,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "08", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_QIANYI_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_QIANYI_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_QIANYI_DAN_ID_INT:
@@ -581,8 +624,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_HB_LOTTERY_QIANER_DAN_ID_INT:
             case GP11XUAN5_HB_LOTTERY_QIANER_FU_ID_INT:
             case GP11XUAN5_JX_LOTTERY_QIANER_DAN_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_QIANER_FU_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_QIANER_FU_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 2);
                 for (Integer code : codeList) {
@@ -591,7 +633,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "32", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_QIANER_ZU_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_QIANER_ZU_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_QIANER_ZU_DAN_ID_INT:
@@ -603,8 +645,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_LOTTERY_QIANER_ZU_TOWED_ID_INT:
             case GP11XUAN5_GD_LOTTERY_QIANER_ZU_TOWED_ID_INT:
             case GP11XUAN5_HB_LOTTERY_QIANER_ZU_TOWED_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_QIANER_ZU_TOWED_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_QIANER_ZU_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 2);
                 for (Integer code : codeList) {
@@ -613,7 +654,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "34", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_QIANSAN_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_QIANSAN_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_QIANSAN_DAN_ID_INT:
@@ -621,8 +662,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_HB_LOTTERY_QIANSAN_DAN_ID_INT:
             case GP11XUAN5_HB_LOTTERY_QIANSAN_FU_ID_INT:
             case GP11XUAN5_JX_LOTTERY_QIANSAN_DAN_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_QIANSAN_FU_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_QIANSAN_FU_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 3);
                 for (Integer code : codeList) {
@@ -631,7 +671,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "33", 1, sb.toString());
             }
-                break;
+            break;
             case GP11XUAN5_LOTTERY_QIANSAN_ZU_DAN_ID_INT:
             case GP11XUAN5_LOTTERY_QIANSAN_ZU_FU_ID_INT:
             case GP11XUAN5_GD_LOTTERY_QIANSAN_ZU_DAN_ID_INT:
@@ -643,8 +683,7 @@ public class AutoSelectLotteryUtils {
             case GP11XUAN5_LOTTERY_QIANSAN_ZU_TOWED_ID_INT:
             case GP11XUAN5_GD_LOTTERY_QIANSAN_ZU_TOWED_ID_INT:
             case GP11XUAN5_HB_LOTTERY_QIANSAN_ZU_TOWED_ID_INT:
-            case GP11XUAN5_JX_LOTTERY_QIANSAN_ZU_TOWED_ID_INT:
-            {
+            case GP11XUAN5_JX_LOTTERY_QIANSAN_ZU_TOWED_ID_INT: {
                 StringBuilder sb = new StringBuilder();
                 List<Integer> codeList = getRandomIntNoRepeat(1, 11, 3);
                 for (Integer code : codeList) {
@@ -653,7 +692,7 @@ public class AutoSelectLotteryUtils {
                 sb.deleteCharAt(sb.length() - 1);
                 lotteryModel = new LotteryModel(lotteryType, "35", 1, sb.toString());
             }
-                break;
+            break;
         }
         return lotteryModel;
     }

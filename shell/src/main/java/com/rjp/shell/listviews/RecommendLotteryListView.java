@@ -3,12 +3,15 @@ package com.rjp.shell.listviews;
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 
 import com.alibaba.fastjson.JSONArray;
 import com.rjp.shell.R;
 import com.rjp.shell.base.CustomListView;
 import com.rjp.shell.model.LotteryBean;
+import com.rjp.shell.ui.activity.Birthday2LotteryActivity;
 import com.rjp.shell.utils.FileUtils;
 import com.rjp.shell.utils.LotteryTypeUtils;
 import com.zhy.adapter.abslistview.CommonAdapter;
@@ -68,5 +71,10 @@ public class RecommendLotteryListView extends CustomListView<LotteryBean> {
             lotteryModels = JSONArray.parseArray(assets, LotteryBean.class);
         }
         dealSuccessData(JSONArray.toJSONString(lotteryModels));
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Birthday2LotteryActivity.trendTo(mContext, mDatas.get(position).getId());
     }
 }

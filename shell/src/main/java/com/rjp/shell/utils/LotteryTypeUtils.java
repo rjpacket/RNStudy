@@ -137,7 +137,7 @@ public class LotteryTypeUtils {
             case "2010":
                 return "open_hubei115.json";
             case "1007":
-                return "open_chongqingssc.json";
+                return "open_ssc.json";
             case "4001":
                 return "open_zcsfc.json";
             case "4002":
@@ -152,26 +152,80 @@ public class LotteryTypeUtils {
 
     public static int getLotteryIcon(int id) {
         switch (id) {
-            case 1:
+            case SSQ:
                 return R.drawable.lottery_ssq;
-            case 2:
+            case DLT:
                 return R.drawable.lottery_dlt;
-            case 3:
+            case K3:
                 return R.drawable.lottery_k3;
-            case 4:
+            case FC3D:
                 return R.drawable.lottery_fc3d;
-            case 5:
+            case X115:
                 return R.drawable.lottery_115;
-            case 6:
+            case PL3:
                 return R.drawable.lottery_pl3;
-            case 7:
+            case PL5:
                 return R.drawable.lottery_pl5;
-            case 8:
+            case QXC:
                 return R.drawable.lottery_qxc;
-            case 9:
+            case QLC:
                 return R.drawable.lottery_qlc;
+            case SSC:
+                return R.drawable.lottery_ssc;
         }
         return 0;
+    }
+
+    public static String getLotteryTag(int id) {
+        switch (id) {
+            case SSQ:
+                return "双色球";
+            case DLT:
+                return "大乐透";
+            case K3:
+                return "快三";
+            case FC3D:
+                return "福彩3D";
+            case X115:
+                return "11选5";
+            case PL3:
+                return "排列三";
+            case PL5:
+                return "排列五";
+            case QXC:
+                return "七星彩";
+            case QLC:
+                return "七乐彩";
+            case SSC:
+                return "时时彩";
+        }
+        return "其它彩";
+    }
+
+    public static String getLotteryType(int id) {
+        switch (id) {
+            case SSQ:
+                return "1001";
+            case DLT:
+                return "2001";
+            case K3:
+                return "1013";
+            case FC3D:
+                return "1002";
+            case X115:
+                return "2007";
+            case PL3:
+                return "2002";
+            case PL5:
+                return "2003";
+            case QXC:
+                return "2004";
+            case QLC:
+                return "1003";
+            case SSC:
+                return "1007";
+        }
+        return "1001";
     }
 
     public static final int SSQ = 1;
