@@ -99,11 +99,11 @@ public class AutoSelectLotteryUtils {
             case DLT:
                 return rollDLT("2001", "200101");
             case K3:
-                return rollK3("1013", "100101");
+                return rollK3("1013", "101340");
             case FC3D:
                 return rollFC3D("1002", "100201");
             case X115:
-                return rollX5("2007", "200701");
+                return rollX5("2007", "200715");
             case PL3:
                 return rollPL3("2002", "200201");
             case PL5:

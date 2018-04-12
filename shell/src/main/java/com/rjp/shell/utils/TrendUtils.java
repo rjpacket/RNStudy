@@ -207,7 +207,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> qxc7CellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_qxc.json", 6);
+        return getCellGroups(mContext, 0, 9, false, color, "open_qxc.json", 6);
     }
 
     /**
@@ -217,7 +217,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> qxc6CellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_qxc.json", 5);
+        return getCellGroups(mContext, 0, 9, false, color, "open_qxc.json", 5);
     }
 
     /**
@@ -227,7 +227,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> qxc5CellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_qxc.json", 4);
+        return getCellGroups(mContext, 0, 9, false, color, "open_qxc.json", 4);
     }
 
     /**
@@ -237,7 +237,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> qxc4CellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_qxc.json", 3);
+        return getCellGroups(mContext, 0, 9, false, color, "open_qxc.json", 3);
     }
 
     /**
@@ -247,7 +247,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> qxc3CellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_qxc.json", 2);
+        return getCellGroups(mContext, 0, 9, false, color, "open_qxc.json", 2);
     }
 
     /**
@@ -257,7 +257,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> qxc2CellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_qxc.json", 1);
+        return getCellGroups(mContext, 0, 9, false, color, "open_qxc.json", 1);
     }
 
     /**
@@ -267,7 +267,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> qxc1CellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_qxc.json", 0);
+        return getCellGroups(mContext, 0, 9, false, color, "open_qxc.json", 0);
     }
 
     /**
@@ -277,7 +277,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> pl5GeCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_pl5.json", 4);
+        return getCellGroups(mContext, 0, 9, false, color, "open_pl5.json", 4);
     }
 
     /**
@@ -287,7 +287,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> pl5ShiCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_pl5.json", 3);
+        return getCellGroups(mContext, 0, 9, false, color, "open_pl5.json", 3);
     }
 
     /**
@@ -297,7 +297,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> pl5BaiCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_pl5.json", 2);
+        return getCellGroups(mContext, 0, 9, false, color, "open_pl5.json", 2);
     }
 
     /**
@@ -307,7 +307,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> pl5QianCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_pl5.json", 1);
+        return getCellGroups(mContext, 0, 9, false, color, "open_pl5.json", 1);
     }
 
     /**
@@ -317,7 +317,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> pl5WanCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_pl5.json", 0);
+        return getCellGroups(mContext, 0, 9, false, color, "open_pl5.json", 0);
     }
 
     /**
@@ -327,7 +327,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> pl3GeCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_pl3.json", 2);
+        return getCellGroups(mContext, 0, 9, false, color, "open_pl3.json", 2);
     }
 
     /**
@@ -337,7 +337,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> pl3ShiCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_pl3.json", 1);
+        return getCellGroups(mContext, 0, 9, false, color, "open_pl3.json", 1);
     }
 
     /**
@@ -347,7 +347,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> pl3BaiCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_pl3.json", 0);
+        return getCellGroups(mContext, 0, 9, false, color, "open_pl3.json", 0);
     }
 
     /**
@@ -407,7 +407,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> fc3dGeCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_fc3d.json", 2);
+        return getCellGroups(mContext, 0, 9, false, color, "open_fc3d.json", 2);
     }
 
     /**
@@ -417,7 +417,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> fc3dShiCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_fc3d.json", 1);
+        return getCellGroups(mContext, 0, 9, false, color, "open_fc3d.json", 1);
     }
 
     /**
@@ -427,7 +427,7 @@ public class TrendUtils {
      * @return
      */
     public static List<CellGroup> fc3dBaiCellGroups(Context mContext, int color){
-        return getCellGroups(mContext, 0, 9, true, color, "open_fc3d.json", 0);
+        return getCellGroups(mContext, 0, 9, false, color, "open_fc3d.json", 0);
     }
 
     /**
@@ -534,7 +534,7 @@ public class TrendUtils {
             String wincode = model.getWincode();
             String[] redNum = wincode.split(",");
 
-            for (int i = start; i < end; i++) {
+            for (int i = start; i <= end; i++) {
                 Cell cell = new Cell();
                 String format = isZero ? String.format("%02d", i) : String.valueOf(i);
                 cell.setNumber(format);
@@ -557,11 +557,10 @@ public class TrendUtils {
      * @param mContext
      * @return
      */
-    private static List<CellGroup> dltCellGroups(Context mContext) {
+    public static List<CellGroup> dltCellGroups(Context mContext) {
         String assets = FileUtils.getAssets(mContext, "open_dlt.json");
         List<OpenPrizeModel> models = JSONArray.parseArray(assets, OpenPrizeModel.class);
         List<CellGroup> cellGroups = new ArrayList<>();
-        Cell preCell = null;
         for (OpenPrizeModel model : models) {
             List<Cell> cells = new ArrayList<>();
             CellGroup group = new CellGroup();
@@ -569,6 +568,7 @@ public class TrendUtils {
             String wincode = model.getWincode();
             String[] split = wincode.split("\\|");
             String[] redNum = split[0].split(",");
+            String[] blueNum = split[1].split(",");
 
             for (int i = 1; i <= 35; i++) {
                 Cell cell = new Cell();
@@ -589,10 +589,11 @@ public class TrendUtils {
                 String format = String.format("%02d", i);
                 cell.setNumber(format);
                 cell.setColor(mContext.getResources().getColor(R.color.number_blue));
-                cell.setSelected(format.equals(split[1]));
-                if (cell.isSelected()) {
-                    cell.setNextCell(preCell);
-                    preCell = cell;
+                for (String zhong : blueNum) {
+                    if (format.equals(zhong)) {
+                        cell.setSelected(true);
+                        break;
+                    }
                 }
                 cells.add(cell);
             }
@@ -658,7 +659,7 @@ public class TrendUtils {
      * @param mContext
      * @return
      */
-    private static List<CellGroup> qlcCellGroups(Context mContext) {
+    public static List<CellGroup> qlcCellGroups(Context mContext) {
         String assets = FileUtils.getAssets(mContext, "open_qlc.json");
         List<OpenPrizeModel> models = JSONArray.parseArray(assets, OpenPrizeModel.class);
         List<CellGroup> cellGroups = new ArrayList<>();

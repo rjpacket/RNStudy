@@ -1,0 +1,13 @@
+<com.rjp.shell.views.ChartView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/single_chart_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:left_title_color="#333333"
+    app:left_background_color="@color/main_bg"
+    app:background_color="@color/white"
+    >
+
+</com.rjp.shell.views.ChartView>

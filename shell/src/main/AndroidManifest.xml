@@ -54,6 +54,8 @@
         </activity>
         <activity android:name=".ui.activity.Birthday2LotteryActivity">
         </activity>
+        <activity android:name=".ui.activity.TrendListActivity" />
+        <activity android:name=".ui.activity.TrendDetailActivity" />
     </application>
 
 </manifest>

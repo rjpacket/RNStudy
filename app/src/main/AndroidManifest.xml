@@ -28,6 +28,7 @@
         </activity>
         <activity android:name=".ui.WebActivity">
         </activity>
+        <activity android:name=".ui.WebViewActivity" />
     </application>
 
 </manifest>

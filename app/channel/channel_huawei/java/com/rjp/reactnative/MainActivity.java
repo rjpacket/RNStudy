@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.rjp.shell.utils.LotteryTypeUtils.SSQ;
+import static com.rjp.shell.utils.LotteryTypeUtils.SSC;
 
 @Route(path = "/shell/main")
 public class MainActivity extends FragmentActivity {
@@ -65,7 +65,7 @@ public class MainActivity extends FragmentActivity {
         fragments.add(WYNewsFragment.getInstance("toutiao"));
         fragments.add(new RecommendFragment());
         fragments.add(new OpenPrizeFragment());
-        fragments.add(TrendFragment.getInstance(SSQ));
+        fragments.add(TrendFragment.getInstance(SSC));
         fragments.add(new MineFragment());
         navigationView.setFragments(fragments);
         navigationView.setFragmentManager(getSupportFragmentManager());

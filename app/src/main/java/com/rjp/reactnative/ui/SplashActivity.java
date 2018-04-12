@@ -1,6 +1,7 @@
 package com.rjp.reactnative.ui;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
@@ -43,7 +44,9 @@ public class SplashActivity extends FragmentActivity {
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            WebActivity.trendTo(mContext, wapurl);
+                            Intent intent = new Intent(mContext, WebViewActivity.class);
+                            intent.putExtra("url", wapurl);
+                            startActivity(intent);
                             finish();
                         }
                     }, 2000);
