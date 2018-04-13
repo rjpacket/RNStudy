@@ -11,9 +11,16 @@
     <com.youth.banner.Banner
         android:id="@+id/banner_view"
         android:layout_width="match_parent"
-        android:layout_height="175dp"
+        android:layout_height="wrap_content"
         app:is_auto_play="true"
         >
 
     </com.youth.banner.Banner>
+
+    <com.rjp.shell.views.LooperLabelView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.rjp.shell.views.LooperLabelView>
 </LinearLayout>

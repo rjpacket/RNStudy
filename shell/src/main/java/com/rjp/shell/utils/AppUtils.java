@@ -23,4 +23,13 @@ public class AppUtils {
     public static String ten(int number) {
         return String.format("%02d", number);
     }
+
+    /**
+     * 获取手机屏幕宽度
+     * @param context
+     * @return
+     */
+    public static int screenWidth(Context context) {
+        return context.getResources().getDisplayMetrics().widthPixels;
+    }
 }
