@@ -16,9 +16,9 @@ import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.dialog.NoticeDialog;
 import com.rjp.shell.dialog.NoticeDialogUtils;
+import com.rjp.shell.ui.fragment.JCZQBiFenFragment;
 import com.rjp.shell.ui.fragment.MineFragment;
 import com.rjp.shell.ui.fragment.OpenPrizeFragment;
-import com.rjp.shell.ui.fragment.PlayerFragment;
 import com.rjp.shell.ui.fragment.RecommendFragment;
 import com.rjp.shell.ui.fragment.TrendFragment;
 import com.rjp.shell.utils.SystemBarTintManager;
@@ -55,7 +55,7 @@ public class ShellMainActivity extends FragmentActivity {
 
     private void initView() {
         ArrayList<Fragment> fragments = new ArrayList<>();
-        fragments.add(PlayerFragment.getInstance("8"));
+        fragments.add(JCZQBiFenFragment.getInstance("jczq"));
         fragments.add(new RecommendFragment());
         fragments.add(new OpenPrizeFragment());
         fragments.add(new TrendFragment());
