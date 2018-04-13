@@ -19,18 +19,14 @@ public class MySharedPreferences {
     private Editor editor;
     private static MySharedPreferences instance = null;
 
-    private MySharedPreferences() {
-
-    }
-
-    public void init(Context context){
+    private MySharedPreferences(Context context) {
         sharedPreferences = context.getSharedPreferences(MySharedPreferences.FILENAME_SHAREPEREFERANCE, context.MODE_APPEND);
         editor = sharedPreferences.edit();
     }
 
-    public static MySharedPreferences getInstance() {
+    public static MySharedPreferences getInstance(Context context) {
         if (instance == null) {
-            instance = new MySharedPreferences();
+            instance = new MySharedPreferences(context);
         }
         return instance;
     }

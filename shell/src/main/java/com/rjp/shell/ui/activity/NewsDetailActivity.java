@@ -75,7 +75,6 @@ public class NewsDetailActivity extends BaseActivity {
         NetUtils.getInstance().get(mContext, url, new NetSuccessCallback() {
             @Override
             public void onSuccess(String result) {
-                List<HomeNewsModel> models = new ArrayList<>();
                 try {
                     Document document = Jsoup.parse(result);
                     Element element = document.select("div.articleCon").first();
@@ -104,7 +103,7 @@ public class NewsDetailActivity extends BaseActivity {
 
     @Override
     protected void onFunction0Click() {
-        MySharedPreferences instance = MySharedPreferences.getInstance();
+        MySharedPreferences instance = MySharedPreferences.getInstance(mContext);
         String string = instance.getString(MySharedPreferences.SAVE_NEWS);
         if(TextUtils.isEmpty(string)){
             List<HomeNewsModel> models = new ArrayList<>();

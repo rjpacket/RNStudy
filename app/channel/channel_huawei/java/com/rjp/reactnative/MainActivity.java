@@ -18,10 +18,10 @@ import com.rjp.shell.R2;
 import com.rjp.shell.dialog.NoticeDialog;
 import com.rjp.shell.dialog.NoticeDialogUtils;
 import com.rjp.shell.ui.fragment.MineFragment;
-import com.rjp.shell.ui.fragment.OpenPrizeFragment;
 import com.rjp.shell.ui.fragment.RecommendFragment;
 import com.rjp.shell.ui.fragment.TrendFragment;
 import com.rjp.shell.ui.fragment.WYNewsFragment;
+import com.rjp.shell.ui.fragment.WYOpenPrizeFragment;
 import com.rjp.shell.utils.SystemBarTintManager;
 
 import java.util.ArrayList;
@@ -64,7 +64,7 @@ public class MainActivity extends FragmentActivity {
         ArrayList<Fragment> fragments = new ArrayList<>();
         fragments.add(WYNewsFragment.getInstance("toutiao"));
         fragments.add(new RecommendFragment());
-        fragments.add(new OpenPrizeFragment());
+        fragments.add(new WYOpenPrizeFragment());
         fragments.add(TrendFragment.getInstance(SSC));
         fragments.add(new MineFragment());
         navigationView.setFragments(fragments);

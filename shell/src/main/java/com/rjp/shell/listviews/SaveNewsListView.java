@@ -17,8 +17,6 @@ import com.rjp.shell.base.LoadMoreListView;
 import com.rjp.shell.base.MySharedPreferences;
 import com.rjp.shell.model.HomeNewsModel;
 import com.rjp.shell.ui.activity.NewsDetailActivity;
-import com.rjp.shell.utils.AppUtils;
-import com.rjp.shell.utils.FileUtils;
 import com.rjp.shell.utils.ImageUtils;
 import com.zhy.adapter.abslistview.CommonAdapter;
 import com.zhy.adapter.abslistview.ViewHolder;
@@ -85,7 +83,7 @@ public class SaveNewsListView extends LoadMoreListView<HomeNewsModel> {
     @Override
     public void requestData() {
         if (homeNewsModels == null || homeNewsModels.size() == 0) {
-            String assets = MySharedPreferences.getInstance().getString(MySharedPreferences.SAVE_NEWS);
+            String assets = MySharedPreferences.getInstance(mContext).getString(MySharedPreferences.SAVE_NEWS);
             if(TextUtils.isEmpty(assets)) {
                 showEmptyView();
                 return;

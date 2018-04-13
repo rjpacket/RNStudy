@@ -12,6 +12,5 @@ public class App extends Application{
         super.onCreate();
 
         ARouter.init(this);
-        MySharedPreferences.getInstance().init(this);
     }
 }

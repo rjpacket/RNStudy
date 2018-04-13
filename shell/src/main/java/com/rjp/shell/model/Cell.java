@@ -17,6 +17,13 @@ public class Cell {
 
     private int color;
 
+    public Cell(){}
+
+    public Cell(String number, int color){
+        this.number = number;
+        this.color = color;
+    }
+
     public void setLocation(int left, int right, int top, int bottom){
         this.left = left;
         this.right = right;
