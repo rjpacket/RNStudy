@@ -238,4 +238,26 @@ public class LotteryTypeUtils {
     public static final int QXC = 8;
     public static final int QLC = 9;
     public static final int SSC = 10;
+
+    public static int getLeagueLogo(int id) {
+        switch (id) {
+            case 8:
+                return R.drawable.icon_yc;
+            case 13:
+                return R.drawable.icon_yj;
+            case 7:
+                return R.drawable.icon_xj;
+            case 9:
+                return R.drawable.icon_dj;
+            case 16:
+                return R.drawable.icon_fj;
+            case 10:
+                return R.drawable.icon_og;
+            case 251:
+                return R.drawable.icon_yg;
+            case 18:
+                return R.drawable.icon_olb;
+        }
+        return R.drawable.icon_zc;
+    }
 }

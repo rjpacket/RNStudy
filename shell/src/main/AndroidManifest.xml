@@ -56,6 +56,12 @@
         </activity>
         <activity android:name=".ui.activity.TrendListActivity" />
         <activity android:name=".ui.activity.TrendDetailActivity" />
+        <activity android:name=".ui.activity.HeadNewsActivity" />
+        <activity android:name=".ui.activity.BiFenRecordActivity" />
+        <activity android:name=".ui.activity.DailyRecommendActivity" />
+        <activity android:name=".ui.activity.ChampionActivity" />
+        <activity android:name=".ui.activity.LeagueListActivity" />
+        <activity android:name=".ui.activity.LeagueDetailActivity" />
     </application>
 
 </manifest>

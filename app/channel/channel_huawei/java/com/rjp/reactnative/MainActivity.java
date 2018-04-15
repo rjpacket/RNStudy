@@ -19,6 +19,7 @@ import com.rjp.shell.dialog.NoticeDialog;
 import com.rjp.shell.dialog.NoticeDialogUtils;
 import com.rjp.shell.ui.fragment.HomeFragment;
 import com.rjp.shell.ui.fragment.MineFragment;
+import com.rjp.shell.ui.fragment.OpenPrizeFragment;
 import com.rjp.shell.ui.fragment.RecommendFragment;
 import com.rjp.shell.ui.fragment.TrendFragment;
 import com.rjp.shell.ui.fragment.WYOpenPrizeFragment;
@@ -63,8 +64,8 @@ public class MainActivity extends FragmentActivity {
     private void initView() {
         ArrayList<Fragment> fragments = new ArrayList<>();
         fragments.add(new HomeFragment());
-        fragments.add(new RecommendFragment());
-        fragments.add(new WYOpenPrizeFragment());
+//        fragments.add(new RecommendFragment());
+        fragments.add(new OpenPrizeFragment());
         fragments.add(TrendFragment.getInstance(SSC));
         fragments.add(new MineFragment());
         navigationView.setFragments(fragments);
@@ -72,7 +73,7 @@ public class MainActivity extends FragmentActivity {
         navigationView.setContainerId(R.id.shell_fragment_container);
         ArrayList<TabModel> tabModels = new ArrayList<>();
         tabModels.add(new TabModel("首页", R.drawable.selector_home_tab_1));
-        tabModels.add(new TabModel("推荐", R.drawable.selector_home_tab_2));
+//        tabModels.add(new TabModel("推荐", R.drawable.selector_home_tab_2));
         tabModels.add(new TabModel("开奖", R.drawable.selector_home_tab_3));
         tabModels.add(new TabModel("走势", R.drawable.selector_home_tab_2));
         tabModels.add(new TabModel("我的", R.drawable.selector_home_tab_4));
@@ -103,6 +104,7 @@ public class MainActivity extends FragmentActivity {
             public void onNoticeClick(NoticeDialog dialog, int which) {
                 switch (which){
                     case NoticeDialog.NOTICE_CONFIRM:
+                        dialog.dismiss();
                         finish();
                         break;
                 }
