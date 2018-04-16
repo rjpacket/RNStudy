@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+    >
+    <ImageView
+        android:id="@+id/iv_lottery_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/default_pic"
+        />
+
+    <TextView
+        android:id="@+id/tv_lottery_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="双色球"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="#333"
+        />
+
+    <TextView
+        android:id="@+id/tv_lottery_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="双色球好玩啊"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="#666"
+        />
+</merge>

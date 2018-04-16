@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import com.alibaba.fastjson.JSONObject;
 import com.rjp.reactnative.MainActivity;
 import com.rjp.reactnative.R;
+import com.rjp.shell.bluetooth.BluetoothActivity;
 import com.rjp.shell.network.NetFailureCallback;
 import com.rjp.shell.network.NetSuccessCallback;
 import com.rjp.shell.network.NetUtils;
@@ -28,7 +29,12 @@ public class SplashActivity extends FragmentActivity {
 
         mContext = this;
 
-        getAppInfo();
+//        getAppInfo();
+        skipBluetooth();
+    }
+
+    private void skipBluetooth() {
+        startActivity(new Intent(this, BluetoothActivity.class));
     }
 
     private void getAppInfo() {
@@ -38,7 +44,7 @@ public class SplashActivity extends FragmentActivity {
             public void onSuccess(String result) {
                 JSONObject jsonObject = JSONObject.parseObject(result);
                 int isshowwap = jsonObject.getIntValue("isshowwap");
-                if(isshowwap == 1){
+                if (isshowwap == 1) {
                     //加载url
                     final String wapurl = jsonObject.getString("wapurl");
                     new Handler().postDelayed(new Runnable() {
@@ -50,7 +56,7 @@ public class SplashActivity extends FragmentActivity {
                             finish();
                         }
                     }, 2000);
-                }else if(isshowwap == 2){
+                } else if (isshowwap == 2) {
                     //原生
                     skipLocalMain();
                 }
