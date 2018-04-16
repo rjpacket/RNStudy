@@ -1,6 +1,7 @@
 package com.rjp.shell.ui.fragment;
 
 
+import android.Manifest;
 import android.content.res.Resources;
 import android.location.Location;
 import android.os.Bundle;
@@ -21,6 +22,8 @@ import com.amap.api.services.core.LatLonPoint;
 import com.amap.api.services.core.PoiItem;
 import com.amap.api.services.poisearch.PoiResult;
 import com.amap.api.services.poisearch.PoiSearch;
+import com.rjp.permissionutils.Action;
+import com.rjp.permissionutils.PermissionUtils;
 import com.rjp.shell.R;
 import com.rjp.shell.R2;
 import com.rjp.shell.base.BaseFragment;
@@ -28,6 +31,7 @@ import com.rjp.shell.ui.activity.LocalStoreActivity;
 import com.rjp.shell.views.CommonTitleBar;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 
@@ -97,6 +101,20 @@ public class MapFragment extends BaseFragment {
     }
 
     @Override
+    public void onHiddenChanged(boolean hidden) {
+        super.onHiddenChanged(hidden);
+        if(!hidden){
+            PermissionUtils.with(this).permission(Manifest.permission.ACCESS_COARSE_LOCATION)
+                    .onGranted(new Action() {
+                        @Override
+                        public void onAction(List<String> permissions) {
+                            locationCurrent();
+                        }
+                    }).start();
+        }
+    }
+
+    @Override
     public void initView() {
         commonTitleBar.setCommonTitle("附近彩票店");
         commonTitleBar.setBackVisibility(View.GONE);
@@ -113,17 +131,6 @@ public class MapFragment extends BaseFragment {
         });
 
         aMap = mapView.getMap();
-
-        MyLocationStyle myLocationStyle = new MyLocationStyle();//初始化定位蓝点样式类
-        myLocationStyle.myLocationType(MyLocationStyle.LOCATION_TYPE_LOCATE);//连续定位、且将视角移动到地图中心点，定位点依照设备方向旋转，并且会跟随设备移动。（1秒1次定位）如果不设置myLocationType，默认也会执行此种模式。
-        Resources resources = getResources();
-        myLocationStyle.strokeColor(resources.getColor(R.color.main_color));
-        myLocationStyle.radiusFillColor(resources.getColor(R.color.main_color_alpha));
-        myLocationStyle.strokeWidth(2);
-        myLocationStyle.interval(2000); //设置连续定位模式下的定位间隔，只在连续定位模式下生效，单次定位模式下不会生效。单位为毫秒。
-        aMap.setMyLocationStyle(myLocationStyle);//设置定位蓝点的Style
-//        aMap.getUiSettings().setMyLocationButtonEnabled(true);设置默认定位按钮是否显示，非必需设置。
-        aMap.setMyLocationEnabled(true);// 设置为true表示启动显示定位蓝点，false表示隐藏定位蓝点并不进行定位，默认是false。
 
         //设置希望展示的地图缩放级别
         CameraUpdate mCameraUpdate = CameraUpdateFactory.zoomTo(15);
@@ -152,6 +159,26 @@ public class MapFragment extends BaseFragment {
             }
         });
 
+        PermissionUtils.with(this).permission(Manifest.permission.ACCESS_COARSE_LOCATION)
+                .onGranted(new Action() {
+                    @Override
+                    public void onAction(List<String> permissions) {
+                        locationCurrent();
+                    }
+                }).start();
+    }
+
+    private void locationCurrent() {
+        MyLocationStyle myLocationStyle = new MyLocationStyle();//初始化定位蓝点样式类
+        myLocationStyle.myLocationType(MyLocationStyle.LOCATION_TYPE_LOCATE);//连续定位、且将视角移动到地图中心点，定位点依照设备方向旋转，并且会跟随设备移动。（1秒1次定位）如果不设置myLocationType，默认也会执行此种模式。
+        Resources resources = getResources();
+        myLocationStyle.strokeColor(resources.getColor(R.color.main_color));
+        myLocationStyle.radiusFillColor(resources.getColor(R.color.main_color_alpha));
+        myLocationStyle.strokeWidth(2);
+        myLocationStyle.interval(2000); //设置连续定位模式下的定位间隔，只在连续定位模式下生效，单次定位模式下不会生效。单位为毫秒。
+        aMap.setMyLocationStyle(myLocationStyle);//设置定位蓝点的Style
+//        aMap.getUiSettings().setMyLocationButtonEnabled(true);设置默认定位按钮是否显示，非必需设置。
+        aMap.setMyLocationEnabled(true);// 设置为true表示启动显示定位蓝点，false表示隐藏定位蓝点并不进行定位，默认是false。
     }
 
     /**

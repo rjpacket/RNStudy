@@ -44,6 +44,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.rjp:navigationview:1.0.0'
     compile 'com.rjp:CommonListView:1.0.5'
+    compile 'com.rjp:PermissionUtils:1.0.0'
     compile 'com.alibaba:fastjson:1.1.44.android'
     compile 'com.youth.banner:banner:1.4.9'
     compile 'com.zhy:base-adapter:3.0.3'
