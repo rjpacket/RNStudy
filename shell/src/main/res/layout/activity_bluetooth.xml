@@ -22,6 +22,13 @@
         android:text="扫描设备"
         />
 
+    <Button
+        android:id="@+id/btn_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印测试"
+        />
+
     <ListView
         android:id="@+id/list_view"
         android:layout_width="match_parent"

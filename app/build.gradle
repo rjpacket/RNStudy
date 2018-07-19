@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
-apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion '25.0.3'
+    buildToolsVersion '27.0.3'
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 25
+        flavorDimensions "versionCode"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
             abiFilters "armeabi-v7a", "armeabi", "armeabi-v8a"
@@ -70,16 +70,12 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile project(path: ':shell')
-    compile 'com.alibaba:arouter-api:1.2.1.1'
-    compile 'com.jakewharton:butterknife:8.7.0'
-    testCompile 'junit:junit:4.12'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':shell')
+    implementation 'com.alibaba:arouter-api:1.2.1.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.2.1'
-    apt 'com.jakewharton:butterknife-compiler:8.7.0'
-    compile 'cn.jiguang.sdk:jpush:3.1.2'
-    compile 'cn.jiguang.sdk:jcore:1.2.0'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'cn.jiguang.sdk:jpush:3.1.2'
+    implementation 'cn.jiguang.sdk:jcore:1.2.0'
 }
