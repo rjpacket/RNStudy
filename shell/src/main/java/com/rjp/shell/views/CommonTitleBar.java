@@ -12,7 +12,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.rjp.shell.R;
-import com.rjp.shell.R2;
 import com.rjp.shell.utils.AppUtils;
 import com.rjp.shell.utils.StatusBarTools;
 

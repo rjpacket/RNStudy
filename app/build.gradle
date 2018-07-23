@@ -74,8 +74,8 @@ dependencies {
     implementation project(path: ':shell')
     implementation 'com.alibaba:arouter-api:1.2.1.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.2.1'
-    implementation 'com.jakewharton:butterknife:8.8.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'com.jakewharton:butterknife:8.7.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
     implementation 'cn.jiguang.sdk:jpush:3.1.2'
     implementation 'cn.jiguang.sdk:jcore:1.2.0'
 }
